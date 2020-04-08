@@ -2514,13 +2514,13 @@ class tu_madre 				{
 		class HQ_button_Gstatic: RscButton
 		{
 			idc = -1;
-			text = "Carpet Bombing"; //--- ToDo: Localize;
+			text = "Cluster Bombing"; //--- ToDo: Localize;
 			x = 0.482498 * safezoneW + safezoneX;
 			y = 0.317959 * safezoneH + safezoneY;
 			w = 0.175015 * safezoneW;
 			h = 0.0560125 * safezoneH;
 			tooltip = "Cost: 10 points";
-			action = "closeDialog 0;[""CARPET""] spawn A3A_fnc_NATObomb;";
+			action = "closeDialog 0;[""CLUSTER""] spawn A3A_fnc_NATObomb;";
 		};
 
 		class HQ_button_Gremove: RscButton
