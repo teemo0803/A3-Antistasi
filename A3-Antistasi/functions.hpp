@@ -124,6 +124,7 @@ class A3A
 		class autoHealFnc {};
 		class autoLoot {};
 		class autoRearm {};
+        class callForSupport {};
 		class canConquer {};
 		class canFight {};
 		class captureX {};
