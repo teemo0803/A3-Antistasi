@@ -1,12 +1,27 @@
 params ["_group", "_killer"];
 
+/*  Handles the reaction of a group when one of their members dies. Handles individual responces and the calls for support
 
+    Execution on: Server or HC
+
+    Scope: Internal
+
+    Params:
+        _group: GROUP : The group of which a unit has been killed
+        _killer: OBJECT : The unit which has killed the unit
+
+*/
 
 //Abort if no units are left in fighting condition
 if(({([_x] call A3A_fnc_canFight)} count (units _group)) == 0) exitWith {};
 
+//Check for supports and choose best suited to counter the attack
 if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
 {
+    //If _killer is not set or the same side (collision for example), abort here
+    if((isNil "_killer") || {(isNull _killer) || {side (group _killer) == side _group}}) exitWith {};
+
+    //Investigate killer
     private _killerPos = getPos _killer;
     if(_killerPos distance2D (getPos (leader _group)) > 600) then
     {
@@ -187,10 +202,10 @@ if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
 	{
 		if ([_x] call A3A_fnc_canFight) then
 		{
-			_enemy = _x findNearestEnemy _x;
+			private _enemy = _x findNearestEnemy _x;
 			if (!isNull _enemy) then
 			{
-				if ((_x distance _enemy < 50) and (vehicle _x == _x)) then
+				if ((_x distance _enemy < 50) and (objectParent _x == _x)) then
 				{
 					[_x] spawn A3A_fnc_surrenderAction;
 				}
@@ -212,7 +227,7 @@ if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
 	{
 		if ([_x] call A3A_fnc_canFight) then
 		{
-			_enemy = _x findNearestEnemy _x;
+			private _enemy = _x findNearestEnemy _x;
 			if (!isNull _enemy) then
 			{
 				if (([primaryWeapon _x] call BIS_fnc_baseWeapon) in allMachineGuns) then
@@ -251,7 +266,7 @@ if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
 			{
 				if (count units _group > 0) then
 				{
-					_x allowFleeing (1 -(_x skill "courage") + (({!([_x] call A3A_fnc_canFight)} count units _group)/(count units _group)))
+					_x allowFleeing (1 - (_x skill "courage") + (({!([_x] call A3A_fnc_canFight)} count units _group)/(count units _group)))
 				};
 			};
 		};
