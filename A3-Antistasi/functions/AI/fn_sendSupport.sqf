@@ -20,7 +20,7 @@ private _randomDir = random 360;
 private _supportPos = _target getPos [_deprecisionRange, _randomDir];
 
 //Search for any support already active in the area matching the _supportTypes
-private _supportObject = objNull;
+private _supportObject = "";
 private _supportType = "";
 if(_side == Occupants) then
 {
@@ -54,7 +54,7 @@ if(_side == Invaders) then
 };
 
 //Support is already in the area, send instructions to them
-if !(isNull _supportObject) exitWith
+if (_supportObject != "") exitWith
 {
     if(_supportType != "QRF") then
     {
