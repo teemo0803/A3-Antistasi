@@ -41,5 +41,5 @@ if([_groupLeader] call A3A_fnc_canFight) then
     _group setVariable ["canCallSupportAt", _dateNumber, true];
 
     //Starting the support
-    [_target, _group knowsAbout _target, _supportTypes] spawn A3A_fnc_sendSupport;
+    [_target, _group knowsAbout _target, _supportTypes, _side] spawn A3A_fnc_sendSupport;
 };
