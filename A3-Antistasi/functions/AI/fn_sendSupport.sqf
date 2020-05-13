@@ -79,3 +79,37 @@ if (_supportObject != "") exitWith
         ] call A3A_fnc_log;
     };
 };
+
+private _selectedSupport = "";
+{
+    if([_x] call A3A_fnc_supportAvailable) exitWith
+    {
+        _selectedSupport = _x;
+    };
+} forEach _supportTypes;
+
+//Temporary fix as most supports are not yet available (only airstrikes and QRFs)
+if(_selectedSupport == "") then
+{
+    if(["QRF"] call A3A_fnc_supportAvailable) then
+    {
+        _selectedSupport = _x;
+    };
+};
+//Fix end
+
+if(_selectedSupport == "") exitWith
+{
+    [2, format ["No support available to support at %1", _supportPos], _fileName] call A3A_fnc_log;
+};
+
+if(_supportType in ["MORTAR", "QRF", "AIRSTRIKE"]) then
+{
+    //Areal support methods, transmit position info
+    [_side, _supportPos, _precision] spawn A3A_fnc_createArealSupport;
+};
+if(_supportType in ["CAS", "AAPLANE", "SAM", "GUNSHIP"]) then
+{
+    //Target support methods, transmit target info
+    [_side, _target, _precision] spawn A3A_fnc_createTargetSupport;
+};
