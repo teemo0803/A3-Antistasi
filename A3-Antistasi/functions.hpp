@@ -303,6 +303,7 @@ class A3A
 		class selectReinfUnits {};
 		class selectVehicleType {};
 		class shouldReinforce {};
+        class unitAvailable {};
 		class updateGarrison {};
 		class updatePreference {};
 		class updateReinfState {};
