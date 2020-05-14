@@ -498,6 +498,13 @@ class A3A
 		class saveLoop {};
 	};
 
+    class Supports
+    {
+        class addSupportTarget {};
+        class sendSupport {};
+        class supportAvailable {};
+    };
+
 	class Templates
 	{
 		class aceModCompat {};
