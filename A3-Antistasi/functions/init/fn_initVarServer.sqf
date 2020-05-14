@@ -66,6 +66,14 @@ DECLARE_SERVER_VAR(attackPos, []);
 DECLARE_SERVER_VAR(attackMrk, []);
 DECLARE_SERVER_VAR(airstrike, []);
 
+//Variables used for the internal support system
+DECLARE_SERVER_VAR(occupantsSupports, []);
+DECLARE_SERVER_VAR(invadersSupports, []);
+DECLARE_SERVER_VAR(occupantsAirstrikes, [-1, -1, -1]);
+DECLARE_SERVER_VAR(invadersAirstrikes, [-1, -1, -1]);
+DECLARE_SERVER_VAR(occupantsMortar, [-1, -1, -1]);
+DECLARE_SERVER_VAR(invadersMortar, [-1, -1, -1]);
+
 //Vehicles currently in the garage
 DECLARE_SERVER_VAR(vehInGarage, []);
 
@@ -114,7 +122,7 @@ prestigeOPFOR = [75, 50] select cadetMode;												//Initial % support for NA
 prestigeBLUFOR = 0;																	//Initial % FIA support on each city
 // Indicates time in seconds before next counter attack.
 attackCountdownOccupants = 600;
-attackCountdownInvaders = 600;																	
+attackCountdownInvaders = 600;
 
 cityIsSupportChanging = false;
 resourcesIsChanging = false;
@@ -486,7 +494,7 @@ private _fnc_vehicleIsValid = {
 	params ["_type"];
 	private _configClass = configFile >> "CfgVehicles" >> _type;
 	if !(isClass _configClass) exitWith {
-		[1, format ["Vehicle class %1 not found", _type], _filename] call A3A_fnc_Log;	
+		[1, format ["Vehicle class %1 not found", _type], _filename] call A3A_fnc_Log;
 		false;
 	};
 	if (_configClass call A3A_fnc_getModOfConfigClass in disabledMods) then {false} else {true};
@@ -511,7 +519,7 @@ private _fnc_filterAndWeightArray = {
 	// second pass, re-weight
 	private _weightMod = _targWeight / _curWeight;
 	for "_i" from 0 to (count _output - 2) step 2 do {
-		_output set [_i+1, _weightMod * (_output select (_i+1))]; 
+		_output set [_i+1, _weightMod * (_output select (_i+1))];
 	};
 	_output;
 };

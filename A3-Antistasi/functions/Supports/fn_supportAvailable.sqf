@@ -45,15 +45,28 @@ switch (_supportType) do
     };
     case ("AIRSTRIKE"):
     {
-        //Hard coded level limit, no airstrikes on war level under 3
+        //Hard coded level limit, no airstrikes on warlevels under 3
         if(tierWar < 3) exitWith {};
         if(_side == Occupants) then
         {
-            _available = [occupantsAirstrikes] call A3A_fnc_checkSupportArray;
+            _available = ((occupantsAirstrikes findIf {[_x] call A3A_fnc_unitAvailable}) != -1);
         };
         if(_side == Invaders) then
         {
-            _available = [invadersAirstrikes] call A3A_fnc_checkSupportArray;
+            _available = ((invadersAirstrikes findIf {[_x] call A3A_fnc_unitAvailable}) != -1);
+        };
+    };
+    case ("MORTAR"):
+    {
+        //Hard coded level limit, no mortar on warlevel 1
+        if(tierWar < 2) exitWith {};
+        if(_side == Occupants) then
+        {
+            _available = ((occupantsMortar findIf {[_x] call A3A_fnc_unitAvailable}) != -1);
+        };
+        if(_side == Invaders) then
+        {
+            _available = ((invadersMortar findIf {[_x] call A3A_fnc_unitAvailable}) != -1);
         };
     };
     default
