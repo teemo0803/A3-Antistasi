@@ -1,4 +1,4 @@
-params ["_target", "_precision", "_supportTypes", "_side"];
+params ["_target", "_precision", "_supportTypes", "_side", "_revealCall"];
 
 /*  Selects the support based on the needs and the availability (Is this even a word?)
 
@@ -11,6 +11,7 @@ params ["_target", "_precision", "_supportTypes", "_side"];
         _precision: NUMBER : The precision on the target data in range 0 to 4
         _supportTypes: ARRAY of STRINGs : The requested support types
         _side: SIDE : The side of the support callers
+        _revealCall: NUMBER : How much of the call should be known to players 0 - nothing to 1 - full
 */
 private _fileName = "sendSupport";
 
@@ -106,10 +107,10 @@ if(_selectedSupport == "") exitWith
 if(_supportType in ["MORTAR", "QRF", "AIRSTRIKE"]) then
 {
     //Areal support methods, transmit position info
-    [_side, _supportPos, _precision] spawn A3A_fnc_createArealSupport;
+    [_side, _supportType, _supportPos, _precision] spawn A3A_fnc_createArealSupport;
 };
 if(_supportType in ["CAS", "AAPLANE", "SAM", "GUNSHIP"]) then
 {
     //Target support methods, transmit target info
-    [_side, _target, _precision] spawn A3A_fnc_createTargetSupport;
+    [_side, _supportType, _target, _precision] spawn A3A_fnc_createTargetSupport;
 };

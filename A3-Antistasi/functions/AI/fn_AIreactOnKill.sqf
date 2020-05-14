@@ -10,6 +10,8 @@ params ["_group", "_killer"];
         _group: GROUP : The group of which a unit has been killed
         _killer: OBJECT : The unit which has killed the unit
 
+    Returns:
+        Nothing
 */
 
 //Abort if no units are left in fighting condition

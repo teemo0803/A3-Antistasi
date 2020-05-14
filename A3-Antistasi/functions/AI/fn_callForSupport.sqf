@@ -40,8 +40,9 @@ _groupLeader setSkill _oldSkill;
 //If the group leader survived the call, proceed
 if([_groupLeader] call A3A_fnc_canFight) then
 {
+    private _revealed = [getPos _groupLeader, side _group] call A3A_fnc_calculateSupportCallReveal;
     //Starting the support
-    [_target, _group knowsAbout _target, _supportTypes, _side] spawn A3A_fnc_sendSupport;
+    [_target, _group knowsAbout _target, _supportTypes, side _group, _revealed] spawn A3A_fnc_sendSupport;
 }
 else
 {
