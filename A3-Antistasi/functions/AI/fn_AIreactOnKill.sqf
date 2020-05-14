@@ -60,26 +60,34 @@ if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
     		}
     		else
     		{
-    			if(_killerVehicle isKindOf "Helicopter") then
-    			{
-    				//They are fighting something flying
-    				private _vehicleType = typeOf _killerVehicle;
-    				if(_vehicleType in vehNATOAttackHelis || _vehicleType in vehCSATAttackHelis) then
-    				{
-    					//They are fighting an attack heli, bring in an AA plane
-    					[_group, ["SAM", "AAPLANE"], _killerVehicle] spawn A3A_fnc_callForSupport;
-    				}
-    				else
-    				{
-    					//They are fighting a transport or patrol heli
-    					[_group, ["SAM", "GUNSHIP"], _killerVehicle] spawn A3A_fnc_callForSupport;
-    				};
-    			}
-    			else
-    			{
-    				//They are fighting an enemy plane, bring an AA plane
-    				[_group, ["AAPLANE", "SAM"], _killerVehicle] spawn A3A_fnc_callForSupport;
-    			};
+                if(_killerVehicle isKindOf "StaticWeapon") then
+                {
+                    //They are fighting a static weapon
+                    [_group, ["AIRSTRIKE", "MORTAR"], _killerVehicle] spawn A3A_fnc_callForSupport;
+                }
+                else
+                {
+                    if(_killerVehicle isKindOf "Helicopter") then
+        			{
+        				//They are fighting something flying
+        				private _vehicleType = typeOf _killerVehicle;
+        				if(_vehicleType in vehNATOAttackHelis || _vehicleType in vehCSATAttackHelis) then
+        				{
+        					//They are fighting an attack heli, bring in an AA plane
+        					[_group, ["SAM", "AAPLANE"], _killerVehicle] spawn A3A_fnc_callForSupport;
+        				}
+        				else
+        				{
+        					//They are fighting a transport or patrol heli
+        					[_group, ["SAM", "GUNSHIP"], _killerVehicle] spawn A3A_fnc_callForSupport;
+        				};
+        			}
+        			else
+        			{
+        				//They are fighting an enemy plane, bring an AA plane
+        				[_group, ["AAPLANE", "SAM"], _killerVehicle] spawn A3A_fnc_callForSupport;
+        			};
+                };
     		};
     	};
     }
@@ -148,49 +156,57 @@ if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
     		}
     		else
     		{
-    			if(_killerVehicle isKindOf "Helicopter") then
-    			{
-    				//They are fighting something flying
-    				private _vehicleType = typeOf _killerVehicle;
-    				if(_vehicleType in vehNATOAttackHelis || _vehicleType in vehCSATAttackHelis) then
-    				{
-    					//They are fighting an attack heli, bring in a SAM or AA plane
-                        if((_groupUnitsWithLauncher >= 1) && (random 1 < 0.25)) then
-                        {
-                            [_group, ["SAM", "AAPLANE"], _killerVehicle] spawn A3A_fnc_callForSupport;
-                        };
-                        if(_groupUnitsWithLauncher == 0) then
-                        {
-                            [_group, ["SAM", "AAPLANE"], _killerVehicle] spawn A3A_fnc_callForSupport;
-                        };
+                if(_killerVehicle isKindOf "StaticWeapon") then
+                {
+                    //When fighting against a static, there is no help from launchers
+                    [_group, ["QRF", "AIRSTRIKE", "MORTAR"], _killerVehicle] spawn A3A_fnc_callForSupport;
+                }
+                else
+                {
+                    if(_killerVehicle isKindOf "Helicopter") then
+        			{
+        				//They are fighting something flying
+        				private _vehicleType = typeOf _killerVehicle;
+        				if(_vehicleType in vehNATOAttackHelis || _vehicleType in vehCSATAttackHelis) then
+        				{
+        					//They are fighting an attack heli, bring in a SAM or AA plane
+                            if((_groupUnitsWithLauncher >= 1) && (random 1 < 0.25)) then
+                            {
+                                [_group, ["SAM", "AAPLANE"], _killerVehicle] spawn A3A_fnc_callForSupport;
+                            };
+                            if(_groupUnitsWithLauncher == 0) then
+                            {
+                                [_group, ["SAM", "AAPLANE"], _killerVehicle] spawn A3A_fnc_callForSupport;
+                            };
 
-    				}
-    				else
-    				{
-    					//They are fighting a transport or patrol heli
+        				}
+        				else
+        				{
+        					//They are fighting a transport or patrol heli
+                            if(_groupUnitsWithLauncher == 0) then
+                            {
+                                //Not that dangerous, only call help if no launcher is available
+                                [_group, ["SAM", "GUNSHIP"], _killerVehicle] spawn A3A_fnc_callForSupport;
+                            };
+        				};
+        			}
+        			else
+        			{
+        				//They are fighting an enemy plane, bring an AA plane or SAM
+                        if((_groupUnitsWithLauncher >= 2) && (random 1 < 0.2)) then
+                        {
+                            [_group, ["AAPLANE", "SAM"], _killerVehicle] spawn A3A_fnc_callForSupport;
+                        };
+                        if((_groupUnitsWithLauncher == 1) && (random 1 < 0.5)) then
+                        {
+                            [_group, ["AAPLANE", "SAM"], _killerVehicle] spawn A3A_fnc_callForSupport;
+                        };
                         if(_groupUnitsWithLauncher == 0) then
                         {
-                            //Not that dangerous, only call help if no launcher is available
-                            [_group, ["SAM", "GUNSHIP"], _killerVehicle] spawn A3A_fnc_callForSupport;
+                            [_group, ["AAPLANE", "SAM"], _killerVehicle] spawn A3A_fnc_callForSupport;
                         };
-    				};
-    			}
-    			else
-    			{
-    				//They are fighting an enemy plane, bring an AA plane or SAM
-                    if((_groupUnitsWithLauncher >= 2) && (random 1 < 0.2)) then
-                    {
-                        [_group, ["AAPLANE", "SAM"], _killerVehicle] spawn A3A_fnc_callForSupport;
-                    };
-                    if((_groupUnitsWithLauncher == 1) && (random 1 < 0.5)) then
-                    {
-                        [_group, ["AAPLANE", "SAM"], _killerVehicle] spawn A3A_fnc_callForSupport;
-                    };
-                    if(_groupUnitsWithLauncher == 0) then
-                    {
-                        [_group, ["AAPLANE", "SAM"], _killerVehicle] spawn A3A_fnc_callForSupport;
-                    };
-    			};
+        			};
+                };
     		};
     	};
     };

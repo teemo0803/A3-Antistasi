@@ -20,6 +20,12 @@ private _groupLeader = leader _group;
 //If groupleader is down, dont call support
 if(![_groupLeader] call A3A_fnc_canFight) exitWith {};
 
+//Block the group from calling support again
+private _date = date;
+_date set [4, (_date select 4) + 10];
+private _dateNumber = dateToNumber _date;
+_group setVariable ["canCallSupportAt", _dateNumber, true];
+
 //Lower skill of group leader to simulate radio communication (!!!Barbolanis idea!!!)
 private _oldSkill = skill _groupLeader;
 _groupLeader setSkill (_oldSkill - 0.2);
@@ -34,12 +40,11 @@ _groupLeader setSkill _oldSkill;
 //If the group leader survived the call, proceed
 if([_groupLeader] call A3A_fnc_canFight) then
 {
-    //Support successfully called in, setting cooldown
-    private _date = date;
-    _date set [4, (_date select 4) + 10];
-    private _dateNumber = dateToNumber _date;
-    _group setVariable ["canCallSupportAt", _dateNumber, true];
-
     //Starting the support
     [_target, _group knowsAbout _target, _supportTypes, _side] spawn A3A_fnc_sendSupport;
+}
+else
+{
+    //Support call failed, resetting cooldown
+    _group setVariable ["canCallSupportAt", -1, true];
 };
