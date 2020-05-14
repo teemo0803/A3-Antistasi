@@ -83,7 +83,7 @@ if (_supportObject != "") exitWith
 
 private _selectedSupport = "";
 {
-    if([_x] call A3A_fnc_supportAvailable) exitWith
+    if([_x, _side, _supportPos] call A3A_fnc_supportAvailable) exitWith
     {
         _selectedSupport = _x;
     };
@@ -92,7 +92,7 @@ private _selectedSupport = "";
 //Temporary fix as most supports are not yet available (only airstrikes and QRFs)
 if(_selectedSupport == "") then
 {
-    if(["QRF"] call A3A_fnc_supportAvailable) then
+    if(["QRF", _side, _supportPos] call A3A_fnc_supportAvailable) then
     {
         _selectedSupport = _x;
     };
@@ -104,13 +104,13 @@ if(_selectedSupport == "") exitWith
     [2, format ["No support available to support at %1", _supportPos], _fileName] call A3A_fnc_log;
 };
 
-if(_supportType in ["MORTAR", "QRF", "AIRSTRIKE"]) then
+if(_selectedSupport in ["MORTAR", "QRF", "AIRSTRIKE"]) then
 {
     //Areal support methods, transmit position info
-    [_side, _supportType, _supportPos, _precision] spawn A3A_fnc_createArealSupport;
+    [_side, _selectedSupport, _supportPos, _precision] spawn A3A_fnc_createArealSupport;
 };
-if(_supportType in ["CAS", "AAPLANE", "SAM", "GUNSHIP"]) then
+if(_selectedSupport in ["CAS", "AAPLANE", "SAM", "GUNSHIP"]) then
 {
     //Target support methods, transmit target info
-    [_side, _supportType, _target, _precision] spawn A3A_fnc_createTargetSupport;
+    [_side, _selectedSupport, _target, _precision] spawn A3A_fnc_createTargetSupport;
 };

@@ -63,7 +63,7 @@ if(sidesX getVariable [_nearestAirport, sideUnknown] == teamPlayer) then
 
 private _nearestAntenna = [antennas, _pos] call BIS_fnc_nearestPosition;
 private _antennaMarker = [outposts + airportsX, _pos] call BIS_fnc_nearestPosition;
-if(sidesX getVariable [_antennaMarker] == teamPlayer) then
+if(sidesX getVariable [_antennaMarker, sideUnknown] == teamPlayer) then
 {
     _hardValue = _hardValue + 10;
     _softValue = _softValue + 20;

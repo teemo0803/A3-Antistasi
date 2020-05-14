@@ -502,6 +502,8 @@ class A3A
     class Supports
     {
         class addSupportTarget {};
+        class calculateSupportCallReveal {};
+        class createArealSupport {};
         class sendSupport {};
         class supportAvailable {};
     };

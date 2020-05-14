@@ -24,7 +24,7 @@ switch (_supportType) do
         {
             sidesX getVariable [_x, sideUnknown] == _side &&
             {(getMarkerPos _x) distance2D _position < distanceForAirAttack &&
-            {[_x] call A3A_fnc_airportCanAttack}}
+            {[_x, true] call A3A_fnc_airportCanAttack}}
         };
         if(_index != -1) exitWith
         {
@@ -35,7 +35,7 @@ switch (_supportType) do
         {
             sidesX getVariable [_x, sideUnknown] == _side &&
             {(getMarkerPos _x) distance2D _position < distanceForLandAttack &&
-            {[_x] call A3A_fnc_airportCanAttack &&
+            {[_x, true] call A3A_fnc_airportCanAttack &&
             {[getMarkerPos _x, _position] call A3A_fnc_isTheSameIsland}}}
         };
         if(_index != -1) then
@@ -75,5 +75,11 @@ switch (_supportType) do
         _available = false;
     };
 };
+
+[
+    3,
+    format ["Support check for %1 will return %2", _supportType, _available],
+    "supportAvailable"
+] call A3A_fnc_log;
 
 _available;

@@ -99,9 +99,9 @@ if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
     	if(isNull (objectParent _killer)) then
     	{
     		//The killer didnt used a vehicle, normal fighting
-    		private _enemiesNearKiller = allUnits select {(side (group _x)) == (side (group _killer)) && {_x distance2D _killer < 100}};
+    		private _enemiesNearKiller = count (allUnits select {(side (group _x)) == (side (group _killer)) && {_x distance2D _killer < 100}});
             private _aliveGroupUnits = {[_x] call A3A_fnc_canFight} count (units _group);
-    		if(count _enemiesNearKiller > 2) then
+    		if(_enemiesNearKiller > 2) then
     		{
     			//There are multiple enemies, use spread out or precise attacks against them
                 if((_aliveGroupUnits <= 4) || {(random 2) < (_enemiesNearKiller/_aliveGroupUnits)}) then

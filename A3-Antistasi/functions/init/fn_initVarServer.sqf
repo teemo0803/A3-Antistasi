@@ -69,10 +69,13 @@ DECLARE_SERVER_VAR(airstrike, []);
 //Variables used for the internal support system
 DECLARE_SERVER_VAR(occupantsSupports, []);
 DECLARE_SERVER_VAR(invadersSupports, []);
-DECLARE_SERVER_VAR(occupantsAirstrikes, [-1, -1, -1]);
-DECLARE_SERVER_VAR(invadersAirstrikes, [-1, -1, -1]);
-DECLARE_SERVER_VAR(occupantsMortar, [-1, -1, -1]);
-DECLARE_SERVER_VAR(invadersMortar, [-1, -1, -1]);
+DECLARE_SERVER_VAR(occupantsAirstrikes, []);
+DECLARE_SERVER_VAR(invadersAirstrikes, []);
+DECLARE_SERVER_VAR(occupantsMortar, []);
+DECLARE_SERVER_VAR(invadersMortar, []);
+
+DECLARE_SERVER_VAR(occupantsRadioKeys, 0);
+DECLARE_SERVER_VAR(invaderRadioKeys, 0);
 
 //Vehicles currently in the garage
 DECLARE_SERVER_VAR(vehInGarage, []);

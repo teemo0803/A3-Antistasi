@@ -35,9 +35,9 @@ private _enemyGroups = allGroups select
 {
     (side _x != _side) &&
     {side _x != civilian &&
-    {(getPos (leader _x) distance2D _posDestination) < distanceSPWN2}}
-}
-private _nearEnemies = []
+    {(getPos (leader _x) distance2D _destination) < distanceSPWN2}}
+};
+private _nearEnemies = [];
 {
     _nearEnemies append ((units _x) select {alive _x});
 } forEach _enemyGroups;
@@ -94,7 +94,7 @@ private _maxUnitsSide = maxUnits;
 
 if (gameMode <3) then
 {
-	_allUnitsSide = {(alive _x) && {(side group _x == _side) && {!(isPlayer)}}} count allUnits;
+	_allUnitsSide = {(alive _x) && {(side group _x == _side) && {!(isPlayer _x)}}} count allUnits;
 	_maxUnitsSide = round (maxUnits * 0.7);
 };
 if ((_allAIUnits + 4 > maxUnits) || (_allUnitsSide + 4 > _maxUnitsSide)) then
@@ -372,7 +372,7 @@ else
 			_landpos = [];
 			_proceed = true;
 			if (_isMarker) then
-				{
+			{
 				if ((_destination in airportsX)  or !(_veh isKindOf "Helicopter")) then
 					{
 					_proceed = false;
@@ -381,9 +381,9 @@ else
 				else
 				{
 					if (_isSDK) then
-						{
+					{
 						if (((count(garrison getVariable [_destination,[]])) < 10) and (_typeVehX in vehFastRope)) then
-							{
+						{
 							_proceed = false;
 							//_groupX setVariable ["mrkAttack",_destination];
 							[_veh,_groupX,_posDestination,_posOrigin,_groupVeh] spawn A3A_fnc_fastrope;
@@ -397,7 +397,6 @@ else
 				{
 					_proceed = false;
 					[_veh,_groupX,_posDestination,_side] spawn A3A_fnc_airdrop;
-					};
 				};
 			};
 			if (_proceed) then
@@ -431,9 +430,8 @@ else
 						[_veh,_groupX,_posDestination,_posOrigin,_groupVeh] spawn A3A_fnc_fastrope;
 					}
 					else
-						{
+					{
 						[_veh,_groupX,_destination,_side] spawn A3A_fnc_airdrop;
-						};
 					};
 				};
 			};
