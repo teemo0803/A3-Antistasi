@@ -49,11 +49,11 @@ switch (_supportType) do
         if(tierWar < 3) exitWith {};
         if(_side == Occupants) then
         {
-            _available = ((occupantsAirstrikes findIf {[_x] call A3A_fnc_unitAvailable}) != -1);
+            _available = (occupantsAirstrikePoints >= 200);
         };
         if(_side == Invaders) then
         {
-            _available = ((invadersAirstrikes findIf {[_x] call A3A_fnc_unitAvailable}) != -1);
+            _available = (invadersAirstrikePoints >= 200);
         };
     };
     case ("MORTAR"):
@@ -62,11 +62,11 @@ switch (_supportType) do
         if(tierWar < 2) exitWith {};
         if(_side == Occupants) then
         {
-            _available = ((occupantsMortar findIf {[_x] call A3A_fnc_unitAvailable}) != -1);
+            _available = (occupantsMortarPoints >= 600);
         };
         if(_side == Invaders) then
         {
-            _available = ((invadersMortar findIf {[_x] call A3A_fnc_unitAvailable}) != -1);
+            _available = (invadersMortarPoints >= 600);
         };
     };
     default
@@ -78,7 +78,7 @@ switch (_supportType) do
 
 [
     3,
-    format ["Support check for %1 will return %2", _supportType, _available],
+    format ["Support check for %1 returns %2", _supportType, _available],
     "supportAvailable"
 ] call A3A_fnc_log;
 

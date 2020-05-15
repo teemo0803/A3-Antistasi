@@ -79,4 +79,19 @@ while {true} do
             publicVariable "attackCountdownOccupants";
         };
     };
+
+    //Calculating points for supports
+    private _occupantsPoints = 5 + (5 * ((aggressionOccupants min 50)/50)) + (((aggressionOccupants - 50) max 0)/50 * 10);
+    private _invaderPoints = 5 + (5 * ((aggressionOccupants min 50)/50)) + (((aggressionOccupants - 50) max 0)/50 * 10);
+
+    if(tierWar > 1) then
+    {
+        occupantsMortarPoints = occupantsMortarPoints + _occupantsPoints;
+        invadersMortarPoints = invadersMortarPoints + _invaderPoints;
+    };
+    if(tierWar > 2) then
+    {
+        occupantsAirstrikePoints = occupantsAirstrikePoints + _occupantsPoints;
+        invadersAirstrikePoints = invadersAirstrikePoints + _invaderPoints;
+    };
 };

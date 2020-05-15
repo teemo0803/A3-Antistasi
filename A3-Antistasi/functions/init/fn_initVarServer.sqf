@@ -69,10 +69,10 @@ DECLARE_SERVER_VAR(airstrike, []);
 //Variables used for the internal support system
 DECLARE_SERVER_VAR(occupantsSupports, []);
 DECLARE_SERVER_VAR(invadersSupports, []);
-DECLARE_SERVER_VAR(occupantsAirstrikes, []);
-DECLARE_SERVER_VAR(invadersAirstrikes, []);
-DECLARE_SERVER_VAR(occupantsMortar, []);
-DECLARE_SERVER_VAR(invadersMortar, []);
+DECLARE_SERVER_VAR(occupantsAirstrikePoints, 0);
+DECLARE_SERVER_VAR(invadersAirstrikePoints, 0);
+DECLARE_SERVER_VAR(occupantsMortarPoints, 0);
+DECLARE_SERVER_VAR(invadersMortarPoints, 0);
 
 DECLARE_SERVER_VAR(occupantsRadioKeys, 0);
 DECLARE_SERVER_VAR(invaderRadioKeys, 0);
@@ -83,7 +83,8 @@ DECLARE_SERVER_VAR(vehInGarage, []);
 //Should vegetation around HQ be cleared
 DECLARE_SERVER_VAR(chopForest, false);
 
-DECLARE_SERVER_VAR(skillFIA, 1);																		//Initial skill level for FIA soldiers
+//Initial skill level for FIA soldiers
+DECLARE_SERVER_VAR(skillFIA, 1);
 //Initial Occupant Aggression
 DECLARE_SERVER_VAR(aggressionOccupants, 0);
 DECLARE_SERVER_VAR(aggressionStackOccupants, []);
