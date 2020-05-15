@@ -20,7 +20,7 @@ private _filename = "fn_patrolCA";
 
 _super = if (!isMultiplayer) then {false};
 private _posOrigin = [];
-private _posDestination = [];
+private _posDestination = if(_destination isEqualType "") then {getMarkerPos _destination} else {_destination};
 
 [2, format ["Spawning QRF. Target:%1, Side:%2, Type:%3, IsSuper:%4",_destination,_side,_typeOfAttack,_super], _filename] call A3A_fnc_log;
 
@@ -110,7 +110,7 @@ _soldiers = [];
 _vehiclesX = [];
 _groups = [];
 _roads = [];
-private _vehicleCount = if(_sideX == Occupants) then
+private _vehicleCount = if(_side == Occupants) then
 {
     (aggressionOccupants/16)
     + ([0, 2] select _super)
@@ -133,7 +133,7 @@ _vehicleCount = (round (_vehicleCount)) max 1;
 
 [
     3,
-    format ["Due to %1 aggression, sending %2 vehicles", (if(_sideX == Occupants) then {aggressionOccupants} else {aggressionInvaders}), _vehicleCount],
+    format ["Due to %1 aggression, sending %2 vehicles", (if(_side == Occupants) then {aggressionOccupants} else {aggressionInvaders}), _vehicleCount],
     _fileName
 ] call A3A_fnc_log;
 

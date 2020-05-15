@@ -28,7 +28,7 @@ if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
     if(_killerPos distance2D (getPos (leader _group)) > 600) then
     {
     	//Group is under long range fire which cannot be compensated by them, call for help instantly
-    	if(isNull (objectParent _killer)) then
+    	if(isNull (objectParent _killer) && {_killer isKindOf "Man"}) then
     	{
     		//The killer didnt used a vehicle, most likely a sniper or a missile launcher was used
     		private _enemiesNearKiller = allUnits select {(side (group _x)) == (side (group _killer)) && {_x distance2D _killer < 100}};
@@ -45,7 +45,13 @@ if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
     	}
     	else
     	{
+            //Detect the vehicle of the player (dependant on the killing method, you need another method to grab the vehicle)
     		private _killerVehicle = objectParent _killer;
+            if(isNull _killerVehicle) then
+            {
+                _killerVehicle = _killer;
+            };
+
     		if(_killerVehicle isKindOf "LandVehicle") then
     		{
     			//The group is fighting something ground based
@@ -96,7 +102,7 @@ if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
     else
     {
     	//Groups is in combat range, check for the possible ways to defend otherwise call help
-    	if(isNull (objectParent _killer)) then
+    	if(isNull (objectParent _killer) && {_killer isKindOf "Man"}) then
     	{
     		//The killer didnt used a vehicle, normal fighting
     		private _enemiesNearKiller = count (allUnits select {(side (group _x)) == (side (group _killer)) && {_x distance2D _killer < 100}});
@@ -122,7 +128,12 @@ if(_group getVariable ["canCallSupportAt", -1] < dateToNumber date) then
     	}
     	else
     	{
+            //Get the killing vehicle
     		private _killerVehicle = objectParent _killer;
+            if(isNull _killerVehicle) then
+            {
+                _killerVehicle = _killer;
+            };
             private _groupUnitsWithLauncher = {secondaryWeapon _x != ""} count (units _group);
     		if(_killerVehicle isKindOf "LandVehicle") then
     		{

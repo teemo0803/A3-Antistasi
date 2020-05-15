@@ -59,6 +59,11 @@ if (_supportObject != "") exitWith
 {
     if(_supportType != "QRF") then
     {
+        [
+            2,
+            format ["Support of type %1 is already in the area, transmitting attack orders"],
+            _fileName
+        ] call A3A_fnc_Log;
         //Attack with already existing support
         if(_supportType in ["MORTAR"]) then
         {
@@ -94,7 +99,15 @@ if(_selectedSupport == "") then
 {
     if(["QRF", _side, _supportPos] call A3A_fnc_supportAvailable) then
     {
-        _selectedSupport = _x;
+        private _index = occupantsSupports findIf {((_x select 0) == "QRF") && {_supportPos inArea (_x select 1)}};
+        if(_index == -1) then
+        {
+            _index = invadersSupports findIf {((_x select 0) == "QRF") && {_supportPos inArea (_x select 1)}};
+            if(_index == -1) then
+            {
+                _selectedSupport = "QRF";
+            };
+        };
     };
 };
 //Fix end
@@ -103,6 +116,12 @@ if(_selectedSupport == "") exitWith
 {
     [2, format ["No support available to support at %1", _supportPos], _fileName] call A3A_fnc_log;
 };
+
+[
+    2,
+    format ["Sending support type %1 to help at %2", _selectedSupport, _supportPos],
+    _fileName
+] call A3A_fnc_log;
 
 if(_selectedSupport in ["MORTAR", "QRF", "AIRSTRIKE"]) then
 {

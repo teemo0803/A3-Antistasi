@@ -18,6 +18,13 @@ params ["_group", "_supportTypes", "_target"];
 private _fileName = "callForSupport";
 private _groupLeader = leader _group;
 
+if((_group getVariable ["canCallSupportAt", -1]) > (dateToNumber date)) exitWith {};
+//Block the group from calling support again
+private _date = date;
+_date set [4, (_date select 4) + 10];
+private _dateNumber = dateToNumber _date;
+_group setVariable ["canCallSupportAt", _dateNumber, true];
+
 //If groupleader is down, dont call support
 if !([_groupLeader] call A3A_fnc_canFight) exitWith {};
 
@@ -27,11 +34,7 @@ if !([_groupLeader] call A3A_fnc_canFight) exitWith {};
     _fileName
 ] call A3A_fnc_log;
 
-//Block the group from calling support again
-private _date = date;
-_date set [4, (_date select 4) + 10];
-private _dateNumber = dateToNumber _date;
-_group setVariable ["canCallSupportAt", _dateNumber, true];
+
 
 //Lower skill of group leader to simulate radio communication (!!!Barbolanis idea!!!)
 private _oldSkill = skill _groupLeader;
@@ -55,6 +58,6 @@ if([_groupLeader] call A3A_fnc_canFight) then
 else
 {
     //Support call failed, resetting cooldown
-    [3, format ["%1 got no help as the leader died", _group], _fileName] call A3A_fnc_log;
+    [3, format ["%1 got no help as the leader is dead or down", _group], _fileName] call A3A_fnc_log;
     _group setVariable ["canCallSupportAt", -1, true];
 };
