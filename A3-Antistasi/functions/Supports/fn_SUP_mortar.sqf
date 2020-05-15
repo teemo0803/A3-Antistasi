@@ -159,6 +159,8 @@ if(isNull _mortar) exitWith
     "";
 };
 
+_mortar setVariable ["shellType", _shellType, true];
+
 //Creates the marker which coveres the area in which the support can help
 private _coverageMarker = createMarker [format ["%1_coverage", _supportName], getPos _mortar];
 _coverageMarker setMarkerShape "ELLIPSE";
@@ -222,6 +224,6 @@ _mortar addEventHandler
 } forEach _crew;
 
 _mortarGroup deleteGroupWhenEmpty true;
-[_mortar, _crew, _supportName] spawn A3A_fnc_SUP_mortarRoutine;
+[_mortar, _mortarGroup, _supportName, _side] spawn A3A_fnc_SUP_mortarRoutine;
 
 _coverageMarker;

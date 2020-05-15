@@ -504,7 +504,9 @@ class A3A
         class addSupportTarget {};
         class calculateSupportCallReveal {};
         class createArealSupport {};
+        class endSupport {};
         class sendSupport {};
+        class showInterceptedSupportCall {};
         class SUP_mortar {};
         class SUP_mortarRoutine {};
         class supportAvailable {};
