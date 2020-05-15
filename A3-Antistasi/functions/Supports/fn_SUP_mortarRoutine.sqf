@@ -19,7 +19,7 @@ params ["_mortar", "_crewGroup", "_supportName", "_side"];
 private _fileName = "SUP_mortarRoutine";
 
 //Sleep to simulate the time it would need to set the support up
-sleep (random (300 - (27 * tierWar)));
+//sleep (random (300 - (27 * tierWar)));
 
 //Decrease number of rounds and time alive if aggro is low
 private _sideAggression = if(_side == Occupants) then {aggressionOccupants} else {aggressionInvaders};
@@ -70,9 +70,11 @@ _fn_executeMortarFire =
             private _target = _targets deleteAt 0;
             _mortar setVariable ["FireOrder", _targets, true];
 
-            _target spawn
+            [_target, _mortar] spawn
             {
-                _mortar doArtilleryFire [_this, _mortar getVariable "shellType", 1];
+                params ["_target", "_mortar"];
+                sleep 0.5;
+                _mortar doArtilleryFire [_target, _mortar getVariable "shellType", 1];
             }
         }
     ];
@@ -91,6 +93,12 @@ while {_timeAlive > 0} do
             //New target active, read in
             private _target = _targetList deleteAt 0;
             server setVariable [format ["%1_targets", _supportName], _targetList, true];
+
+            [
+                3,
+                format ["Next target is %1", _target],
+                _fileName
+            ] call A3A_fnc_log;
 
             //Parse targets
             private _targetParams = _target select 0;
@@ -111,7 +119,7 @@ while {_timeAlive > 0} do
             [_reveal] spawn A3A_fnc_showInterceptedSupportCall;
 
             _mortar setVariable ["CurrentlyFiring", true, true];
-            _mortar setVariable ["FireOrder", true, true];
+            _mortar setVariable ["FireOrder", _subTargets, true];
 
             [_mortar] spawn _fn_executeMortarFire;
             _numberOfRounds = _numberOfRounds - _shotsPerVoley;
@@ -122,7 +130,7 @@ while {_timeAlive > 0} do
     if
     (
         !(alive _mortar) ||
-        {((alive _x) count (units _crewGroup)) == 0 ||
+        {({alive _x} count (units _crewGroup)) == 0 ||
         {_mortar getVariable ["Stolen", false]}}
     ) exitWith
     {
@@ -133,7 +141,7 @@ while {_timeAlive > 0} do
         ] call A3A_fnc_log;
     };
 
-    if !(_mortar getVariable "CurrentlyFiring" && _numberOfRounds <= 0) exitWith
+    if (!(_mortar getVariable "CurrentlyFiring") && (_numberOfRounds <= 0)) exitWith
     {
         [
             2,
@@ -148,7 +156,7 @@ while {_timeAlive > 0} do
 
 //Mortar already destroyed
 _mortar removeAllEventHandlers "Fired";
-if((alive _x) count (units _crewGroup) != 0) then
+if({alive _x} count (units _crewGroup) != 0) then
 {
     //Crew left, activating despawner
     [_crewGroup] spawn A3A_fnc_groupDespawner;

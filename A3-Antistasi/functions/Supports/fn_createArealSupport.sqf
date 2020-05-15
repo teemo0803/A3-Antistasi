@@ -51,7 +51,7 @@ switch (_supportType) do
 
 if(_supportMarker != "") then
 {
-    server setVariable [format ["%1_targets", _supportName], [[_supportPos, _precision], _revealCall], true];
+    server setVariable [format ["%1_targets", _supportName], [[[_supportPos, _precision], _revealCall]], true];
     if (_side == Occupants) then
     {
         occupantsSupports pushBack [_supportType, _supportMarker, _supportName];
