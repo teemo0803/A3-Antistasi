@@ -44,6 +44,8 @@ if(_sideAggression < 70) then
 };
 private _shotsPerVoley = _numberOfRounds / 4;
 
+_mortar setVariable ["Callsign", _supportName, true];
+
 _fn_executeMortarFire =
 {
     params ["_mortar"];
@@ -65,6 +67,15 @@ _fn_executeMortarFire =
                 _mortar removeAllEventHandlers "Fired";
                 _mortar setVariable ["CurrentlyFiring", false, true];
                 _mortar setVariable ["FireOrder", nil, true];
+
+                private _supportName = _mortar getVariable "Callsign";
+                [_supportName] spawn
+                {
+                    private _name = _this select 0;
+                    sleep 60;
+                    deleteMarker (format ["%1_targetMarker", _name]);
+                    deleteMarker (format ["%1_text", _name]);
+                };
             };
 
             private _target = _targets deleteAt 0;
@@ -115,8 +126,30 @@ while {_timeAlive > 0} do
             };
 
             //Show target to players if change is high enough
-            //TODO create target marker
-            [_reveal] spawn A3A_fnc_showInterceptedSupportCall;
+            private _targetMarker = createMarker [format ["%1_targetMarker", _supportName], _targetPos];
+            _targetMarker setMarkerShape "ELLIPSE";
+            _targetMarker setMarkerBrush "Grid";
+            _targetMarker setMarkerSize [_distance + 25, _distance + 25];
+
+            private _textMarker = createMarker [format ["%1_text", _supportName], _targetPos];
+            _textMarker setMarkerShape "ICON";
+            _textMarker setMarkerType "mil_dot";
+            _textMarker setMarkerText "Artillery";
+
+            if(_side == Occupants) then
+            {
+                _targetMarker setMarkerColor colorOccupants;
+                _textMarker setMarkerColor colorOccupants;
+            }
+            else
+            {
+                _targetMarker setMarkerColor colorInvaders;
+                _textMarker setMarkerColor colorInvaders;
+            };
+            _targetMarker setMarkerAlpha 0;
+            _textMarker setMarkerAlpha 0;
+
+            [_reveal, _targetPos, _side, "Artillery", _targetMarker, _textMarker] spawn A3A_fnc_showInterceptedSupportCall;
 
             _mortar setVariable ["CurrentlyFiring", true, true];
             _mortar setVariable ["FireOrder", _subTargets, true];

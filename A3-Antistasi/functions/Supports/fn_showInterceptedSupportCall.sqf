@@ -62,7 +62,7 @@ else
     {
         //Side, type, call and marker revealed
         _text = format ["%1 called in %2 support at the marked position", _sideName, _supportType];
-        _marker setMarkerAlpha 0.35;
+        _marker setMarkerAlpha 0.75;
         _textMarker setMarkerAlpha 1;
     };
 };
