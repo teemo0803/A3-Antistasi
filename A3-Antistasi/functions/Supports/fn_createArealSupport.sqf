@@ -1,4 +1,4 @@
-params ["_side", "_supportType", "_supportPos", "_precision"];
+params ["_side", "_supportType", "_supportPos", "_precision", "_revealCall"];
 
 /*  Creates an support type that attacks areas
 
@@ -56,7 +56,7 @@ switch (_supportType) do
     };
 };
 
-server setVariable [format ["%1_targets", _supportName], [_supportPos, _precision], true];
+server setVariable [format ["%1_targets", _supportName], [[_supportPos, _precision], _revealCall], true];
 if (_side == Occupants) then
 {
     occupantsSupports pushBack [_supportType, _supportMarker, _supportName];

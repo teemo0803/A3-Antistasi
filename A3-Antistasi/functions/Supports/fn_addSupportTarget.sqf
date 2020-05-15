@@ -19,7 +19,7 @@ if(supportTargetsChanging) then
 supportTargetsChanging = true;
 
 private _targetList = server getVariable [format ["%1_targets", _supportObject], []];
-_targetList pushBack _targetParams;
+_targetList pushBack [_targetParams, 0];
 server setVariable [format ["%1_targets", _supportObject], _targetList, true];
 
 supportTargetsChanging = false;

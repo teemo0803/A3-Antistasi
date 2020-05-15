@@ -16,7 +16,7 @@ params ["_target", "_precision", "_supportTypes", "_side", "_revealCall"];
 private _fileName = "sendSupport";
 
 //Calculate deprecision on position
-private _deprecisionRange = random (300 - ((_precision/4) * (_precision/4) * 275));
+private _deprecisionRange = random (150 - ((_precision/4) * (_precision/4) * 125));
 private _randomDir = random 360;
 private _supportPos = _target getPos [_deprecisionRange, _randomDir];
 
@@ -68,12 +68,12 @@ if (_supportObject != "") exitWith
         if(_supportType in ["MORTAR"]) then
         {
             //Areal support methods, transmit position info
-            [_supportObject, [_supportPos, _precision]] call A3A_fnc_addSupportTarget;
+            [_supportObject, [_supportPos, _precision], _revealCall] call A3A_fnc_addSupportTarget;
         };
         if(_supportType in ["CAS", "AAPLANE", "SAM", "GUNSHIP"]) then
         {
             //Target support methods, transmit target info
-            [_supportObject, [_target, _precision]] call A3A_fnc_addSupportTarget;
+            [_supportObject, [_target, _precision], _revealCall] call A3A_fnc_addSupportTarget;
         };
     }
     else
@@ -126,10 +126,10 @@ if(_selectedSupport == "") exitWith
 if(_selectedSupport in ["MORTAR", "QRF", "AIRSTRIKE"]) then
 {
     //Areal support methods, transmit position info
-    [_side, _selectedSupport, _supportPos, _precision] spawn A3A_fnc_createArealSupport;
+    [_side, _selectedSupport, _supportPos, _precision, _revealCall] spawn A3A_fnc_createArealSupport;
 };
 if(_selectedSupport in ["CAS", "AAPLANE", "SAM", "GUNSHIP"]) then
 {
     //Target support methods, transmit target info
-    [_side, _selectedSupport, _target, _precision] spawn A3A_fnc_createTargetSupport;
+    [_side, _selectedSupport, _target, _precision, _revealCall] spawn A3A_fnc_createTargetSupport;
 };

@@ -505,6 +505,7 @@ class A3A
         class calculateSupportCallReveal {};
         class createArealSupport {};
         class sendSupport {};
+        class SUP_mortar {};
         class supportAvailable {};
     };
 
