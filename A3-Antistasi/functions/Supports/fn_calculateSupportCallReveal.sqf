@@ -15,26 +15,6 @@ params ["_pos", "_side"];
 */
 
 private _result = 0;
-if(_side == Occupants) then
-{
-    if(occupantsRadioKeys > 0) then
-    {
-        occupantsRadioKeys = occupantsRadioKeys - 1;
-        publicVariable "occupantsRadioKeys";
-        _result = 1;
-    };
-}
-else
-{
-    if(occupantsRadioKeys > 0) then
-    {
-        invaderRadioKeys = invaderRadioKeys - 1;
-        publicVariable "occupantsRadioKeys";
-        _result = 1;
-    };
-};
-
-if(_result == 1) exitWith {_result};
 
 //Hard value is the reveal you always get, softValue is a chance to get this amount of reveal
 private _hardValue = 0;
