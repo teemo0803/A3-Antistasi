@@ -30,38 +30,34 @@ while {(server getVariable [format ["%1_targets", _supportName], -1]) isEqualTyp
     _fileName
 ] call A3A_fnc_log;
 
-private _supportMarker = createMarker [format ["%1_marker", _supportName], _supportPos];
-_supportMarker setMarkerShape "ELLIPSE";
-_supportMarker setMarkerSize [250, 250];
-_supportMarker setMarkerBrush "Grid";
-_supportMarker setMarkerAlpha 0.35;
-_supportMarker setMarkerColor "ColorWEST";
-
+private _supportMarker = "";
 switch (_supportType) do
 {
     case ("QRF"):
     {
-        ["RadioIntercepted", ["QRF incoming"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
+        //["RadioIntercepted", ["QRF incoming"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
         //_supportMarker setMarkerText "QRF";
     };
     case ("AIRSTRIKE"):
     {
-        ["RadioIntercepted", ["Airstrike incoming"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
+        //["RadioIntercepted", ["Airstrike incoming"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
         //_supportMarker setMarkerText "Airstrike";
     };
     case ("MORTAR"):
     {
-        ["RadioIntercepted", ["Mortar incoming"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
-        //_supportMarker setMarkerText "Mortar";
+        _supportMarker = [_side, _supportPos, _supportName] call A3A_fnc_SUP_mortar;
     };
 };
 
-server setVariable [format ["%1_targets", _supportName], [[_supportPos, _precision], _revealCall], true];
-if (_side == Occupants) then
+if(_supportMarker != "") then
 {
-    occupantsSupports pushBack [_supportType, _supportMarker, _supportName];
-};
-if(_side == Invaders) then
-{
-    invadersSupports pushBack [_supportType, _supportMarker, _supportName];
+    server setVariable [format ["%1_targets", _supportName], [[_supportPos, _precision], _revealCall], true];
+    if (_side == Occupants) then
+    {
+        occupantsSupports pushBack [_supportType, _supportMarker, _supportName];
+    };
+    if(_side == Invaders) then
+    {
+        invadersSupports pushBack [_supportType, _supportMarker, _supportName];
+    };
 };

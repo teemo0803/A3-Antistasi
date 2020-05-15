@@ -63,7 +63,7 @@ if (_supportObject != "") exitWith
             2,
             format ["Support of type %1 is already in the area, transmitting attack orders"],
             _fileName
-        ] call A3A_fnc_Log;
+        ] call A3A_fnc_log;
         //Attack with already existing support
         if(_supportType in ["MORTAR"]) then
         {

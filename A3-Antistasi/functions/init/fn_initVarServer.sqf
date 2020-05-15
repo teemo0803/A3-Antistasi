@@ -497,7 +497,7 @@ private _fnc_vehicleIsValid = {
 	params ["_type"];
 	private _configClass = configFile >> "CfgVehicles" >> _type;
 	if !(isClass _configClass) exitWith {
-		[1, format ["Vehicle class %1 not found", _type], _filename] call A3A_fnc_Log;
+		[1, format ["Vehicle class %1 not found", _type], _filename] call A3A_fnc_log;
 		false;
 	};
 	if (_configClass call A3A_fnc_getModOfConfigClass in disabledMods) then {false} else {true};

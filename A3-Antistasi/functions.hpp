@@ -506,6 +506,7 @@ class A3A
         class createArealSupport {};
         class sendSupport {};
         class SUP_mortar {};
+        class SUP_mortarRoutine {};
         class supportAvailable {};
     };
 

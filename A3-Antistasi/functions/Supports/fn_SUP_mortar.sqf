@@ -12,7 +12,7 @@ params ["_side", "_supportPos", "_supportName"];
         _supportName: STRING : The call name of the mortar support
 
     Returns:
-        Nothing
+        The name of the marker, covering the whole support area
 */
 
 private _fileName = "SUP_mortar";
@@ -107,7 +107,7 @@ if(_isMortar) then
         private _basePos = getMarkerPos _base;
 
         //Spawn in mortar
-        private _mortar = [_mortarType, _basePos, 5, 5, true] call A3A_fnc_safeVehicleSpawn;
+        _mortar = [_mortarType, _basePos, 5, 5, true] call A3A_fnc_safeVehicleSpawn;
 
         //Spawn in crew
         private _unit = [_mortarGroup, _crewType, _basePos, [], 5, "NONE"] call A3A_fnc_createUnit;
@@ -137,7 +137,7 @@ else
     private _basePos = getMarkerPos _base;
 
     //Spawn in mortar
-    private _mortar = [_basePos, random 360, _mortarType, _side] call bis_fnc_spawnvehicle;
+    _mortar = [_basePos, random 360, _mortarType, _side] call bis_fnc_spawnvehicle;
 
     _crew = _mortar select 1;
     _mortarGroup = _mortar select 2;
@@ -149,8 +149,79 @@ else
     [_mortar] call A3A_fnc_AIVEHinit;
 };
 
+if(isNull _mortar) exitWith
+{
+    [
+        2,
+        format ["Couldn't spawn in mortar %1, no suitable position found!", _supportName],
+        _fileName
+    ] call A3A_fnc_log;
+    "";
+};
 
+//Creates the marker which coveres the area in which the support can help
+private _coverageMarker = createMarker [format ["%1_coverage", _supportName], getPos _mortar];
+_coverageMarker setMarkerShape "ELLIPSE";
+_coverageMarker setMarkerBrush "Grid";
+if(_side == Occupants) then
+{
+    _coverageMarker setMarkerColor colorOccupants;
+}
+else
+{
+    _coverageMarker setMarkerColor colorInvaders;
+};
+if(_isMortar) then
+{
+    _coverageMarker setMarkerSize [2000, 2000];
+}
+else
+{
+    _coverageMarker setMarkerSize [8000, 8000];
+};
+_coverageMarker setMarkerAlpha 0;
 
+//Setting up the EH for support destruction
+_mortar addEventHandler
+[
+    "Killed",
+    {
+        ["TaskSucceeded", ["", "Mortar Support Destroyed"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
+        //TODO add punishment for mortar destruction
+    }
+];
 
+_mortar addEventHandler
+[
+    "GetIn",
+    {
+        params ["_vehicle", "_role", "_unit", "_turret"];
+        if(side (group _unit) == teamPlayer) then
+        {
+            ["TaskSucceeded", ["", "Mortar Support Stolen"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
+            _vehicle setVariable ["Stolen", true, true];
+            //TODO add punishment for mortar destruction
+        };
+    }
+];
 
-//
+{
+    _x addEventHandler
+    [
+        "Killed",
+        {
+            params ["_unit"];
+            private _group = group _unit;
+            if({alive _x} count (units _group) == 0) then
+            {
+                ["TaskSucceeded", ["", "Mortar Support crew killed"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
+                //TODO add punishment for mortar destruction
+            };
+        }
+    ];
+} forEach _crew;
+
+_mortarGroup deleteGroupWhenEmpty true;
+[_mortar, _crew, _supportName] spawn A3A_fnc_SUP_mortarRoutine;
+
+_coverageMarker;
