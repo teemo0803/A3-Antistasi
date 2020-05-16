@@ -1,4 +1,4 @@
-params ["_side", "_supportType", "_supportPos", "_precision", "_revealCall"];
+params ["_side", "_timerIndex", "_supportType", "_supportPos", "_precision", "_revealCall"];
 
 /*  Creates an support type that attacks areas
 
@@ -8,6 +8,7 @@ params ["_side", "_supportType", "_supportPos", "_precision", "_revealCall"];
 
     Parameters:
         _side: SIDE: The side of the support unit
+        _timerIndex: NUMBER: The number of the timer for the support
         _supportType: STRING : The type of support to send
         _supportPos: POSITION : The position which will be attack
         _precision: NUMBER : How precise the target info is
@@ -45,7 +46,7 @@ switch (_supportType) do
     };
     case ("MORTAR"):
     {
-        _supportMarker = [_side, _supportPos, _supportName] call A3A_fnc_SUP_mortar;
+        _supportMarker = [_side, _timerIndex, _supportPos, _supportName] call A3A_fnc_SUP_mortar;
     };
 };
 

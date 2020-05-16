@@ -11,10 +11,10 @@ params ["_supportType", "_side", "_position"];
         _side: SIDE : The side for which the availability should be checked
 
     Returns:
-        True if available, false otherwise
+        -1 if not available, the index of the timer otherwise
 */
 
-private _available = false;
+private _timerIndex = -1;
 switch (_supportType) do
 {
     case ("QRF"):
@@ -28,7 +28,7 @@ switch (_supportType) do
         };
         if(_index != -1) exitWith
         {
-            _available = true;
+            _timerIndex = 0;
         };
         //No airport found, search for bases
         private _index = outposts findIf
@@ -40,46 +40,28 @@ switch (_supportType) do
         };
         if(_index != -1) then
         {
-            _available = true;
+            _timerIndex = 0;
         };
     };
     case ("AIRSTRIKE"):
     {
-        //Hard coded level limit, no airstrikes on warlevels under 3
-        if(tierWar < 3) exitWith {};
-        if(_side == Occupants) then
-        {
-            _available = (occupantsAirstrikePoints >= 200);
-        };
-        if(_side == Invaders) then
-        {
-            _available = (invadersAirstrikePoints >= 200);
-        };
+        _timerIndex = [_side] call SUP_airstrikeAvailable;
     };
     case ("MORTAR"):
     {
-        //Hard coded level limit, no mortar on warlevel 1
-        if(tierWar < 2) exitWith {};
-        if(_side == Occupants) then
-        {
-            _available = (occupantsMortarPoints >= 600);
-        };
-        if(_side == Invaders) then
-        {
-            _available = (invadersMortarPoints >= 600);
-        };
+        _timerIndex = [_side] call SUP_mortarAvailable;
     };
     default
     {
         //If unknown, set not available
-        _available = false;
+        _timerIndex = -1;
     };
 };
 
 [
     3,
-    format ["Support check for %1 returns %2", _supportType, _available],
+    format ["Support check for %1 returns %2", _supportType, _timerIndex],
     "supportAvailable"
 ] call A3A_fnc_log;
 
-_available;
+_timerIndex;

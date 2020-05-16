@@ -87,8 +87,10 @@ if (_supportObject != "") exitWith
 };
 
 private _selectedSupport = "";
+private _timerIndex = -1;
 {
-    if([_x, _side, _supportPos] call A3A_fnc_supportAvailable) exitWith
+    _timerIndex = [_x, _side, _supportPos] call A3A_fnc_supportAvailable;
+    if (_timerIndex != -1) exitWith
     {
         _selectedSupport = _x;
     };
@@ -97,7 +99,8 @@ private _selectedSupport = "";
 //Temporary fix as most supports are not yet available (only airstrikes and QRFs)
 if(_selectedSupport == "") then
 {
-    if(["QRF", _side, _supportPos] call A3A_fnc_supportAvailable) then
+    _timerIndex = ["QRF", _side, _supportPos] call A3A_fnc_supportAvailable;
+    if(_timerIndex != -1) then
     {
         private _index = occupantsSupports findIf {((_x select 0) == "QRF") && {_supportPos inArea (_x select 1)}};
         if(_index == -1) then
@@ -126,10 +129,10 @@ if(_selectedSupport == "") exitWith
 if(_selectedSupport in ["MORTAR", "QRF", "AIRSTRIKE"]) then
 {
     //Areal support methods, transmit position info
-    [_side, _selectedSupport, _supportPos, _precision, _revealCall] spawn A3A_fnc_createArealSupport;
+    [_side, _timerIndex, _selectedSupport, _supportPos, _precision, _revealCall] spawn A3A_fnc_createArealSupport;
 };
 if(_selectedSupport in ["CAS", "AAPLANE", "SAM", "GUNSHIP"]) then
 {
     //Target support methods, transmit target info
-    [_side, _selectedSupport, _target, _precision, _revealCall] spawn A3A_fnc_createTargetSupport;
+    [_side, _timerIndex, _selectedSupport, _target, _precision, _revealCall] spawn A3A_fnc_createTargetSupport;
 };

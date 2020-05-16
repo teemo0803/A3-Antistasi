@@ -1,4 +1,4 @@
-params ["_side", "_supportPos", "_supportName"];
+params ["_side", "_timerIndex", "_supportPos", "_supportName"];
 
 /*  Places the mortar used for fire support and initializes them
 
@@ -8,6 +8,7 @@ params ["_side", "_supportPos", "_supportName"];
 
     Params:
         _side: SIDE : The side for which the support should be called in
+        _timerIndex: NUMBER
         _supportPos: POSITION : The position the mortar should be able to target
         _supportName: STRING : The call name of the mortar support
 
@@ -168,19 +169,32 @@ _coverageMarker setMarkerBrush "Grid";
 if(_side == Occupants) then
 {
     _coverageMarker setMarkerColor colorOccupants;
+    if(_isMortar) then
+    {
+        _coverageMarker setMarkerSize [2000, 2000];
+        occupantsMortarTimer set [_timerIndex, time + 1800];
+    }
+    else
+    {
+        _coverageMarker setMarkerSize [8000, 8000];
+        occupantsMortarTimer set [_timerIndex, time + 3600];
+    };
 }
 else
 {
     _coverageMarker setMarkerColor colorInvaders;
+    if(_isMortar) then
+    {
+        _coverageMarker setMarkerSize [2000, 2000];
+        invadersMortarTimer set [_timerIndex, time + 1800];
+    }
+    else
+    {
+        _coverageMarker setMarkerSize [8000, 8000];
+        invadersMortarTimer set [_timerIndex, time + 3600];
+    };
 };
-if(_isMortar) then
-{
-    _coverageMarker setMarkerSize [2000, 2000];
-}
-else
-{
-    _coverageMarker setMarkerSize [8000, 8000];
-};
+
 _coverageMarker setMarkerAlpha 0;
 
 //Setting up the EH for support destruction
