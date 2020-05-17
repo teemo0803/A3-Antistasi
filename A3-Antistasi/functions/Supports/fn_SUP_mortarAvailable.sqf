@@ -54,5 +54,4 @@ if(_side == Invaders) then
     };
 };
 
-//No timer available
 _timerIndex;
