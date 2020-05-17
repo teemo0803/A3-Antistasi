@@ -45,8 +45,7 @@ switch (_supportType) do
     };
     case ("AIRSTRIKE"):
     {
-        _timerIndex = -1;
-        //_timerIndex = [_side] call A3A_fnc_SUP_airstrikeAvailable;
+        _timerIndex = [_side] call A3A_fnc_SUP_airstrikeAvailable;
     };
     case ("MORTAR"):
     {

@@ -28,7 +28,7 @@ if(_side == Occupants) then
     {
         _supportType = _x;
         private _index = -1;
-        if(_supportType != "AIRSTRIKE") then
+        if !(_supportType in ["AIRSTRIKE", "QRF"]) then
         {
             _index = occupantsSupports findIf {((_x select 0) == _supportType) && {_supportPos inArea (_x select 1)}};
         };
@@ -43,7 +43,7 @@ if(_side == Invaders) then
     {
         _supportType = _x;
         private _index = -1;
-        if(_supportType != "AIRSTRIKE") then
+        if !(_supportType in ["AIRSTRIKE", "QRF"]) then
         {
             _index = invadersSupports findIf {((_x select 0) == _supportType) && {_supportPos inArea (_x select 1)}};
         };
