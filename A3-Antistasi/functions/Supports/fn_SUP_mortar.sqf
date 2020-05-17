@@ -197,13 +197,21 @@ else
 
 _coverageMarker setMarkerAlpha 0;
 
+private _timerArray = if(_side == Occupants) then {occupantsMortarTimer} else {invadersMortarTimer};
+
+_mortar setVariable ["TimerArray", _timerArray, true];
+_mortar setVariable ["TimerIndex", _timerIndex, true];
+
 //Setting up the EH for support destruction
 _mortar addEventHandler
 [
     "Killed",
     {
+        params ["_mortar"];
         ["TaskSucceeded", ["", "Mortar Support Destroyed"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
-        //TODO add punishment for mortar destruction
+        private _timerArray = _mortar getVariable "TimerArray";
+        private _timerIndex = _mortar getVariable "TimerIndex";
+        _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 3600];
     }
 ];
 
@@ -216,11 +224,14 @@ _mortar addEventHandler
         {
             ["TaskSucceeded", ["", "Mortar Support Stolen"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
             _vehicle setVariable ["Stolen", true, true];
-            //TODO add punishment for mortar destruction
+            private _timerArray = _vehicle getVariable "TimerArray";
+            private _timerIndex = _vehicle getVariable "TimerIndex";
+            _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 3600];
         };
     }
 ];
 
+_mortarGroup setVariable ["Mortar", _mortar, true];
 {
     _x addEventHandler
     [
@@ -231,7 +242,10 @@ _mortar addEventHandler
             if({alive _x} count (units _group) == 0) then
             {
                 ["TaskSucceeded", ["", "Mortar Support crew killed"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
-                //TODO add punishment for mortar destruction
+                private _mortar = _group getVariable "Mortar";
+                private _timerArray = _mortar getVariable "TimerArray";
+                private _timerIndex = _mortar getVariable "TimerIndex";
+                _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 1800];
             };
         }
     ];

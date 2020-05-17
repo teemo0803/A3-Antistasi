@@ -24,21 +24,21 @@ private _fileName = "SUP_mortarRoutine";
 //Decrease number of rounds and time alive if aggro is low
 private _sideAggression = if(_side == Occupants) then {aggressionOccupants} else {aggressionInvaders};
 private _numberOfRounds = 32;
-private _timeAlive = 1800;
+private _timeAlive = 900;
 
 if(_sideAggression < 70) then
 {
     if(_sideAggression < 30) then
     {
         _numberOfRounds = 16;
-        _timeAlive = 900;
+        _timeAlive = 1800;
     }
     else
     {
         if((30 + (random 40)) < _sideAggression) then
         {
             _numberOfRounds = 16;
-            _timeAlive = 900;
+            _timeAlive = 1800;
         };
     };
 };
