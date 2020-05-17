@@ -1,6 +1,6 @@
 params ["_side"];
 
-if(tierWar < 2) exitWith {-1};
+//if(tierWar < 2) exitWith {-1};
 
 //Select a timer index and the max number of timers available
 private _timerIndex = -1;
@@ -16,7 +16,7 @@ if(_side == Occupants) then
     if(count occupantsMortarTimer < _playerAdjustment) then
     {
         _timerIndex = count occupantsMortarTimer;
-        for "_i" from (count occupantsMortarTimer) to _playerAdjustment do
+        for "_i" from ((count occupantsMortarTimer) + 1) to _playerAdjustment do
         {
             occupantsMortarTimer pushBack -1;
         };
@@ -39,7 +39,7 @@ if(_side == Invaders) then
     if(count invadersMortarTimer < _playerAdjustment) then
     {
         _timerIndex = count invadersMortarTimer;
-        for "_i" from (count invadersMortarTimer) to _playerAdjustment do
+        for "_i" from ((count invadersMortarTimer) + 1) to _playerAdjustment do
         {
             invadersMortarTimer pushBack -1;
         };

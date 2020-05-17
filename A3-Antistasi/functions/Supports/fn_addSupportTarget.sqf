@@ -1,4 +1,4 @@
-params ["_supportObject", "_targetParams"];
+params ["_supportObject", "_targetParams", "_revealCall"];
 
 /*  Adds the given target command to the given support unit
 
@@ -9,6 +9,7 @@ params ["_supportObject", "_targetParams"];
     Params:
         _supportObject: STRING : The identifier of the support object
         _targetParams: ARRAY : The target parameter for the support
+        _revealCall: NUMBER : How much of the support call will be revealed
 */
 
 //Wait until no targets are changing
@@ -19,7 +20,7 @@ if(supportTargetsChanging) then
 supportTargetsChanging = true;
 
 private _targetList = server getVariable [format ["%1_targets", _supportObject], []];
-_targetList pushBack [_targetParams, 0];
+_targetList pushBack [_targetParams, _revealCall];
 server setVariable [format ["%1_targets", _supportObject], _targetList, true];
 
 supportTargetsChanging = false;

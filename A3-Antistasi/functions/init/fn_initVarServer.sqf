@@ -69,10 +69,8 @@ DECLARE_SERVER_VAR(airstrike, []);
 //Variables used for the internal support system
 DECLARE_SERVER_VAR(occupantsSupports, []);
 DECLARE_SERVER_VAR(invadersSupports, []);
-DECLARE_SERVER_VAR(occupantsAirstrikePoints, 0);
-DECLARE_SERVER_VAR(invadersAirstrikePoints, 0);
-DECLARE_SERVER_VAR(occupantsMortarPoints, 0);
-DECLARE_SERVER_VAR(invadersMortarPoints, 0);
+
+DECLARE_SERVER_VAR(supportTargetsChanging, false);
 
 DECLARE_SERVER_VAR(occupantsRadioKeys, 0);
 DECLARE_SERVER_VAR(invaderRadioKeys, 0);

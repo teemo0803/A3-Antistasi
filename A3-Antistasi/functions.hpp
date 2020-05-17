@@ -508,6 +508,7 @@ class A3A
         class sendSupport {};
         class showInterceptedSupportCall {};
         class SUP_mortar {};
+        class SUP_mortarAvailable {};
         class SUP_mortarRoutine {};
         class supportAvailable {};
     };

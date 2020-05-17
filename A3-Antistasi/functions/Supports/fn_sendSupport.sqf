@@ -61,7 +61,7 @@ if (_supportObject != "") exitWith
     {
         [
             2,
-            format ["Support of type %1 is already in the area, transmitting attack orders"],
+            format ["Support of type %1 is already in the area, transmitting attack orders", _supportType],
             _fileName
         ] call A3A_fnc_log;
         //Attack with already existing support

@@ -28,7 +28,7 @@ switch (_supportType) do
         };
         if(_index != -1) exitWith
         {
-            _timerIndex = 0;
+            _timerIndex = -1;
         };
         //No airport found, search for bases
         private _index = outposts findIf
@@ -40,16 +40,17 @@ switch (_supportType) do
         };
         if(_index != -1) then
         {
-            _timerIndex = 0;
+            _timerIndex = -1;
         };
     };
     case ("AIRSTRIKE"):
     {
-        _timerIndex = [_side] call SUP_airstrikeAvailable;
+        _timerIndex = -1;
+        //_timerIndex = [_side] call A3A_fnc_SUP_airstrikeAvailable;
     };
     case ("MORTAR"):
     {
-        _timerIndex = [_side] call SUP_mortarAvailable;
+        _timerIndex = [_side] call A3A_fnc_SUP_mortarAvailable;
     };
     default
     {
