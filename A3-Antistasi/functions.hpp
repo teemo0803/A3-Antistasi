@@ -503,6 +503,7 @@ class A3A
     {
         class addSupportTarget {};
         class calculateSupportCallReveal {};
+        class clearTargetArea {};
         class createArealSupport {};
         class endSupport {};
         class sendSupport {};

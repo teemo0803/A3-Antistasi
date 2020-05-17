@@ -136,6 +136,9 @@ while {_timeAlive > 0} do
             _textMarker setMarkerType "mil_dot";
             _textMarker setMarkerText "Artillery";
 
+            //Makes sure that all units escape before attacking
+            [_side, _targetMarker] spawn A3A_fnc_clearTargetArea;
+
             if(_side == Occupants) then
             {
                 _targetMarker setMarkerColor colorOccupants;
