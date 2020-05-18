@@ -41,8 +41,7 @@ switch (_supportType) do
     };
     case ("AIRSTRIKE"):
     {
-        //["RadioIntercepted", ["Airstrike incoming"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
-        //_supportMarker setMarkerText "Airstrike";
+        _supportMarker = [_side, _timerIndex, _supportPos] call A3A_fnc_SUP_airstrike;
     };
     case ("MORTAR"):
     {
