@@ -72,7 +72,7 @@ private _bombType = if (napalmEnabled) then {"NAPALM"} else {"CLUSTER"};
 {
     if (vehicle _x isKindOf "Tank") then
     {
-        _bombType = "HE" //Why should it attack tanks with HE?? TODO find better solution
+        _bombType = "HE";
     }
     else
     {
@@ -89,3 +89,23 @@ private _bombType = if (napalmEnabled) then {"NAPALM"} else {"CLUSTER"};
     format ["%1 will be an airstrike with bombType %2", _supportName, _bombType],
     _fileName
 ] call A3A_fnc_log;
+
+//Blocks the airport from spawning in other planes while the support is waiting
+//to avoid spawning planes in each other and sudden explosions
+[_airport, 10] call A3A_fnc_addTimeForIdle;
+
+private _spawnParams = [_airport] call A3A_fnc_getRunwayTakeoffForAirportMarker;
+
+_spawnParams params ["_spawnPos", "_spawnDir"];
+private _strikePlane = _plane createVehicle _spawnPos;
+_strikePlane setDir _spawnDir;
+[_strikePlane] spawn A3A_fnc_AIVEHinit;
+
+private _strikeGroup = createGroup _side;
+private _pilot = [_strikeGroup, _crewUnits, _spawnPos] call A3A_fnc_createUnit;
+_pilot moveInDriver _strikePlane;
+
+[_pilot] call A3A_fnc_NATOinit;
+
+
+//
