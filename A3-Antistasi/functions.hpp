@@ -508,6 +508,7 @@ class A3A
         class endSupport {};
         class sendSupport {};
         class showInterceptedSupportCall {};
+        class SUP_airstrike {};
         class SUP_airstrikeAvailable {};
         class SUP_mortar {};
         class SUP_mortarAvailable {};

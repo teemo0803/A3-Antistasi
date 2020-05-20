@@ -17,7 +17,7 @@ params ["_side", "_timerIndex", "_supportPos", "_supportName"];
 */
 
 private _fileName = "SUP_airstrike";
-private _airport = [_destination, _side] call A3A_fnc_findAirportForAirstrike;
+private _airport = [_supportPos, _side] call A3A_fnc_findAirportForAirstrike;
 
 if(_airport == "") exitWith
 {
@@ -37,9 +37,9 @@ private _targetMarker = createMarker [format ["%1_coverage"], _supportPos];
 
 _targetMarker setMarkerShape "ELLIPSE";
 _targetMarker setMarkerBrush "Grid";
-_targetMarker setMarkerSize [100, 25];
+_targetMarker setMarkerSize [25, 100];
 
-private _dir = _airport getDir _supportPos;
+private _dir = (getMarkerPos _airport) getDir _supportPos;
 _targetMarker setMarkerDir _dir;
 
 if(_side == Occupants) then
@@ -81,12 +81,12 @@ private _bombType = if (napalmEnabled) then {"NAPALM"} else {"CLUSTER"};
             if !(vehicle _x isKindOf "StaticWeapon") then {_bombType = "CLUSTER"};
         };
     };
-    if (_bombTypeX == "HE") exitWith {};
+    if (_bombType == "HE") exitWith {};
 } forEach _enemies;
 
 [
     2,
-    format ["%1 will be an airstrike with bombType %2", _supportName, _bombType],
+    format ["Airstrike will be carried out with bombType %1", _bombType],
     _fileName
 ] call A3A_fnc_log;
 
@@ -99,13 +99,66 @@ private _spawnParams = [_airport] call A3A_fnc_getRunwayTakeoffForAirportMarker;
 _spawnParams params ["_spawnPos", "_spawnDir"];
 private _strikePlane = _plane createVehicle _spawnPos;
 _strikePlane setDir _spawnDir;
-[_strikePlane] spawn A3A_fnc_AIVEHinit;
+_strikePlane setVariable ["AirstrikeType", _bombType, true];
+_strikePlane enableSimulation false;
 
 private _strikeGroup = createGroup _side;
 private _pilot = [_strikeGroup, _crewUnits, _spawnPos] call A3A_fnc_createUnit;
 _pilot moveInDriver _strikePlane;
 
-[_pilot] call A3A_fnc_NATOinit;
+//Delete 0,0,0 waypoint
+deleteWaypoint [_strikeGroup, 0];
+
+private _timerArray = if(_side == Occupants) then {occupantsAirstrikeTimer} else {invadersAirstrikeTimer};
+
+_timerArray set [_timerIndex, time + 1200];
+_strikePlane setVariable ["TimerArray", _timerArray, true];
+_strikePlane setVariable ["TimerIndex", _timerIndex, true];
 
 
+//Setting up the EH for support destruction
+_strikePlane addEventHandler
+[
+    "Killed",
+    {
+        params ["_strikePlane"];
+        ["TaskSucceeded", ["", "Airstrike Vessel Destroyed"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
+        private _timerArray = _strikePlane getVariable "TimerArray";
+        private _timerIndex = _strikePlane getVariable "TimerIndex";
+        _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 2400];
+    }
+];
+
+_strikePlane addEventHandler
+[
+    "GetIn",
+    {
+        params ["_vehicle", "_role", "_unit", "_turret"];
+        if(side (group _unit) == teamPlayer) then
+        {
+            ["TaskSucceeded", ["", "Airstrike Vessel Stolen"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
+            _vehicle setVariable ["Stolen", true, true];
+            private _timerArray = _vehicle getVariable "TimerArray";
+            private _timerIndex = _vehicle getVariable "TimerIndex";
+            _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 2400];
+        };
+    }
+];
+
+_pilot setVariable ["Plane", _strikePlane, true];
+_pilot addEventHandler
+[
+    "Killed",
+    {
+        params ["_unit"];
+        ["TaskSucceeded", ["", "Airstrike crew killed"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
+        private _strikePlane = _unit getVariable "Plane";
+        private _timerArray = _strikePlane getVariable "TimerArray";
+        private _timerIndex = _strikePlane getVariable "TimerIndex";
+        _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 1200];
+    }
+];
+
+
+_targetMarker;
 //
