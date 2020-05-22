@@ -109,7 +109,7 @@ if !(_spawnParams isEqualTo []) then
 else
 {
     //No runway on this airport, use airport position
-    //Not sure if I should go with 150 or 1500 here, players might be only 1001 meters away
+    //Not sure if I should go with 150 or 1000 here, players might be only 1001 meters away
     //While technically 1000 meter height is technically visible from a greater distance
     //150 is more likely to be in the actual viewcone of a player
     private _spawnPos = (getMarkerPos _airport);
@@ -122,10 +122,15 @@ else
     //Hide the hovering airplane from players view
     _strikePlane hideObjectGlobal true;
     _strikePlane enableSimulation false;
+    _strikePlane setVelocityModelSpace (velocityModelSpace _strikePlane vectorAdd [0, 150, 0]);
 };
 
 _pilot = [_strikeGroup, _crewUnits, getPos _strikePlane] call A3A_fnc_createUnit;
 _pilot moveInDriver _strikePlane;
+
+_strikePlane disableAI "TARGET";
+_strikePlane disableAI "AUTOTARGET";
+_strikePlane setVariable ["bombType", _bombType, true];
 
 /* Thats not working, the plane will always start
 //Delete the waypoint at [0,0,0]
@@ -146,6 +151,7 @@ private _timerArray = if(_side == Occupants) then {occupantsAirstrikeTimer} else
 _timerArray set [_timerIndex, time + 1200];
 _strikePlane setVariable ["TimerArray", _timerArray, true];
 _strikePlane setVariable ["TimerIndex", _timerIndex, true];
+_strikePlane setVariable ["supportName", _supportName, true];
 
 //Setting up the EH for support destruction
 _strikePlane addEventHandler
@@ -157,6 +163,7 @@ _strikePlane addEventHandler
         private _timerArray = _strikePlane getVariable "TimerArray";
         private _timerIndex = _strikePlane getVariable "TimerIndex";
         _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 2400];
+        [_strikePlane] spawn A3A_fnc_postMortem;
     }
 ];
 
@@ -189,9 +196,11 @@ _pilot addEventHandler
         private _timerArray = _strikePlane getVariable "TimerArray";
         private _timerIndex = _strikePlane getVariable "TimerIndex";
         _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 1200];
+        [_unit] spawn A3A_fnc_postMortem;
     }
 ];
+_strikeGroup deleteGroupWhenEmpty true;
 
+[_strikePlane, _strikeGroup , _airport, _supportPos] spawn A3A_fnc_SUP_airstrikeRoutine;
 
 _targetMarker;
-//
