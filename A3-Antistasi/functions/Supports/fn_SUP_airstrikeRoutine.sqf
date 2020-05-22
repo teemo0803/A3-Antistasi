@@ -6,7 +6,7 @@ while {_sleepTime > 0} do
 {
     sleep 1;
     _sleepTime = _sleepTime - 1;
-    if(spawner getVariable _airport != 2) exitWith {};
+    if((spawner getVariable _airport) != 2) exitWith {};
 };
 
 _strikePlane setFuel 1;
@@ -20,7 +20,7 @@ private _dir = _airportPos getDir _targetPos;
 
 //Have a preBomb position to ensure nearly perfect flight path
 private _preBombPosition = _targetPos getPos [1500, _dir + 180];
-private _startBombPosition = _targetPos getPos [100, _dir + 180];
+private _startBombPosition = _targetPos getPos [200, _dir + 180];
 private _endBombPosition = _targetPos getPos [100, _dir];
 
 //Determine speed and bomb count on aggression

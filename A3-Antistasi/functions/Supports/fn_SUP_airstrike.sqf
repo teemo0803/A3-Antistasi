@@ -201,6 +201,6 @@ _pilot addEventHandler
 ];
 _strikeGroup deleteGroupWhenEmpty true;
 
-[_strikePlane, _strikeGroup , _airport, _supportPos] spawn A3A_fnc_SUP_airstrikeRoutine;
+[_side, _strikePlane, _strikeGroup , _airport, _supportPos] spawn A3A_fnc_SUP_airstrikeRoutine;
 
 _targetMarker;
