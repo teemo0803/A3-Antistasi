@@ -33,7 +33,7 @@ private _plane = if (_side == Occupants) then {vehNATOPlane} else {vehCSATPlane}
 private _crewUnits = if(_side == Occupants) then {NATOCrew} else {CSATCrew};
 private _bombType = "";
 
-private _targetMarker = createMarker [format ["%1_coverage"], _supportPos];
+private _targetMarker = createMarker [format ["%1_coverage", _supportName], _supportPos];
 
 _targetMarker setMarkerShape "ELLIPSE";
 _targetMarker setMarkerBrush "Grid";
@@ -92,29 +92,60 @@ private _bombType = if (napalmEnabled) then {"NAPALM"} else {"CLUSTER"};
 
 //Blocks the airport from spawning in other planes while the support is waiting
 //to avoid spawning planes in each other and sudden explosions
-[_airport, 10] call A3A_fnc_addTimeForIdle;
+[_airport, 3] call A3A_fnc_addTimeForIdle;
 
 private _spawnParams = [_airport] call A3A_fnc_getRunwayTakeoffForAirportMarker;
-
-_spawnParams params ["_spawnPos", "_spawnDir"];
-private _strikePlane = _plane createVehicle _spawnPos;
-_strikePlane setDir _spawnDir;
-_strikePlane setVariable ["AirstrikeType", _bombType, true];
-_strikePlane enableSimulation false;
-
+private _strikePlane = objNull;
 private _strikeGroup = createGroup _side;
-private _pilot = [_strikeGroup, _crewUnits, _spawnPos] call A3A_fnc_createUnit;
+private _pilot = objNull;
+
+if !(_spawnParams isEqualTo []) then
+{
+    _spawnParams params ["_spawnPos", "_spawnDir"];
+
+    _strikePlane = _plane createVehicle _spawnPos;
+    _strikePlane setDir _spawnDir;
+}
+else
+{
+    //No runway on this airport, use airport position
+    //Not sure if I should go with 150 or 1500 here, players might be only 1001 meters away
+    //While technically 1000 meter height is technically visible from a greater distance
+    //150 is more likely to be in the actual viewcone of a player
+    private _spawnPos = (getMarkerPos _airport);
+    _strikePlane = createVehicle [_plane, _spawnPos, [], 0, "FLY"];
+    _strikePlane setDir _dir;
+
+    //Put it in the sky
+    _strikePlane setPosATL (_spawnPos vectorAdd [0, 0, 1000]);
+
+    //Hide the hovering airplane from players view
+    _strikePlane hideObjectGlobal true;
+    _strikePlane enableSimulation false;
+};
+
+_pilot = [_strikeGroup, _crewUnits, getPos _strikePlane] call A3A_fnc_createUnit;
 _pilot moveInDriver _strikePlane;
 
-//Delete 0,0,0 waypoint
+/* Thats not working, the plane will always start
+//Delete the waypoint at [0,0,0]
 deleteWaypoint [_strikeGroup, 0];
+
+//Have the plane wait on the runway
+private _waitWP = _strikeGroup addWaypoint [_strikePlane, -1, 0];
+_waitWP setWaypointType "HOLD";
+
+_strikePlane setVariable ["AirstrikeType", _bombType, true];
+*/
+//The only way to keep the plane on the ground
+_strikePlane setFuel 0;
+
 
 private _timerArray = if(_side == Occupants) then {occupantsAirstrikeTimer} else {invadersAirstrikeTimer};
 
 _timerArray set [_timerIndex, time + 1200];
 _strikePlane setVariable ["TimerArray", _timerArray, true];
 _strikePlane setVariable ["TimerIndex", _timerIndex, true];
-
 
 //Setting up the EH for support destruction
 _strikePlane addEventHandler
@@ -138,6 +169,8 @@ _strikePlane addEventHandler
         {
             ["TaskSucceeded", ["", "Airstrike Vessel Stolen"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
             _vehicle setVariable ["Stolen", true, true];
+            _vehicle setFuel 1;
+            _vehicle removeAllEventHandlers "GetIn";
             private _timerArray = _vehicle getVariable "TimerArray";
             private _timerIndex = _vehicle getVariable "TimerIndex";
             _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 2400];

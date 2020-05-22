@@ -41,7 +41,7 @@ switch (_supportType) do
     };
     case ("AIRSTRIKE"):
     {
-        _supportMarker = [_side, _timerIndex, _supportPos] call A3A_fnc_SUP_airstrike;
+        _supportMarker = [_side, _timerIndex, _supportPos, _supportName] call A3A_fnc_SUP_airstrike;
     };
     case ("MORTAR"):
     {

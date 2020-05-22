@@ -224,6 +224,7 @@ _mortar addEventHandler
         {
             ["TaskSucceeded", ["", "Mortar Support Stolen"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
             _vehicle setVariable ["Stolen", true, true];
+            _vehicle removeAllEventHandlers "GetIn";
             private _timerArray = _vehicle getVariable "TimerArray";
             private _timerIndex = _vehicle getVariable "TimerIndex";
             _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 3600];
