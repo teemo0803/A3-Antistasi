@@ -25,3 +25,5 @@ if(_side == Invaders) then
     private _index = invadersSupports findIf {(_x select 2) == _supportName};
     invadersSupports deleteAt _index;
 };
+
+deleteMarker (format ["%1_coverage", _supportName]);
