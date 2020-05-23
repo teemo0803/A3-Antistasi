@@ -3,8 +3,8 @@
   <Package name="A3-Antistasi Mission">
     <Container name="dialog_load_previous_session">
       <Key ID="STR_antistasi_dialogs_lps_frame_text">
-        <Original>Load previous personal safe?</Original>
-        <English>Load previous personal safe?</English>
+        <Original>Load previous personal save?</Original>
+        <English>Load previous personal save?</English>
         <German>Letzten persönlichen Spielstand laden?</German>
       </Key>
     </Container>
