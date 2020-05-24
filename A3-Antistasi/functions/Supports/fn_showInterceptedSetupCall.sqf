@@ -1,6 +1,6 @@
-params ["_reveal", "_position", "_side", "_supportType", "_marker", "_textMarker"];
+params ["_reveal", "_side", "_supportType"];
 
-/*  Shows the intercepted radio message to the players
+/*  Shows the intercepted radio setup message to the players
 
     Execution on: Server
 
@@ -8,11 +8,8 @@ params ["_reveal", "_position", "_side", "_supportType", "_marker", "_textMarker
 
     Parameters:
         _reveal: NUMBER : Decides how much of the info will be revealed
-        _position: POSITION : The position where the support is called to
         _side: SIDE : The side which called in the support
         _supportType: NAME : The name of the support (not the callsign!!)
-        _marker: MARKER : The marker which covers the area of the attack
-        _textMarker: MARKER : The marker which is holding the text of the support
 
     Returns:
         Nothing
@@ -46,25 +43,15 @@ if(_reveal <= 0.1) exitWith {};
 
 private _text = "";
 private _sideName = if(_side == Occupants) then {nameOccupants} else {nameInvaders};
-if (_reveal <= 0.5) then
+if (_reveal <= 0.7) then
 {
-    //Side and call is reveal
-    _text = format ["%1 issued a new attack order for an unknown support", _sideName];
+    //Side and setup is revealed
+    _text = format ["%1 is setting up an unknown support", _sideName];
 }
 else
 {
-    if(_reveal <= 0.8) then
-    {
-        //Side, type and call is revealed
-        _text = format ["%1 issued a new attack order for its %2 support", _sideName, _supportType];
-    }
-    else
-    {
-        //Side, type, call and marker revealed
-        _text = format ["%1 issued a new attack order for its %2 support to the marked position", _sideName, _supportType];
-        _marker setMarkerAlpha 0.75;
-        _textMarker setMarkerAlpha 1;
-    };
+    //Side, type and setup is revealed
+    _text = format ["%1 is setting up %2 support", _sideName, _supportType];
 };
 
 //Broadcast message to nearby players

@@ -23,14 +23,19 @@ private _supportPos = _target getPos [_deprecisionRange, _randomDir];
 //Search for any support already active in the area matching the _supportTypes
 private _supportObject = "";
 private _supportType = "";
+private _blockedSupports = [];
+
 if(_side == Occupants) then
 {
     {
         _supportType = _x;
         private _index = -1;
-        if !(_supportType in ["AIRSTRIKE", "QRF"]) then
+        _index = occupantsSupports findIf {((_x select 0) == _supportType) && {_supportPos inArea (_x select 1)}};
+        if(_supportType in ["AIRSTRIKE", "QRF"]) then
         {
-            _index = occupantsSupports findIf {((_x select 0) == _supportType) && {_supportPos inArea (_x select 1)}};
+            [2, format ["Blocking %1 support for given position, as another support of this type is near", _supportType], _fileName] call A3A_fnc_log;
+            _index = -1;
+            _blockedSupports pushBack _supportType;
         };
         if(_index != -1) exitWith
         {
@@ -43,9 +48,12 @@ if(_side == Invaders) then
     {
         _supportType = _x;
         private _index = -1;
-        if !(_supportType in ["AIRSTRIKE", "QRF"]) then
+        _index = invadersSupports findIf {((_x select 0) == _supportType) && {_supportPos inArea (_x select 1)}};
+        if(_supportType in ["AIRSTRIKE", "QRF"]) then
         {
-            _index = invadersSupports findIf {((_x select 0) == _supportType) && {_supportPos inArea (_x select 1)}};
+            [2, format ["Blocking %1 support for given position, as another support of this type is near", _supportType], _fileName] call A3A_fnc_log;
+            _index = -1;
+            _blockedSupports pushBack _supportType;
         };
         if(_index != -1) exitWith
         {
@@ -85,6 +93,8 @@ if (_supportObject != "") exitWith
         ] call A3A_fnc_log;
     };
 };
+//Delete blocked supports
+_supportType = _supportType - _blockedSupports;
 
 private _selectedSupport = "";
 private _timerIndex = -1;
@@ -99,16 +109,19 @@ private _timerIndex = -1;
 //Temporary fix as most supports are not yet available (only airstrikes and QRFs)
 if(_selectedSupport == "") then
 {
-    _timerIndex = ["QRF", _side, _supportPos] call A3A_fnc_supportAvailable;
-    if(_timerIndex != -1) then
+    if !("QRF" in _blockedSupports) then
     {
-        private _index = occupantsSupports findIf {((_x select 0) == "QRF") && {_supportPos inArea (_x select 1)}};
-        if(_index == -1) then
+        _timerIndex = ["QRF", _side, _supportPos] call A3A_fnc_supportAvailable;
+        if(_timerIndex != -1) then
         {
-            _index = invadersSupports findIf {((_x select 0) == "QRF") && {_supportPos inArea (_x select 1)}};
+            private _index = occupantsSupports findIf {((_x select 0) == "QRF") && {_supportPos inArea (_x select 1)}};
             if(_index == -1) then
             {
-                _selectedSupport = "QRF";
+                _index = invadersSupports findIf {((_x select 0) == "QRF") && {_supportPos inArea (_x select 1)}};
+                if(_index == -1) then
+                {
+                    _selectedSupport = "QRF";
+                };
             };
         };
     };
