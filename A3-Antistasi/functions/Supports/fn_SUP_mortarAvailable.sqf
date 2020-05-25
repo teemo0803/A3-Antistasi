@@ -1,6 +1,6 @@
 params ["_side"];
 
-//if(tierWar < 2) exitWith {-1};
+if(tierWar < 2) exitWith {-1};
 
 //Select a timer index and the max number of timers available
 private _timerIndex = -1;
