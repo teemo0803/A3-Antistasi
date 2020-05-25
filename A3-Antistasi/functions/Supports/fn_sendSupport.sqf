@@ -31,7 +31,7 @@ if(_side == Occupants) then
         _supportType = _x;
         private _index = -1;
         _index = occupantsSupports findIf {((_x select 0) == _supportType) && {_supportPos inArea (_x select 1)}};
-        if(_supportType in ["AIRSTRIKE", "QRF"]) then
+        if((_index != -1) && {_supportType in ["AIRSTRIKE", "QRF"]}) then
         {
             [2, format ["Blocking %1 support for given position, as another support of this type is near", _supportType], _fileName] call A3A_fnc_log;
             _index = -1;
@@ -49,7 +49,7 @@ if(_side == Invaders) then
         _supportType = _x;
         private _index = -1;
         _index = invadersSupports findIf {((_x select 0) == _supportType) && {_supportPos inArea (_x select 1)}};
-        if(_supportType in ["AIRSTRIKE", "QRF"]) then
+        if((_index != -1) && {_supportType in ["AIRSTRIKE", "QRF"]}) then
         {
             [2, format ["Blocking %1 support for given position, as another support of this type is near", _supportType], _fileName] call A3A_fnc_log;
             _index = -1;
@@ -94,7 +94,7 @@ if (_supportObject != "") exitWith
     };
 };
 //Delete blocked supports
-_supportType = _supportType - _blockedSupports;
+_supportTypes = _supportTypes - _blockedSupports;
 
 private _selectedSupport = "";
 private _timerIndex = -1;

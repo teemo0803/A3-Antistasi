@@ -50,6 +50,7 @@ if(_side == Invaders) then
 {
     _targetMarker setMarkerColor colorInvaders;
 };
+_targetMarker setMarkerAlpha 0;
 
 private _enemies = allUnits select
 {
@@ -201,6 +202,6 @@ _pilot addEventHandler
 ];
 _strikeGroup deleteGroupWhenEmpty true;
 
-[_side, _strikePlane, _strikeGroup , _airport, _supportPos] spawn A3A_fnc_SUP_airstrikeRoutine;
+[_side, _strikePlane, _strikeGroup , _airport, _supportPos, _supportName] spawn A3A_fnc_SUP_airstrikeRoutine;
 
 _targetMarker;

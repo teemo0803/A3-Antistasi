@@ -507,6 +507,7 @@ class A3A
         class createArealSupport {};
         class endSupport {};
         class sendSupport {};
+        class showInterceptedSetupCall {};
         class showInterceptedSupportCall {};
         class SUP_airstrike {};
         class SUP_airstrikeAvailable {};

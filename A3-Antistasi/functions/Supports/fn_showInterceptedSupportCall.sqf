@@ -49,19 +49,19 @@ private _sideName = if(_side == Occupants) then {nameOccupants} else {nameInvade
 if (_reveal <= 0.5) then
 {
     //Side and call is reveal
-    _text = format ["%1 issued a new attack order for an unknown support", _sideName];
+    _text = format ["%1 is executing an unknown support now", _sideName];
 }
 else
 {
     if(_reveal <= 0.8) then
     {
         //Side, type and call is revealed
-        _text = format ["%1 issued a new attack order for its %2 support", _sideName, _supportType];
+        _text = format ["%1 is executing %2 support now", _sideName, _supportType];
     }
     else
     {
         //Side, type, call and marker revealed
-        _text = format ["%1 issued a new attack order for its %2 support to the marked position", _sideName, _supportType];
+        _text = format ["%1 is executing %2 support to the marked position now", _sideName, _supportType];
         _marker setMarkerAlpha 0.75;
         _textMarker setMarkerAlpha 1;
     };

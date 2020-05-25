@@ -1,4 +1,4 @@
-params ["_reveal", "_side", "_supportType"];
+params ["_reveal", "_side", "_supportType", "_position"];
 
 /*  Shows the intercepted radio setup message to the players
 
