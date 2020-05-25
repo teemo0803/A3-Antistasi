@@ -46,3 +46,71 @@ if ((!_isMarker) and (_typeOfAttack != "Air") and (!_super) and ({sidesX getVari
 		};
 	};
 if (_exit) exitWith {};
+
+
+
+    if (_isMarker) then
+    	{
+    	_timeX = time + 3600;
+    	_size = [_destination] call A3A_fnc_sizeMarker;
+    	if (_side == Occupants) then
+    		{
+    		waitUntil {sleep 5; (({!([_x] call A3A_fnc_canFight)} count _soldiers) >= 3*({([_x] call A3A_fnc_canFight)} count _soldiers)) or (time > _timeX) or (sidesX getVariable [_destination,sideUnknown] == Occupants) or (({[_x,_destination] call A3A_fnc_canConquer} count _soldiers) > 3*({(side _x != _side) and (side _x != civilian) and ([_x,_destination] call A3A_fnc_canConquer)} count allUnits))};
+    		if  ((({[_x,_destination] call A3A_fnc_canConquer} count _soldiers) > 3*({(side _x != _side) and (side _x != civilian) and ([_x,_destination] call A3A_fnc_canConquer)} count allUnits)) and (not(sidesX getVariable [_destination,sideUnknown] == Occupants))) then
+    			{
+    			[Occupants,_destination] remoteExec ["A3A_fnc_markerChange",2];
+    			[3, format ["PatrolCA from %1 or %2 to retake %3 has outnumbered the enemy, changing marker!", _side,_base,_destination], _filename] call A3A_fnc_log;
+    			};
+    		sleep 10;
+    		if (!(sidesX getVariable [_destination,sideUnknown] == Occupants)) then
+    			{
+    			{_x doMove _posOrigin} forEach _soldiers;
+    			if (sidesX getVariable [_side,sideUnknown] == Occupants) then
+    				{
+    				_killZones = killZones getVariable [_side,[]];
+    				_killZones = _killZones + [_destination,_destination];
+    				killZones setVariable [_side,_killZones,true];
+    				};
+    			[3, format ["PatrolCA from %1 or %2 to retake %3 has failed as the marker is not changed!", _side,_base,_destination], _filename] call A3A_fnc_log;
+    			}
+    		}
+    	else
+    		{
+    		waitUntil {sleep 5; (({!([_x] call A3A_fnc_canFight)} count _soldiers) >= 3*({([_x] call A3A_fnc_canFight)} count _soldiers))or (time > _timeX) or (sidesX getVariable [_destination,sideUnknown] == Invaders) or (({[_x,_destination] call A3A_fnc_canConquer} count _soldiers) > 3*({(side _x != _side) and (side _x != civilian) and ([_x,_destination] call A3A_fnc_canConquer)} count allUnits))};
+    		if  ((({[_x,_destination] call A3A_fnc_canConquer} count _soldiers) > 3*({(side _x != _side) and (side _x != civilian) and ([_x,_destination] call A3A_fnc_canConquer)} count allUnits)) and (not(sidesX getVariable [_destination,sideUnknown] == Invaders))) then
+    			{
+    			[Invaders,_destination] remoteExec ["A3A_fnc_markerChange",2];
+    			[3, format ["PatrolCA from %1 or %2 to retake %3 has outnumbered the enemy, changing marker!", _side,_base,_destination], _filename] call A3A_fnc_log;
+    			};
+    		sleep 10;
+    		if (!(sidesX getVariable [_destination,sideUnknown] == Invaders)) then
+    			{
+    			{_x doMove _posOrigin} forEach _soldiers;
+    			if (sidesX getVariable [_side,sideUnknown] == Invaders) then
+    				{
+    				_killZones = killZones getVariable [_side,[]];
+    				_killZones = _killZones + [_destination,_destination];
+    				killZones setVariable [_side,_killZones,true];
+    				};
+    			[3, format ["PatrolCA from %1 or %2 to retake %3 has failed as the marker is not changed!", _side,_base,_destination], _filename] call A3A_fnc_log;
+    			}
+    		};
+    	}
+    else
+    	{
+    	_sideEnemy = if (_side == Occupants) then {Invaders} else {Occupants};
+    	if (_typeOfAttack != "Air") then {waitUntil {sleep 1; (!([distanceSPWN1,1,_posDestination,teamPlayer] call A3A_fnc_distanceUnits) and !([distanceSPWN1,1,_posDestination,_sideEnemy] call A3A_fnc_distanceUnits)) or (({!([_x] call A3A_fnc_canFight)} count _soldiers) >= 3*({([_x] call A3A_fnc_canFight)} count _soldiers))}} else {waitUntil {sleep 1; (({!([_x] call A3A_fnc_canFight)} count _soldiers) >= 3*({([_x] call A3A_fnc_canFight)} count _soldiers))}};
+    	if (({!([_x] call A3A_fnc_canFight)} count _soldiers) >= 3*({([_x] call A3A_fnc_canFight)} count _soldiers)) then
+    		{
+    		_markersX = resourcesX + factories + airportsX + outposts + seaports select {getMarkerPos _x distance _posDestination < distanceSPWN};
+    		_nearestMarker = if (_base != "") then {_base} else {_side};
+    		_killZones = killZones getVariable [_nearestMarker,[]];
+    		_killZones append _markersX;
+    		killZones setVariable [_nearestMarker,_killZones,true];
+    		[3, format ["PatrolCA from %1 or %2 on position %3 defeated", _side,_base,_destination], _filename] call A3A_fnc_log;
+    		}
+    	else {
+    		[3, format ["PatrolCA from %1 or %2 on position %3 despawned", _side,_base,_destination], _filename] call A3A_fnc_log;
+    		};
+    	};
+    [2, format ["PatrolCA on %1 finished",_destination], _filename] call A3A_fnc_log;

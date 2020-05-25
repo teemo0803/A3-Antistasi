@@ -8,13 +8,9 @@
 
     Params:
         _posDestination: POSITION : The target position where the QRF will be send to
-        _side: SIDE : The start parameter of the QRF
-        _attackType: STRING : Can be one of "Air", "Tank" or "Normal"
-        _super: BOOLEAN : Determine if the attack should be super strong
+        _side: SIDE : The side of the QRF
 */
 
-
-//[position player,Occupants,"Normal",false] spawn A3A_Fnc_patrolCA
 params ["_side", "_posDestination", "_supportName"];
 private _filename = "SUP_QRF";
 
@@ -251,7 +247,7 @@ if ((_posOrigin distance2D _posDestination < distanceForLandAttack) && {[_posOri
             } forEach units _cargoGroup;
             _groups pushBack _cargoGroup;
 		};
-        [_vehicle, _crewGroup, _cargoGroup, _posDestination, _posOrigin] spawn A3A_fnc_createVehicleQRFBehaviour;
+        //[_vehicle, _crewGroup, _cargoGroup, _posDestination, _posOrigin] spawn A3A_fnc_createVehicleQRFBehaviour;
 		[3, format ["QRF vehicle %1 sent with %2 soldiers", typeof _vehicle, count crew _vehicle], _filename] call A3A_fnc_log;
 	};
 	[2, format ["%1 QRF sent with %2 vehicles, callsign %3", _typeOfAttack, count _vehicles, _supportName], _filename] call A3A_fnc_log;
@@ -331,7 +327,7 @@ else
 			_groups pushBack _cargoGroup;
 		};
 		sleep 30;
-        [_vehicle, _crewGroup, _cargoGroup, _posDestination, _posOrigin] spawn A3A_fnc_createVehicleQRFBehaviour;
+        //[_vehicle, _crewGroup, _cargoGroup, _posDestination, _posOrigin] spawn A3A_fnc_createVehicleQRFBehaviour;
 		[3, format ["QRF vehicle %1 sent with %2 soldiers", typeof _vehicle, count crew _vehicle], _filename] call A3A_fnc_log;
 	};
 	[2, format ["%1 QRF sent with %2 vehicles, callsign %3", _typeOfAttack, count _vehicles, _supportName], _filename] call A3A_fnc_log;
