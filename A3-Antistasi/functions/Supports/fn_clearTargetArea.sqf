@@ -18,8 +18,14 @@ private _targetPoint = getMarkerPos _targetArea;
 private _targetSize = getMarkerSize _targetArea;
 _targetSize = (_targetSize select 0) max (_targetSize select 1);
 
+private _fleeingSides = [_side];
+if(_side == Occupants) then
 {
-    if((_side == side (group _x)) && {_x inArea _targetArea}) then
+    _fleeingSides pushBack civilian;
+};
+
+{
+    if(((side (group _x)) in _fleeingSides) && {_x inArea _targetArea}) then
     {
         private _dir = _targetPoint getDir (getPos _x);
         private _pos = _x getPos [_dir, (_targetSize + 10 + random 25)];
