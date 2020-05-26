@@ -1,5 +1,6 @@
 params ["_side", "_vehicles", "_groups", "_posDestination", "_supportName"];
 
+private _fileName = "SUP_QRFRoutine";
 //Prepare despawn conditions
 private _endTime = time + 2700;
 private _qrfHasArrived = false;
@@ -19,7 +20,7 @@ while {true} do
             [2, format ["%1 has arrived with at least one vehicle, attacking now", _supportName], _fileName] call A3A_fnc_log;
             _qrfHasArrived = true;
 
-            private _textMarker = createMarker [format ["%1_text", _supportName], _targetPos];
+            private _textMarker = createMarker [format ["%1_text", _supportName], _posDestination];
             _textMarker setMarkerShape "ICON";
             _textMarker setMarkerType "mil_dot";
             _textMarker setMarkerText "QRF";
@@ -67,12 +68,13 @@ while {true} do
     };
 };
 
+deleteMarker format ["%1_text", _supportName];
 {
     [_x] spawn A3A_fnc_VEHDespawner;
-} forEach _vehicle;
+} forEach _vehicles;
 
 {
     [_x] spawn A3A_fnc_groupDespawner;
 } forEach _groups;
 
-[_supportName] call A3A_fnc_endSupport;
+[_supportName, _side] call A3A_fnc_endSupport;

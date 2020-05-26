@@ -210,6 +210,7 @@ class A3A
 		class createSDKGarrisons {};
 		class createSDKgarrisonsTemp {};
 		class createUnit {};
+        class createVehicleQRFBehaviour {};
 		class cycleSpawn {};
 		class FIAinitBases {};
 		class findSpawnPosition {};

@@ -36,8 +36,7 @@ switch (_supportType) do
 {
     case ("QRF"):
     {
-        //["RadioIntercepted", ["QRF incoming"]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
-        //_supportMarker setMarkerText "QRF";
+        _supportMarker = [_side, _supportPos, _supportName] call A3A_fnc_SUP_QRF;
     };
     case ("AIRSTRIKE"):
     {

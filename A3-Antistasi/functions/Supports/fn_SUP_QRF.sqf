@@ -1,5 +1,3 @@
-#if (!isServer and hasInterface) exitWith {};
-
 /*  Sends a QRF force towards the given position
 
     Execution on: Server
@@ -146,29 +144,21 @@ if(_side == Invaders) then
 {
     _targetMarker setMarkerColor colorInvaders;
 };
+_targetMarker setMarkerAlpha 0;
 
 //Base selected, select units now
 private _vehicles = [];
 private _groups = [];
-private _roads = [];
+private _landPosBlacklist = [];
 private _vehicleCount = if(_side == Occupants) then
 {
     (aggressionOccupants/16)
-    + ([0, 2] select _super)
+    + ([-0.5, 0, 0.5] select (skillMult - 1))
 }
 else
 {
     (aggressionInvaders/16)
-    + ([0, 3] select _super)
-};
-
-if(skillMult == 1) then
-{
-    _vehicleCount = _vehicleCount - 0.5;
-};
-if(skillMult == 3) then
-{
-    _vehicleCount = _vehicleCount + 0.5;
+    + ([0, 0.5, 1.5] select (skillMult - 1))
 };
 _vehicleCount = (round (_vehicleCount)) max 1;
 
@@ -184,11 +174,11 @@ if ((_posOrigin distance2D _posDestination < distanceForLandAttack) && {[_posOri
     private _index = -1;
 	if (_markerOrigin in outposts) then
     {
-        [_markerOrigin, 60] call A3A_fnc_addTimeForIdle
+        [_markerOrigin, 60] call A3A_fnc_addTimeForIdle;
     }
     else
     {
-        [_markerOrigin, 30] call A3A_fnc_addTimeForIdle
+        [_markerOrigin, 30] call A3A_fnc_addTimeForIdle;
         _index = airportsX find _markerOrigin;
     };
 	private _spawnPoint = objNull;
@@ -230,7 +220,8 @@ if ((_posOrigin distance2D _posDestination < distanceForLandAttack) && {[_posOri
 		_groups pushBack _crewGroup;
 		_vehicles pushBack _vehicle;
 
-		if ((([_vehicleType, true] BIS_fnc_crewCount) - ([_vehicleType, false] call BIS_fnc_crewCount)) > 0) then
+        private _cargoGroup = grpNull;
+		if ((([_vehicleType, true] call BIS_fnc_crewCount) - ([_vehicleType, false] call BIS_fnc_crewCount)) > 0) then
 		{
             //Vehicle is able to transport units
 			private _groupType = if (_typeOfAttack == "Normal") then
@@ -248,14 +239,14 @@ if ((_posOrigin distance2D _posDestination < distanceForLandAttack) && {[_posOri
 					if (_side == Occupants) then {groupsNATOAT} else {groupsCSATAT}
 				};
 			};
-			private _cargoGroup = [_posOrigin,_side,_groupType] call A3A_fnc_spawnGroup;
+			_cargoGroup = [_posOrigin,_side,_groupType] call A3A_fnc_spawnGroup;
 			{
                 _x assignAsCargo _vehicle;
                 _x moveInCargo _vehicle;
                 if !(isNull objectParent _x) then
                 {
                     [_x] call A3A_fnc_NATOinit;
-                    _x setVariable ["originX",_base];
+                    _x setVariable ["originX",_markerOrigin];
                 }
                 else
                 {
@@ -264,7 +255,7 @@ if ((_posOrigin distance2D _posDestination < distanceForLandAttack) && {[_posOri
             } forEach units _cargoGroup;
             _groups pushBack _cargoGroup;
 		};
-        //[_vehicle, _crewGroup, _cargoGroup, _posDestination, _posOrigin] spawn A3A_fnc_createVehicleQRFBehaviour;
+        _landPosBlacklist = [_vehicle, _crewGroup, _cargoGroup, _posDestination, _posOrigin, _landPosBlacklist] call A3A_fnc_createVehicleQRFBehaviour;
 		[3, format ["QRF vehicle %1 sent with %2 soldiers", typeof _vehicle, count crew _vehicle], _filename] call A3A_fnc_log;
 	};
 	[2, format ["%1 QRF sent with %2 vehicles, callsign %3", _typeOfAttack, count _vehicles, _supportName], _filename] call A3A_fnc_log;
@@ -310,7 +301,8 @@ else
             _vehicle setVelocityModelSpace [((velocityModelSpace _vehicle) select 0) + 0,((velocityModelSpace _vehicle) select 1) + 150,((velocityModelSpace _vehicle) select 2) + 50]
         };
 
-		if ((([_vehicleType, true] BIS_fnc_crewCount) - ([_vehicleType, false] call BIS_fnc_crewCount)) > 0) then
+        private _cargoGroup = grpNull;
+		if ((([_vehicleType, true] call BIS_fnc_crewCount) - ([_vehicleType, false] call BIS_fnc_crewCount)) > 0) then
 		{
 			private _groupType = if (_typeOfAttack == "Normal") then
 			{
@@ -327,14 +319,14 @@ else
 					if (_side == Occupants) then {groupsNATOAT} else {groupsCSATAT}
 				};
 			};
-			private _cargoGroup = [_posOrigin,_side,_groupType] call A3A_fnc_spawnGroup;
+			_cargoGroup = [_posOrigin,_side,_groupType] call A3A_fnc_spawnGroup;
 			{
                 _x assignAsCargo _vehicle;
                 _x moveInCargo _vehicle;
                 if !(isNull (objectParent _x)) then
                 {
                     [_x] call A3A_fnc_NATOinit;
-                    _x setVariable ["originX",_side];
+                    _x setVariable ["originX", _markerOrigin];
 				}
                 else
                 {
@@ -344,7 +336,7 @@ else
 			_groups pushBack _cargoGroup;
 		};
 		sleep 30;
-        //[_vehicle, _crewGroup, _cargoGroup, _posDestination, _posOrigin] spawn A3A_fnc_createVehicleQRFBehaviour;
+        _landPosBlacklist = [_vehicle, _crewGroup, _cargoGroup, _posDestination, _posOrigin, _landPosBlacklist] call A3A_fnc_createVehicleQRFBehaviour;
 		[3, format ["QRF vehicle %1 sent with %2 soldiers", typeof _vehicle, count crew _vehicle], _filename] call A3A_fnc_log;
 	};
 	[2, format ["%1 QRF sent with %2 vehicles, callsign %3", _typeOfAttack, count _vehicles, _supportName], _filename] call A3A_fnc_log;
