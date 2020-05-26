@@ -117,8 +117,6 @@ class A3A
 		class airbomb {};
 		class airdrop {};
 		class AIreactOnKill {};
-		class airstrike {};
-		class artillery {};
 		class artySupport {};
 		class askHelp {};
 		class assaultBuilding {};

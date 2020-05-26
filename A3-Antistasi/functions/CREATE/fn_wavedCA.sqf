@@ -576,12 +576,9 @@ while {(_waves > 0)} do
 				_rnd = if (_mrkDestination in airportsX) then {if ({sidesX getVariable [_x,sideUnknown] == Invaders} count airportsX == 1) then {8} else {round random 4}} else {round random 2};
 				for "_i" from 0 to _rnd do
 					{
-					if ([_plane] call A3A_fnc_vehAvailable) then
-						{
                             private _reveal = [getMarkerPos _mrkDestination, _sideX] call A3A_fnc_calculateSupportCallReveal;
                             [getMarkerPos _mrkDestination, 4, ["AIRSTRIKE"], _sideX, _reveal] spawn A3A_fnc_sendSupport;
 						sleep 30;
-						};
 					};
 				};
 			};
