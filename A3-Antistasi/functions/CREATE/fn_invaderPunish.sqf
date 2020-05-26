@@ -17,7 +17,8 @@ diag_log format ["[Antistasi] Launching CSAT Punish Against %1 from %2 (CSATpuni
 _nameDestination = [_attackDestination] call A3A_fnc_localizar;
 [[teamPlayer,civilian,Occupants],"invaderPunish",[format ["%2 is attacking innocent civilians in %1! Defend the city at all costs",_nameDestination,nameInvaders],format ["%1 Punishment",nameInvaders],_attackDestination],getMarkerPos _attackDestination,false,0,true,"Defend",true] call BIS_fnc_taskCreate;
 
-_nul = [_attackOrigin,_attackDestination,Invaders] spawn A3A_fnc_artillery;
+private _reveal = [_posDestination, Invaders] call A3A_fnc_calculateSupportCallReveal;
+[_posDestination, 4, ["MORTAR"], Invaders, _reveal] spawn A3A_fnc_sendSupport;
 private _sideTarget = if (sidesX getVariable [_attackDestination,sideUnknown] == Occupants) then {Occupants} else {teamPlayer};
 _missionExpireTime = time + 3600;
 
@@ -137,8 +138,8 @@ _soldiersSpawned = count _soldiers;
 if (tierWar >= 5) then {
 	for "_i" from 0 to round random 1 do {
 		if ([vehCSATPlane] call A3A_fnc_vehAvailable) then {
-			private _bombType = if (napalmEnabled) then {"NAPALM"} else {"HE"};
-			_nul = [_attackDestination,Invaders,_bombType] spawn A3A_fnc_airstrike;
+            private _reveal = [_posDestination, Invaders] call A3A_fnc_calculateSupportCallReveal;
+            [_posDestination, 4, ["AIRSTRIKE"], Invaders, _reveal] spawn A3A_fnc_sendSupport;
 			sleep 30;
 		};
 	};
