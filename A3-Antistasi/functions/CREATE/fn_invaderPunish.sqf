@@ -101,6 +101,7 @@ for "_i" from 1 to 3 do {
 _dataX = server getVariable _attackDestination;
 _numCiv = _dataX select 0;
 _numCiv = round (_numCiv /10);
+//Is this intended to be another attack or should that be a small attack instead?
 if (sidesX getVariable [_attackDestination,sideUnknown] == Occupants) then {[[_posDestination,Occupants,"",false],"A3A_fnc_patrolCA"] remoteExec ["A3A_fnc_scheduler",2]};
 if (_numCiv < 8) then {_numCiv = 8};
 

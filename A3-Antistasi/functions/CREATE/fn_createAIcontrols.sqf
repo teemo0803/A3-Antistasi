@@ -254,7 +254,6 @@ if (spawner getVariable _markerX != 2) then
 			_nul = [0,5,_positionX] remoteExec ["A3A_fnc_citySupportChange",2];
 			};
 		};
-	if (_winner == teamPlayer) then {[[_positionX,_sideX,"",false],"A3A_fnc_patrolCA"] remoteExec ["A3A_fnc_scheduler",2]};
 	};
 
 waitUntil {sleep 1;(spawner getVariable _markerX == 2)};

@@ -64,7 +64,8 @@ garrison setVariable [format ["%1_requested", _markerX], [], true];
 if (_winner == teamPlayer) then
 {
 	_super = if (_markerX in airportsX) then {true} else {false};
-	[[_markerX,_looser,"",_super],"A3A_fnc_patrolCA"] call A3A_fnc_scheduler;
+    //Disable the garantueed qrf for marker captures, the units there will call them in anyways
+	//[[_markerX,_looser,"",_super],"A3A_fnc_patrolCA"] call A3A_fnc_scheduler;
 	//sleep 15;
 	[[_markerX],"A3A_fnc_autoGarrison"] call A3A_fnc_scheduler;
 }

@@ -1,4 +1,4 @@
-#if (!isServer and hasInterface) exitWith {};
+if (!isServer and hasInterface) exitWith {};
 
 /*  Sends a QRF force towards the given position
 

@@ -272,16 +272,6 @@ else
 									if ([_LeaderX] call A3A_fnc_isMember) then {[[],"A3A_fnc_attackHQ"] remoteExec ["A3A_fnc_scheduler",2]};
 									};
 								};
-							}
-						else
-							{
-							_bases = airportsX select {(getMarkerPos _x distance _mortarX < distanceForAirAttack) and ([_x,true] call A3A_fnc_airportCanAttack) and (sidesX getVariable [_x,sideUnknown] != teamPlayer)};
-							if (count _bases > 0) then
-								{
-								_base = [_bases,_positionX] call BIS_fnc_nearestPosition;
-								_sideX = sidesX getVariable [_base,sideUnknown];
-								[[getPosASL _mortarX,_sideX,"Normal",false],"A3A_fnc_patrolCA"] remoteExec ["A3A_fnc_scheduler",2];
-								};
 							};
 						};
 					_mortarX setVariable ["detection",[_positionX,_chance]];
