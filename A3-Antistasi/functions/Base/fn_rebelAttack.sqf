@@ -72,8 +72,8 @@ if (gameMode != 1) then
 //For low level attacks only occupants are able to attack only rebels
 if ((tierWar < 2) and (gameMode <= 2)) then
 {
-	//_possibleStartBases = _possibleStartBases select {(sidesX getVariable [_x,sideUnknown] == Occupants)};
-	//_possibleTargets = _possibleTargets select {sidesX getVariable [_x,sideUnknown] == teamPlayer};
+	_possibleStartBases = _possibleStartBases select {(sidesX getVariable [_x,sideUnknown] == Occupants)};
+	_possibleTargets = _possibleTargets select {sidesX getVariable [_x,sideUnknown] == teamPlayer};
 };
 
 //On low level remove cities from target list
