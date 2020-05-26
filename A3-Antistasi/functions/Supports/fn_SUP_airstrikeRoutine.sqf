@@ -2,7 +2,7 @@ params ["_side", "_strikePlane", "_strikeGroup", "_airport", "_targetPos", "_sup
 
 private _fileName = "SUP_airstrikeRoutine";
 //Sleep to simulate preparetion time
-private _sleepTime = 10; //random (200 - ((tierWar - 1) * 20));
+private _sleepTime = random (200 - ((tierWar - 1) * 20));
 while {_sleepTime > 0} do
 {
     sleep 1;

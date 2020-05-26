@@ -19,7 +19,7 @@ params ["_mortar", "_crewGroup", "_supportName", "_side"];
 private _fileName = "SUP_mortarRoutine";
 
 //Sleep to simulate the time it would need to set the support up
-//sleep (random (300 - (27 * tierWar)));
+sleep (random (300 - (30 * (tierWar - 1))));
 
 //Decrease number of rounds and time alive if aggro is low
 private _sideAggression = if(_side == Occupants) then {aggressionOccupants} else {aggressionInvaders};
