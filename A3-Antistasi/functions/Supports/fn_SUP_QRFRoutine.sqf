@@ -32,6 +32,7 @@ while {true} do
             {
                 _textMarker setMarkerColor colorInvaders;
             };
+            _textMarker setMarkerAlpha 0;
             [_reveal, _posDestination, _side, "QRF", format ["%1_coverage", _supportName], _textMarker] spawn A3A_fnc_showInterceptedSupportCall;
         };
     }

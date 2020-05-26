@@ -174,11 +174,11 @@ if ((_posOrigin distance2D _posDestination < distanceForLandAttack) && {[_posOri
     private _index = -1;
 	if (_markerOrigin in outposts) then
     {
-        [_markerOrigin, 60] call A3A_fnc_addTimeForIdle;
+        [_markerOrigin, 20] call A3A_fnc_addTimeForIdle;
     }
     else
     {
-        [_markerOrigin, 30] call A3A_fnc_addTimeForIdle;
+        [_markerOrigin, 10] call A3A_fnc_addTimeForIdle;
         _index = airportsX find _markerOrigin;
     };
 	private _spawnPoint = objNull;
@@ -203,7 +203,22 @@ if ((_posOrigin distance2D _posDestination < distanceForLandAttack) && {[_posOri
 
 	for "_i" from 1 to _vehicleCount do
 	{
-		private _vehicleType = selectRandomWeighted _vehPool;
+        private _vehicleType = "";
+        if(_vehPool isEqualTo []) then
+        {
+            if(_side == Occupants) then
+            {
+                _vehicleType = selectRandom (vehNATOTransportHelis + vehNATOTrucks);
+            }
+            else
+            {
+                _vehicleType = selectRandom (vehCSATTransportHelis + vehCSATTrucks);
+            };
+        }
+        else
+        {
+            _vehicleType = selectRandomWeighted _vehPool;
+        };
         private _vehicle = [_vehicleType, _pos, 100, 5, true] call A3A_fnc_safeVehicleSpawn;
         private _crewGroup = createVehicleCrew _vehicle;
 
@@ -255,7 +270,7 @@ if ((_posOrigin distance2D _posDestination < distanceForLandAttack) && {[_posOri
             } forEach units _cargoGroup;
             _groups pushBack _cargoGroup;
 		};
-        _landPosBlacklist = [_vehicle, _crewGroup, _cargoGroup, _posDestination, _posOrigin, _landPosBlacklist] call A3A_fnc_createVehicleQRFBehaviour;
+        _landPosBlacklist = [_vehicle, _crewGroup, _cargoGroup, _posDestination, _markerOrigin, _landPosBlacklist] call A3A_fnc_createVehicleQRFBehaviour;
 		[3, format ["QRF vehicle %1 sent with %2 soldiers", typeof _vehicle, count crew _vehicle], _filename] call A3A_fnc_log;
 	};
 	[2, format ["%1 QRF sent with %2 vehicles, callsign %3", _typeOfAttack, count _vehicles, _supportName], _filename] call A3A_fnc_log;
@@ -263,16 +278,31 @@ if ((_posOrigin distance2D _posDestination < distanceForLandAttack) && {[_posOri
 else
 {
     //The attack will be carried out by air vehicles only
-	[_markerOrigin, 20] call A3A_fnc_addTimeForIdle;
+	[_markerOrigin, 10] call A3A_fnc_addTimeForIdle;
 	private _vehPool = [_side, ["LandVehicle"]] call A3A_fnc_getVehiclePoolForQRFs;
 	for "_i" from 1 to _vehicleCount do
 	{
-		private _vehicleType = selectRandomWeighted _vehPool;
+        private _vehicleType = "";
+        if(_vehPool isEqualTo []) then
+        {
+            if(_side == Occupants) then
+            {
+                _vehicleType = selectRandom vehNATOTransportHelis;
+            }
+            else
+            {
+                _vehicleType = selectRandom vehCSATTransportHelis;
+            };
+        }
+        else
+        {
+            _vehicleType = selectRandomWeighted _vehPool;
+        };
 		private _pos = _posOrigin;
 		private _ang = 0;
 
         //Search for runway
-		private _size = [_side] call A3A_fnc_sizeMarker;
+		private _size = [_markerOrigin] call A3A_fnc_sizeMarker;
 		private _buildings = nearestObjects [_posOrigin, ["Land_LandMark_F","Land_runway_edgelight"], _size / 2];
 		if (count _buildings > 1) then
 		{
@@ -336,7 +366,7 @@ else
 			_groups pushBack _cargoGroup;
 		};
 		sleep 30;
-        _landPosBlacklist = [_vehicle, _crewGroup, _cargoGroup, _posDestination, _posOrigin, _landPosBlacklist] call A3A_fnc_createVehicleQRFBehaviour;
+        _landPosBlacklist = [_vehicle, _crewGroup, _cargoGroup, _posDestination, _markerOrigin, _landPosBlacklist] call A3A_fnc_createVehicleQRFBehaviour;
 		[3, format ["QRF vehicle %1 sent with %2 soldiers", typeof _vehicle, count crew _vehicle], _filename] call A3A_fnc_log;
 	};
 	[2, format ["%1 QRF sent with %2 vehicles, callsign %3", _typeOfAttack, count _vehicles, _supportName], _filename] call A3A_fnc_log;

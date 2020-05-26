@@ -224,12 +224,12 @@ class A3A
 		class minefieldAAF {};
 		class mortarPos {};
 		class NATOinit {};
-		class patrolCA {};
 		class patrolReinf {};
 		class reinforcementsAI {};
 		class remoteBattle {};
 		class removeVehFromPool {};
 		class safeVehicleSpawn {};
+        class singleAttack {};
 		class spawnGroup {};
 		class vehAvailable {};
 		class VEHdespawner {};

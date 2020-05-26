@@ -1,6 +1,8 @@
 params ["_vehicle", "_crewGroup", "_cargoGroup", "_posDestination", "_markerOrigin", "_landPosBlacklist"];
 
 private _landPos = [_posDestination, getPos _vehicle, false, _landPosBlacklist] call A3A_fnc_findSafeRoadToUnload;
+private _posOrigin = getMarkerPos _markerOrigin;
+_posOrigin set [2, 50];
 
 switch (true) do
 {
@@ -117,7 +119,7 @@ switch (true) do
         {
             if ((typeOf _vehicle) in vehFastRope) then
             {
-                [_vehicle, _cargoGroup, _posDestination getPos [100 + random 50, random 360], getMarkerPos _markerOrigin, _crewGroup] spawn A3A_fnc_fastrope;
+                [_vehicle, _cargoGroup, _posDestination, _posOrigin, _crewGroup] spawn A3A_fnc_fastrope;
             }
             else
             {

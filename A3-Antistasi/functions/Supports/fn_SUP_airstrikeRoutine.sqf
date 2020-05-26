@@ -27,6 +27,7 @@ else
 {
     _textMarker setMarkerColor colorInvaders;
 };
+_textMarker setMarkerAlpha 0;
 [_reveal, _targetPos, _side, "Airstrike", format ["%1_coverage", _supportName], _textMarker] spawn A3A_fnc_showInterceptedSupportCall;
 [_side, format ["%1_coverage", _supportName]] spawn A3A_fnc_clearTargetArea;
 

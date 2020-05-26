@@ -99,7 +99,7 @@ if(!(_attack == "No")) then
     {
         _attackType = selectRandomWeighted ["Normal", 0.6, "Tank", 0.4];
     };
-    [[_marker, _side, _attackType, _isLargeAttack],"A3A_fnc_patrolCA"] remoteExec ["A3A_fnc_scheduler",2];
+    [[_marker, _side, _isLargeAttack],"A3A_fnc_singleAttack"] remoteExec ["A3A_fnc_scheduler",2];
 };
 
 _intel setVariable ["ActionNeeded", false, true];

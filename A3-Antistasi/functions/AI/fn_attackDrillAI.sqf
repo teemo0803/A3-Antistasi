@@ -44,6 +44,7 @@ if (count _mortarsX == 1) then
 	_mortarsX append ((units _groupX) select {_x getVariable ["typeOfSoldier",""] == "StaticBase"});
 	if (count _mortarsX > 1) then
 		{
+            //That never happens, the two previous ifs exclude each other
 		//_mortarsX spawn A3A_fnc_mortarDrill;
 		_mortarsX spawn A3A_fnc_staticMGDrill;//no olvides borrar la otra función si esto funciona
 		}
@@ -140,7 +141,7 @@ while {true} do
 				{
 				if (_allNearFriends findIf {(_x call A3A_fnc_typeOfSoldier == "AAMan") or (_x call A3A_fnc_typeOfSoldier == "StaticGunner")} == -1) then
 					{
-					if (_sideX != teamPlayer) then {[[getPosASL _LeaderX,_sideX,"Air",false],"A3A_fnc_patrolCA"] remoteExec ["A3A_fnc_scheduler",2]};
+					if (_sideX != teamPlayer) then {[_groupX, ["SAM", "AAPLANE", "GUNSHIP"], _air] spawn A3A_fnc_callForSupport;};
 					};
 				//_nuevataskX = ["Hide",_soldiers - (_soldiers select {(_x call A3A_fnc_typeOfSoldier == "AAMan") or (_x getVariable ["typeOfSoldier",""] == "StaticGunner")})];
 				_groupX setVariable ["taskX","Hide"];
@@ -157,7 +158,7 @@ while {true} do
 						}
 					else
 						{
-						if (_sideX != teamPlayer) then {[[getPosASL _LeaderX,_sideX,"Tank",false],"A3A_fnc_patrolCA"] remoteExec ["A3A_fnc_scheduler",2]};
+						if (_sideX != teamPlayer) then {[_groupX, ["CAS", "GUNSHIP"], _tanksX] spawn A3A_fnc_callForSupport;};
 						};
 					};
 				//_nuevataskX = ["Hide",_soldiers - (_soldiers select {(_x getVariable ["typeOfSoldier",""] == "ATMan")})];
@@ -168,7 +169,7 @@ while {true} do
 				{
 				if !(isNull _nearX) then
 					{
-					if (_sideX != teamPlayer) then {[[getPosASL _LeaderX,_sideX,"Normal",false],"A3A_fnc_patrolCA"] remoteExec ["A3A_fnc_scheduler",2]};
+					if (_sideX != teamPlayer) then {[_groupX, ["QRF", "MORTAR", "AIRSTRIKE"], _nearX] spawn A3A_fnc_callForSupport;};
 					_mortarX = _groupX getVariable ["mortarsX",objNull];
 					if (!(isNull _mortarX) and ([_mortarX] call A3A_fnc_canFight)) then
 						{

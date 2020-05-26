@@ -82,7 +82,7 @@ if (_sideX == Invaders) then
 			if (count _airportsX > 0) then
 				{
 				_airportX = [_airportsX, position houseX] call BIS_fnc_nearestPosition;
-				[[getPosASL _houseX,_airportX,"",false],"A3A_fnc_patrolCA"] remoteExec ["A3A_fnc_scheduler",2];
+				[[getPosASL _houseX,_airportX,false],"A3A_fnc_singleAttack"] remoteExec ["A3A_fnc_scheduler",2];
 				};
 			};
 		};
