@@ -29,13 +29,15 @@ if (gameMode <3) then
 };
 if ((_allAIUnits + 4 > maxUnits) || (_allUnitsSide + 4 > _maxUnitsSide)) exitWith
 {
-    [2, format ["QRF to %1 cancelled because maximum unit count reached",_posDestination], _filename] call A3A_fnc_log
+    [2, format ["QRF to %1 cancelled because maximum unit count reached",_posDestination], _filename] call A3A_fnc_log;
+    ""
 };
 
 //If too foggy for anything abort here
 if ([_posDestination,false] call A3A_fnc_fogCheck < 0.3) exitWith
 {
-    [2, format ["%1 to %1 cancelled due to heavy fog", _supportName, _posDestination], _filename] call A3A_fnc_log
+    [2, format ["%1 to %1 cancelled due to heavy fog", _supportName, _posDestination], _filename] call A3A_fnc_log;
+    ""
 };
 
 //Search for nearby enemies
@@ -127,7 +129,22 @@ if !(_availableAirports isEqualTo []) then
 
 if (_markerOrigin == "") exitWith
 {
-    [2, format ["QRF to %1 cancelled because no usable bases in vicinity",_posDestination], _filename] call A3A_fnc_log
+    [2, format ["QRF to %1 cancelled because no usable bases in vicinity",_posDestination], _filename] call A3A_fnc_log;
+    ""
+};
+
+private _targetMarker = createMarker [format ["%1_coverage", _supportName], _posDestination];
+
+_targetMarker setMarkerShape "ELLIPSE";
+_targetMarker setMarkerBrush "Grid";
+_targetMarker setMarkerSize [300, 300];
+if(_side == Occupants) then
+{
+    _targetMarker setMarkerColor colorOccupants;
+};
+if(_side == Invaders) then
+{
+    _targetMarker setMarkerColor colorInvaders;
 };
 
 //Base selected, select units now
@@ -333,62 +350,5 @@ else
 	[2, format ["%1 QRF sent with %2 vehicles, callsign %3", _typeOfAttack, count _vehicles, _supportName], _filename] call A3A_fnc_log;
 };
 
-//Prepare despawn conditions
-private _endTime = time + 2700;
-private _qrfHasArrived = false;
-private _qrfHasWon = false;
-
-while {true} do
-{
-    if !(_qrfHasArrived) then
-    {
-        //Not yet arrived
-        private _index = _vehicles findIf {getPos _x distance2D _posDestination < 300};
-        if(_index != -1) then
-        {
-            [2, format ["%1 has arrived with at least one vehicle, attacking now", _supportName], _fileName] call A3A_fnc_log;
-            _qrfHasArrived = true;
-        };
-    }
-    else
-    {
-        //QRF in combat, check if won
-        private _nearbyEnemyGroups = allGroups select {getPos (leader _x) distance2D _posDestination < 300};
-        if(count _nearbyEnemyGroups == 0) then
-        {
-            [2, format ["%1 has cleared the area, starting despawn routines", _supportName], _fileName] call A3A_fnc_log;
-            _qrfHasWon = true;
-        };
-    };
-    if(_qrfHasWon) exitWith {};
-
-    private _groupAlive = false;
-    {
-        private _index = (units _x) findIf {[_x] call A3A_fnc_canFight};
-        if(_index != -1) exitWith
-        {
-            _groupAlive = true;
-        };
-    } forEach _groups;
-
-    if !(_groupAlive) exitWith
-    {
-        [2, format ["%1 has been eliminated, starting despawn routines", _supportName], _fileName] call A3A_fnc_log;
-    };
-
-    sleep 15;
-    if(_endTime < time) exitWith
-    {
-        [2, format ["%1 timed out without winning or losing, starting despawn routines", _supportName], _fileName] call A3A_fnc_log;
-    };
-};
-
-{
-    [_x] spawn A3A_fnc_VEHDespawner;
-} forEach _vehicle;
-
-{
-    [_x] spawn A3A_fnc_groupDespawner;
-} forEach _groups;
-
-[_supportName] call A3A_fnc_endSupport;
+[_side, _vehicles, _groups, _posDestination, _supportName] spawn A3A_fnc_SUP_QRFRoutine;
+_targetMarker;
