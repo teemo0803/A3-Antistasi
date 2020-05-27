@@ -36,8 +36,8 @@ else
     }
     else
     {
-        private _mortarChange = 70 - (20 * (6 - tierWar));
-        _isMortar = selectRandomWeighted [true, _mortarChange, false, (1 - _mortarChange)];
+        private _mortarChange = 70 - (20 * (tierWar - 6));
+        _isMortar = selectRandomWeighted [true, _mortarChange, false, (100 - _mortarChange)];
         if(_isMortar) then
         {
             _mortarType = if(_side == Occupants) then {NATOMortar} else {CSATMortar};
