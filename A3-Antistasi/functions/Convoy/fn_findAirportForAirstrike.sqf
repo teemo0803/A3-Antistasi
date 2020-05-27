@@ -39,6 +39,15 @@ _possibleAirports = _possibleAirports select
     {(getMarkerPos _x distance _destinationPos > distanceSPWN)}}} //Not closer than spawn distance
 };
 
+if(_side == Occupants) then
+{
+    _possibleAirports pushBack "NATO_carrier";
+}
+else
+{
+    _possibleAirports pushBack "CSAT_carrier";
+};
+
 //Sort by max distance and killzones (TODO what are killzones and how are they working??)
 _suitableAirports = [];
 {
