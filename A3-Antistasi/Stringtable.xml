@@ -9,6 +9,7 @@
         <Russian>загрузить предыдущее персональное сохранение?</Russian>
         <German>Letzten persönlichen Spielstand laden?</German>
         <Czech>Načíst předchozí osobní relaci?</Czech>
+        <Chinesesimp>加载以前的个人保存？</Chinesesimp>
       </Key>
     </Container>
     <Container name="dialog_headquarters">
