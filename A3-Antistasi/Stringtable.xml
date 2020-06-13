@@ -442,7 +442,7 @@
         <Russian>Инженер</Russian>
         <German>Ingenieur rekrutieren</German>
         <Czech>Inženýr</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>招募工程师</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_unit_recruit_explosive_text">
         <Original>Recruit Bomb Specialist</Original>
@@ -451,7 +451,7 @@
         <Russian>Подрывник</Russian>
         <German>Sprengstoffspezialist rekrutieren</German>
         <Czech>Specialista na výbušniny</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>招募炸弹专家</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_unit_recruit_grenadier_text">
         <Original>Recruit Grenadier</Original>
@@ -460,7 +460,7 @@
         <Russian>Стрелок с ГП</Russian>
         <German>Grenadier rekrutieren</German>
         <Czech>Granátometník</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>招募榴弹兵</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_unit_recruit_marksman_text">
         <Original>Recruit Marksman</Original>
@@ -469,7 +469,7 @@
         <Russian>Снайпер</Russian>
         <German>Scharfschütze rekrutieren</German>
         <Czech>Odstřelovač</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>招募精准射手</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_unit_recruit_antitank_text">
         <Original>Recruit Antitank Solider</Original>
@@ -478,7 +478,7 @@
         <Russian>Гранатомётчик</Russian>
         <German>Panzerabwehrsoldat rekrutieren</German>
         <Czech>Raketometník</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>招募反坦克兵</Chinesesimp>
       </Key>
     </Container>
     <Container name="dialog_generic">
@@ -492,7 +492,7 @@
         <Russian>Назад</Russian>
         <German>Zurück</German>
         <Czech>Zpět</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>返回</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_generic_button_back_tooltip">
         <Original>Back</Original>
@@ -501,7 +501,7 @@
         <Russian>Назад</Russian>
         <German>Zurück</German>
         <Czech>Zpět</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>返回</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_generic_button_yes_text">
         <Original>Yes</Original>
@@ -510,7 +510,7 @@
         <Russian>Да</Russian>
         <German>Ja</German>
         <Czech>Ano</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>是</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_generic_button_no_text">
         <Original>No</Original>
@@ -519,7 +519,7 @@
         <Russian>Нет</Russian>
         <German>Nein</German>
         <Czech>Ne</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>否</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_generic_button_yes_tooltip">
         <Original />
@@ -536,7 +536,7 @@
         <Russian>Сообщество Antistasi</Russian>
         <German>Die offizielle Antistasi Community und Barbolani</German>
         <Czech>Oficiální komunita Antistasi a Barbolani</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi官方社区和Barbolani</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_credits_generic_overview_text">
         <Original>Build FIA Army from scratch and defeat the AAF and CSAT forces in a whole map Dynamic Mission.</Original>
@@ -545,7 +545,7 @@
         <Russian>Создайте свою армию с нуля и заставьте силы AAF и CSAT отступить в Динамической Миссии на всей карте.</Russian>
         <German>Formiere eine FIA Armee und bezwinge die AAF und CSAT Kräfte in einer dynamischen Mission auf der gesamten Karte.</German>
         <Czech>Postavte armádu FIA od nuly a porazte síly AAF a CSAT v celé mapě dynamické misi.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>白手起家建立FIA军队,在一个完整的地图动态任务中击败AAF和CSAT部队.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_credits_generic_missionname_text">
         <Original>Antistasi Altis</Original>
@@ -554,7 +554,6 @@
         <Russian>Antistasi Альтис</Russian>
         <German>Antistasi Altis</German>
         <Czech>Antistasi Altis</Czech>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_credits_generic_missiondesc_text">
         <Original>Be a Resistance leader, be a hero.</Original>
@@ -563,7 +562,7 @@
         <Russian>Быть Лидером Сопротивления значит быть героем. </Russian>
         <German>Sei ein Anführer des Widerstands, sei ein Held.</German>
         <Czech>Staňte se vůdcem odboje, buďte hrdinou.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>成为抵抗运动的领袖,成为英雄.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_credits_generic_version_text">
         <Original>2.2.2</Original>
@@ -577,7 +576,7 @@
         <Russian>Купить Технику</Russian>
         <German>Fahrzeug kaufen</German>
         <Czech>Koupit vozidlo</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>购买载具</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_buy_tooltip">
         <Original>Allows you to buy a vehicle</Original>
@@ -586,7 +585,7 @@
         <Russian>Позволяет Вам купить технику</Russian>
         <German>Ermöglicht dir den Kauf von Fahrzeugen.</German>
         <Czech>Umožňuje nákup vozidel</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>允许您购买车辆</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_civie_text">
         <Original>Civilian Vehicle</Original>
@@ -595,7 +594,7 @@
         <Russian>Гражданская техника</Russian>
         <German>Zivilfahrzeuge</German>
         <Czech>Civilní vozidlo</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>民用载具</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_civie_tooltip">
         <Original>Civilian vehicles will allow you to travel in Undercover mode, while you stay close to roads and not entering bases, outposts and roadblocks.</Original>
@@ -604,7 +603,7 @@
         <Russian>Гражданская техника позволяет Вам передвигаться как гражданскому лицу, пока Вы движетесь по дорогам вдалеке от баз, опорных пунктов и блокпостов.</Russian>
         <German>Zivilfahrzeuge erlaube dir unentdeckt zu reisen, sofern du nahe der Straßen bleibst und in keine Basen, Außenposten oder Straßensperren einfährst.</German>
         <Czech>Civilní vozidla vám umožní cestovat v režimu "utajení", zatímco zůstanete v blízkosti silnic a ne v blízkosti základen a zátarasů.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>民用载具允许您在卧底模式下行驶,同时您要靠近道路,不要进入基地、前哨站和路障.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_text">
         <Original>Military Vehicle</Original>
@@ -613,7 +612,7 @@
         <Russian>Военная Техника</Russian>
         <German>Militärfahrzeuge</German>
         <Czech>Vojenská vozidla</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>军用载具</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_tooltip">
         <Original>Wide variety of available faction vehicles</Original>
@@ -622,7 +621,7 @@
         <Russian>Широкий выбор доступной техники вашей стороны</Russian>
         <German>Eine große Auswahl an verfügbaren Fraktionsfahrzeugen.</German>
         <Czech>Široký výběr dostupných frakčních vozidel</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>各种各样的派系载具</Chinesesimp>
       </Key>
     </Container>
     <Container name="dialog_vehicle_purchase_military">
@@ -633,7 +632,7 @@
         <Russian>Квадроцикл</Russian>
         <German>Quad</German>
         <Czech>Čtyřkolka</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>四轮摩托车</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_mg_text">
         <Original>Machine Gun</Original>
@@ -642,7 +641,7 @@
         <Russian>Станковый Пулемёт</Russian>
         <German>Maschinengewehr</German>
         <Czech>Kulomet</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>机枪</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_mg_tooltip">
         <Original>Buy Static Machinegun Emplacement</Original>
@@ -651,7 +650,7 @@
         <Russian>Купить Станковый Пулемёт</Russian>
         <German>Kaufe ein ein statisches Maschinengewehr.</German>
         <Czech>Koupit lafetovaný kulomet</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>购买放置固定重机枪</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_mortar_text">
         <Original>Mortar</Original>
@@ -660,7 +659,7 @@
         <Russian>Миномёт</Russian>
         <German>Mörser</German>
         <Czech>Minomet</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>迫击炮</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_mortar_tooltip">
         <Original>Buy Static Mortar Emplacement</Original>
@@ -669,7 +668,7 @@
         <Russian>Купить Станковый Миномёт</Russian>
         <German>Kaufe ein statisches Mörsergeschütz.</German>
         <Czech>Koupit lafetovaný minomet</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>购买放置迫击炮</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_aa_text">
         <Original>Static AA</Original>
@@ -678,7 +677,7 @@
         <Russian>Установка ПВО</Russian>
         <German>Flugabwehr</German>
         <Czech>Protiletadlový kanón</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>固定防空筒</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_aa_tooltip">
         <Original>Buy Static Anti-Air emplacement</Original>
@@ -687,7 +686,7 @@
         <Russian>Купить Станковую Установку ПВО</Russian>
         <German>Kaufe ein statisches Flugabwehrgeschütz.</German>
         <Czech>Koupit protiletadlový kanón</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>购买放置固定防空筒</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_at_text">
         <Original>Static AT</Original>
@@ -696,7 +695,7 @@
         <Russian>Станковый ПТРК</Russian>
         <German>Panzerabwehr</German>
         <Czech>Lafetovaný protitankový systém</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>固定反坦克筒</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_at_tooltip">
         <Original>Buy Static Anti-Tank emplacement</Original>
@@ -705,7 +704,7 @@
         <Russian>Купить Станковую Установку ПТРК</Russian>
         <German>Kaufe ein statisches Panzerabwehrgeschütz.</German>
         <Czech>Koupit lafetovaný protitankový systém</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>购买放置固定反坦克筒</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_truck_text">
         <Original>Pickup Truck</Original>
@@ -714,7 +713,7 @@
         <Russian>Пикап</Russian>
         <German>Pickup</German>
         <Czech>Pickup</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>小型货车</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_offroad_text">
         <Original>Offroad Truck</Original>
@@ -723,7 +722,7 @@
         <Russian>Грузовик</Russian>
         <German>Geländewagen</German>
         <Czech>Terénní vozidlo</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>越野皮卡</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_a_offroad_text">
         <Original>Armed Pickup Truck</Original>
@@ -732,7 +731,7 @@
         <Russian>Вооружённый Пикап</Russian>
         <German>Bewaffneter Pickup</German>
         <Czech>Ozbrojený pickup</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>武装皮卡</Chinesesimp>
       </Key>
     </Container>
     <Container name="dialog_vehicle_purchase_civ">
@@ -743,7 +742,7 @@
         <Russian>Гражданская Техника</Russian>
         <German>Kaufe Zivilfahrzeuge</German>
         <Czech>Koupit civilní vozidlo</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>购买民用载具</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_civ_offroad_text">
         <Original>Offroad</Original>
@@ -752,7 +751,7 @@
         <Russian>Пикап</Russian>
         <German>Geländewagen</German>
         <Czech>Terénní vozidlo</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>越野车</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_civ_truck_text">
         <Original>Truck</Original>
@@ -761,7 +760,7 @@
         <Russian>Грузовик</Russian>
         <German>Lastwagen</German>
         <Czech>Nákladní vůz</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>卡车</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_civ_boat_text">
         <Original>Boat</Original>
@@ -770,7 +769,7 @@
         <Russian>Лодка</Russian>
         <German>Boot</German>
         <Czech>Loď</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>汽艇</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_civ_heli_text">
         <Original>Helicopter</Original>
@@ -779,7 +778,7 @@
         <Russian>Вертолёт</Russian>
         <German>Helikopter</German>
         <Czech>Helikoptéra</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>直升机</Chinesesimp>
       </Key>
     </Container>
     <Container name="mission_info">
@@ -790,7 +789,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vedoucím odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_virolahti_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -799,7 +798,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vedoucím odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_stratis_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -808,25 +807,25 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vedoucím odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_altis_mapname_text">
         <Original>Antistasi - Liberation of Altis</Original>
         <English>Antistasi - Liberation of Altis</English>
         <French>Antistasi - Libération d'Altis</French>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - 解放Altis</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_virolahti_mapname_text">
         <Original>Antistasi - Liberation of Virolahti</Original>
         <English>Antistasi - Liberation of Virolahti</English>
         <French>Antistasi - Libération de Virolahti</French>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - 解放Altis</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_stratis_mapname_text">
         <Original>Antistasi - Liberation of Stratis</Original>
         <English>Antistasi - Liberation of Stratis</English>
         <French>Antistasi - Libération de Stratis</French>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - 解放Altis</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_altis_mapname_short_text">
         <Original>Antistasi Altis</Original>
@@ -846,12 +845,12 @@
       <Key ID="STR_antistasi_mission_info_altisB_mapname_text">
         <Original>Antistasi - Liberation of Altis (BLUFOR)</Original>
         <English>Antistasi - Liberation of Altis (BLUFOR)</English>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - 解放Altis（蓝军）</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_altisB_mapname_short_text">
         <Original>Antistasi Altis (BLUFOR)</Original>
         <English>Antistasi Altis (BLUFOR)</English>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - 解放Altis（蓝军）</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_altis_blurb_text">
         <Original>Because nothing is more important than Freedom.</Original>
@@ -859,14 +858,14 @@
         <French>Parce que rien n'est plus important que la Liberté.</French>
         <German>Weil nichts wichtiger ist als die Freiheit.</German>
         <Czech>Protože nic není důležitější než svoboda.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>因为没有什么比自由更重要</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_virolahti_blurb_text">
         <Original>Hunting in the woods</Original>
         <English>Hunting in the woods</English>
         <French>Chasse dans les bois</French>
         <Czech>Lov v lese</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>在树林中打猎</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_stratis_blurb_text">
         <Original>Because nothing is more important than Freedom.</Original>
@@ -874,7 +873,7 @@
         <French>Parce que rien n'est plus important que la Liberté.</French>
         <German>Weil nichts wichtiger ist als die Freiheit.</German>
         <Czech>Protože nic není důležitější než svoboda.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>因为没有什么比自由更重要</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tanoa_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -883,7 +882,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tanoa_mapname_text">
         <Original>Antistasi - Warlords of the Pacific</Original>
@@ -892,7 +891,7 @@
         <Russian>Antistasi - Хозяева Тихого Океана</Russian>
         <German>Antistasi - Warlords of the Pacific</German>
         <Czech>Antistasi - Vojevůdci Pacifiku</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - 太平洋军阀之战</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tanoa_mapname_short_text">
         <Original>Antistasi Tanoa</Original>
@@ -906,7 +905,7 @@
         <Russian>Бизнес и Война ...</Russian>
         <German>Geschäft und Krieg...</German>
         <Czech>Obchod a válka ...</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>商业与战争...</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_cherna_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -915,7 +914,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_chernawinter_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -924,7 +923,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_cherna_mapname_text">
         <Original>Antistasi - Kolkhoz in revolt</Original>
