@@ -20,6 +20,7 @@
         <Russian>Опции Штаба: Только для Командира</Russian>
         <German>HQ Optionen: Nur Kommandant</German>
         <Czech>Možnosti velitelství: Pouze pro velitel</Czech>
+        <Chinesesimp>总部选项：仅指挥官</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_close_text">
         <Original>Close</Original>
@@ -28,6 +29,7 @@
         <Russian>Закрыть</Russian>
         <German>Schließen</German>
         <Czech>Zavřít</Czech>
+        <Chinesesimp>关闭</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_withdraw_text">
         <Original>Grab 100€ from Pool</Original>
