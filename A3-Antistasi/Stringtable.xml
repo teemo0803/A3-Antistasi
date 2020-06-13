@@ -948,6 +948,7 @@
         <Russian>Между катком и наковальней.</Russian>
         <German>Zwischen einem Amboss und einer Dampfwalze.</German>
         <Czech>Mezi kovadlinou a parním válcem.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_chernawinter_blurb_text">
         <Original>Beware: Santa Claus is hunting you!</Original>
@@ -955,6 +956,7 @@
         <French>Attention: le Père Noël vous chasse!</French>
         <German>Vorsicht: Der Weihnachtsmann jagd dich!</German>
         <Czech>Pozor: Santa Claus tě loví!</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_malden_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -963,6 +965,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_malden_mapname_text">
         <Original>Antistasi - Liberation of Malden</Original>
@@ -971,6 +974,7 @@
         <Russian>Antistasi - Освобождение Мальдена</Russian>
         <German>Antistasi - Liberation of Malden</German>
         <Czech>Antistasi - Osvobození Maldenu</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_malden_mapname_short_text">
         <Original>Antistasi Malden</Original>
@@ -979,6 +983,7 @@
         <Russian>Antistasi Мальдена</Russian>
         <German>Antistasi Malden</German>
         <Czech>Antistasi Malden</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_malden_blurb_text">
         <Original>The island is small but packed with enemies. Look out!</Original>
@@ -987,6 +992,7 @@
         <Russian>Остров небольшой, но полон врагов. Будь начеку!</Russian>
         <German>Diese Insel ist klein aber voller Feinde. Sei auf der Hut!</German>
         <Czech>Ostrov je malý, ale plný nepřátel. Pozor!</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -995,6 +1001,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_mapname_text">
         <Original>Antistasi - The Baltic Revolution</Original>
@@ -1003,12 +1010,14 @@
         <Russian>Antistasi - Балтийская Революция</Russian>
         <German>Antistasi - The Baltic Revolution</German>
         <Czech>Antistasi - Baltská Revoluce</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_mapname_short_text">
         <Original>Antistasi Livonia</Original>
         <English>Antistasi Livonia</English>
         <German>Antistasi Livonia</German>
         <Czech>Antistasi Livonia</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_blurb_text">
         <Original>Stuck between two fronts.</Original>
@@ -1017,6 +1026,7 @@
         <Russian>Между двух фронтов.</Russian>
         <German>Gefangen zwischen zwei Fronten.</German>
         <Czech>Uvízl mezi dvěma frontami.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -1025,6 +1035,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_mapname_text">
         <Original>Antistasi - Battle of Kunduz</Original>
@@ -1033,6 +1044,7 @@
         <Russian>Antistasi - Битва за Кундуз</Russian>
         <German>Antistasi - Battle of Kunduz</German>
         <Czech>Antistasi - Bitva o Kunduz</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_mapname_short_text">
         <Original>Antistasi Kunduz</Original>
@@ -1041,6 +1053,7 @@
         <Russian>Antistasi Кундуз</Russian>
         <German>Antistasi Kunduz</German>
         <Czech>Antistasi Kunduz</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_blurb_text">
         <Original>Sand and blood</Original>
@@ -1049,6 +1062,7 @@
         <Russian>Кровь и песок</Russian>
         <German>Sand und Blut</German>
         <Czech>Písek a krev</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tembelan_mapname_text">
         <Original>Antistasi - Liberation of Tembelan Island</Original>
@@ -1056,6 +1070,7 @@
         <French>Antistasi - Liberation de l'ile de Tembelan</French>
         <German>Antistasi - Liberation of Tembelan Island</German>
         <Czech>Antistasi - Osvobození Ostrova Tembelan</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tembelan_mapname_short_text">
         <Original>Antistasi Tembelan</Original>
@@ -1063,6 +1078,7 @@
         <French>Antistasi Tembelan</French>
         <German>Antistasi Tembelan</German>
         <Czech>Antistasi Tembelan</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tembelan_blurb_text">
         <Original>Beauty and destruction</Original>
@@ -1070,6 +1086,7 @@
         <French>Beauté et destruction</French>
         <German>Schönheit und Zerstörung</German>
         <Czech>Krása a destrukce</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tembelan_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -1078,6 +1095,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_anizay_mapname_short_text">
         <Original>Antistasi Anizay</Original>
@@ -1085,6 +1103,7 @@
         <French>Antistasi Anizay</French>
         <German>Antistasi Anizay</German>
         <Czech>Antistasi Anizay</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_anizay_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -1093,18 +1112,21 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_anizay_mapname_text">
         <Original>Antistasi - Liberation of Anizay</Original>
         <English>Antistasi - Liberation of Anizay</English>
         <German>Antistasi - Liberation of Anizay</German>
         <Czech>Antistasi - Osvobození Anizay</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_anizay_blurb_text">
         <Original>Fought on the camel's back</Original>
         <English>Fought on the camel's back</English>
         <German>Kampf auf dem Kamelrücken</German>
         <Czech>Bojovat na zádech velblouda</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
     </Container>
     <Container name="journal_entries">
@@ -1114,6 +1136,7 @@
         <French>Les débuts</French>
         <German>Der Anfang</German>
         <Czech>Začátek</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_1">
         <Original>Don't expect to be able to conquer anything in the early stages. First you have to gather enough resources (HR and Money) in order to be able to conquer and hold your positions. This mission tries to simulate real life guerilla situations. If in doubt, ask yourself what would you do in real life. Don't expect to win every time. Hit and Run is the basic manoeuvre here. Earn every resource, weapon and ammunition to gather enough assets in order to be a real challenge for the enemy. In the meantime, disturb its operations and gain support from the population.</Original>
@@ -1121,6 +1144,7 @@
         <English>Don't expect to be able to conquer anything in the early stages. First you have to gather enough resources (HR and Money) in order to be able to conquer and hold your positions. This mission tries to simulate real life guerilla situations. If in doubt, ask yourself what would you do in real life. Don't expect to win every time. Hit and Run is the basic manoeuvre here. Earn every resource, weapon and ammunition to gather enough assets in order to be a real challenge for the enemy. In the meantime, disturb its operations and gain support from the population.</English>
         <German>Erwarte nicht, dass du in der Lage sein wirst alles bereits zu Beginn erobern zu können. Zuallererst musst du genügend Ressourcen (Mannstärke und Geld) auftreiben müssen, um in der Lage zu sein etwas zu erobern und auch halten zu können. Diese Mission versucht reale Guerilla Situationen und Vorgehen zu simulieren. Wenn du unschlüssig bist, dann frage dich selbst, was du im echten Leben tun würdest. Erwarte nicht, dass du jedes Mal gewinnst. "Hit and Run" ist hier das übliche Vorgehen. Erbeute Ressourcen, Waffen und Munition, um letztlich genug Ausrüstung zusammen zu haben, damit du zu einer echten Bedrohung für den Feind werden kannst. Währenddessen störe die Bestrebungen des Feindes und verdiene dir die Unterstützung der Zivilbevölkerung.</German>
         <Czech>Neočekávejte, že v časných stádiích dokážete něco dobýt. Nejprve musíte shromáždit dostatek zdrojů (HR a peníze), abyste mohli dobýt a udržet své pozice. Tato mise se pokouší simulovat partyzánské situace v reálném životě. Pokud máte pochybnosti, zeptejte se sami sebe, co byste udělali v reálném životě. Nečekejte, že vyhrajete pokaždé. Udeřit a Utéct je zde základní manévr. Získejte všechny zdroje, zbraně a střelivo, abyste shromáždili dostatek prostředků, aby pro nepřítele představovali skutečnou výzvu. Mezitím narušit její činnost a získat podporu od obyvatelstva.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_2">
         <Original>Aggro Effects</Original>
@@ -1128,6 +1152,7 @@
         <French>Agressivité IA</French>
         <German>Aggression</German>
         <Czech>Agresivita</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_2">
         <Original>Keep an eye on those. If it's too high, you will have to face more attacks with better troops.</Original>
@@ -1135,6 +1160,7 @@
         <French>Gardez un œil dessus. S'il est trop haut, vous devrez faire face à plus d'attaques avec de meilleures troupes.</French>
         <German>Behalte dies im Auge. Wenn sie zu hoch wird, wirst du dich deutlich mehr Angriffen und besseren Einheiten entgegenstellen müssen.</German>
         <Czech>Dávejte pozor na to. Pokud je příliš vysoká, budete muset čelit více útokům s lepšími jednotkami.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_3">
         <Original>Strategy</Original>
@@ -1142,6 +1168,7 @@
         <French>Stratégie</French>
         <German>Strategie</German>
         <Czech>Strategie</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_3">
         <Original>Once you have a nice amount of resources, focus on enemy communications. If you disturb them enough, you won't have to face big counter-attacks.</Original>
@@ -1149,6 +1176,7 @@
         <French>Une fois que vous avez une bonne quantité de ressources, concentrez-vous sur les communications ennemies. Si vous les perturbés suffisament, vous n'aurez pas à faire face à de grandes contre-attaques.</French>
         <German>Sobald du eine solide Menge and Ressourcen zusammen hast, konzentriere dich auf ihre Kommunikation. Störst du sie ausreichend, wirst du dich keinen größeren Gegenangriffen mehr stellen müssen.</German>
         <Czech>Jakmile budete mít pěkné množství zdrojů, zaměřte se na nepřátelskou komunikaci. Pokud je dostatečně vyrušíte, nebudete muset čelit velkým protiútokům.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_4">
         <Original>Conquer and Hold</Original>
@@ -1156,6 +1184,7 @@
         <French>Conquérir et tenir</French>
         <German>Erobern und halten</German>
         <Czech>Dobyjte a udržte</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_4">
         <Original>Don't expect a light counter-attack when you conquer strategic zones such as resources or airports. The enemy will send everything they can, if available. If you conquer a zone and expect a counter-attack, fleeing is a nice option.</Original>
@@ -1163,6 +1192,7 @@
         <French>Ne vous attendez pas à une contre-attaque légère lorsque vous conquérez des zones stratégiques telles que des ressources ou des aéroports. L'ennemi enverra tout ce qu'il peut, s'il est disponible. Si vous conquérez une zone et vous attendez à une contre-attaque, la fuite est une bonne option.</French>
         <German>Erwarte keine einfachen Gegenangriffe, wenn du eine strategische Zone, wie Ressourcen oder Flugplätze, einnimmst. Der Feind wird dir alles was er zur Verfügung hat entgegenwerfen. Eroberst du eine Zone und erwartest einen Gegenangriff ist Rückzug immer eine gute Option.</German>
         <Czech>Neočekávejte lehký protiútok, když dobýváte strategické zóny, jako jsou zdroje nebo letiště. Nepřítel pošle vše, co může, pokud bude k dispozici. Pokud dobýváte zónu a očekáváte protiútok, prchání je dobrá volba.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_5">
         <Original>Resources</Original>
@@ -1170,6 +1200,7 @@
         <French>Ressources</French>
         <German>Ressourcen</German>
         <Czech>Zdroje</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_5">
         <Original>Having a good amount of resources for bigger operations is mandatory, especially weapons and ammo. In the initial stages, your main source of resources is accomplishing side-missions.</Original>
@@ -1177,6 +1208,7 @@
         <French>Avoir une bonne quantité de ressources pour des opérations plus importantes est obligatoire, en particulier pour les armes et les munitions. Dans les étapes initiales, votre principale source de ressources est l'accomplissement de missions secondaires.</French>
         <German>Ein solides Polster an Ressourcen ist unverzichtbar für größere Operationen. Vor allem Waffen und Munition. In der Anfangsphase ist deine Hauptquelle für Ressourcen das Abschließen von Sekundärmissionen.</German>
         <Czech>Je nutné mít dostatečné množství zdrojů pro větší operace, zejména zbraně a munici. V počátečních fázích je vaším hlavním zdrojem plnění vedlejších misí.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_6">
         <Original>Starting Position</Original>
@@ -1184,6 +1216,7 @@
         <French>Position de départ</French>
         <German>Startposition</German>
         <Czech>Začínající pozice</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_6">
         <Original>Find a good spot to begin the mission. Your experience is very different from one start spot to another. Study the surrounding markers and roads between them well. If you start near a road between enemy zones, a patrol may appear and kill Petros.</Original>
@@ -1191,6 +1224,7 @@
         <French>Trouvez un bon endroit pour commencer la mission. Votre expérience est très différente d'un point de départ à un autre. Étudiez bien les balises et les routes environnantes. Si vous commencez près d'une route entre des zones ennemies, une patrouille peut apparaître et tuer Petros.</French>
         <German>Wähle einen vielversprechenden Ort, um deine Mission zu beginnen. Die Spielerfahrung ist je nach Startpunkt sehr unterschiedlich. Betrachte genau die umgebenen Zonen und die dazwischenliegenden Straßenverbindungen. Startest du an einer Straße zwischen zwei feindlichen Zonen, könnte eine Patrouille auf das Lager stoßen und Maru/Petros töten.</German>
         <Czech>Najděte dobré místo pro zahájení mise. Vaše zkušenost je velmi odlišná od jednoho startovního bodu k druhému. Dobře si prostudujte okolní značky a silnice. Pokud začnete poblíž silnice mezi nepřátelskými zónami, může se objevit hlídka a zabijou Petrose.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_7">
         <Original>Undercover</Original>
@@ -1198,6 +1232,7 @@
         <French>Sous-couverture</French>
         <German>Verdecktes Vorgehen</German>
         <Czech>V Utajení</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_7">
         <Original>In the early stages, especially when accomplishing certain missions, being undercover can be extremely helpful. Just as for real resistance fighters, your ability to disappear is something the enemy cannot counter. See Features section for a deep explanation of Undercover Mode.</Original>
@@ -1205,492 +1240,574 @@
         <French>Dans les premiers stades, en particulier lors de l'accomplissement de certaines missions, être sous-couverture peut être extrêmement utile. Tout comme pour les vrais combattants de la résistance, votre capacité à disparaître est quelque chose que l'ennemi ne peut pas contrer. Voir la section Fonctionnalités pour une explication approfondie du mode Sous-couverture.</French>
         <German>In der Anfangsphase, vor allem bei der Erfülling bestimmter Missionen, kann ein verdecktes Vorgehen sehr hilfreich sein. Genau wie für reale Widerstandskämpfer ist deine Fähigkeit zu verschwinden etwas, dem der Feind nahezu nichts entgegenbringen kann. Weitere Informationen zum verdeckten Vorgehen findest du in dem Features Bereich.</German>
         <Czech>V počáteční fázi, zejména při plnění některých misí, může být skrytý přístup velmi užitečný. Stejně jako skuteční bojovníci odporu, vaše schopnost zmizet je něco, s čím nepřítel nemůže dělat téměř nic. Další informace o skrytém postupu naleznete v části Funkce.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_1">
         <Original>General</Original>
         <French>Général</French>
         <German>Allgemein</German>
         <Czech>Generál</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_1">
         <Original>Having a commander is necessary because he is the commander of the Faction attacking ground forces. Many options are available only to the commander and, depending on your settings, if you play MP, the most experienced player will usually occupy this position.</Original>
         <French>Avoir un commandant est nécessaire car il est le commandant de la faction qui attaque les forces terrestres. De nombreuses options ne sont disponibles que pour le commandant et, selon vos paramètres, si vous jouez en MP, le joueur le plus expérimenté occupera généralement cette position.</French>
         <German>Einen Kommandanten zu haben ist unumgänglich, da er die Bodentruppen der Fraktion befehligt. Viele Optionen und Möglichkeiten stehen nur dem Kommandanten zur Verfügung. Je nach deinen gewählten Einstellungen, wenn du im Multiplayer spielst, wird der Spieler mit der meisten Erfahrung den Platz des Kommandanten einnehmen.</German>
         <Czech>Mít velitele je nezbytné, protože je velitelem frakce útočící na pozemní síly. Mnoho možností je k dispozici pouze pro velitele a v závislosti na vašich nastaveních, pokud hrajete MP, obvykle tuto pozici zaujme nejzkušenější hráč.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_2">
         <Original>Garrisons</Original>
         <French>Garnisons</French>
         <German>Garnisonen</German>
         <Czech>Umístit posádku</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_2">
         <Original>The Commander is responsible for assigning units as garrisons in conquered areas. Use the Garrison Management option in the HQ flag in order to add or remove garrison troops at each zone. Check Map Info screen for a quick overview of how many soldiers are assigned to each zone.</Original>
         <French>Le commandant est responsable de l'affectation d'unités comme garnisons dans les zones conquises. Utilisez l'option de gestion de garnison au drapeau du QG afin d'ajouter ou de supprimer des troupes de garnison dans chaque zone. Consultez l'écran Info carte pour un aperçu rapide du nombre de soldats affectés à chaque zone.</French>
         <German>Der Kommandant ist verantwortlich den Garnisonen der eroberten Bereiche Einheiten zuzuweisen. Mit der Garnisonsverwaltung am Flaggenmast im HQ kannst du Einheiten einer Garnison hinzufügen oder entfernen. Über den Kartenbildschirm kannst du dir einen schnellen Überblick über die Größe der jeweiligen Garnisonen verschaffen.</German>
         <Czech>Velitel je zodpovědný za přidělování jednotek jako posádky v dobývaných oblastech. Chcete-li přidat nebo odebrat posádkové jednotky v každé zóně, použijte možnost Správa posádky v vlajce HQ. Na obrazovce Informace o mapě získáte rychlý přehled o tom, kolik vojáků je přiřazeno každé zóně.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_3">
         <Original>Faction Skill Upgrade</Original>
         <French>Amélioration des compétences de la faction</French>
         <German>Fähigkeiten der Fraktion erhöhen</German>
         <Czech>Vylepšení frakční dovednosti</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_3">
         <Original>For a price, you can upgrade Faction training so that future recruits will have better skills.</Original>
         <French>Pour un certain prix, vous pouvez améliorer la formation de la Faction afin que les futures recrues aient de meilleures compétences.</French>
         <German>Du kannst, für einen gewissen Preis, die Trainingsmethoden deiner Fraktion verbessern. Dadurch werden neue Rekruten bessere Fähigkeiten haben.</German>
         <Czech>Za cenu můžete vylepšit frakční školení tak, aby budoucí rekruti měli lepší dovednosti.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_4">
         <Original>Side Missions - Petros</Original>
         <French>Missions secondaires - Petros</French>
         <German>Sekundärmissionen - Maru/Petros</German>
         <Czech>Vedlejší mise - Petros</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_4">
         <Original>Ask Petros for any type of mission you want. Mission availability is subject to HQ positioning, current allocated tasks and ownership of the surrounding areas.</Original>
         <French>Demandez à Petros tout type de mission que vous souhaitez. La disponibilité de la mission dépend du positionnement du QG, des tâches actuellement attribuées et de la propriété des zones environnantes.</French>
         <German>Befrage Maru/Petros nach einer gewünschten Mission. Die Verfügbarkeit der Missionen ist abhängig von der Position des HQs, der momentan zugewiesenen Aufgaben und der Zugehörigkeit der umgebenen Bereiche.</German>
         <Czech>Zeptejte se Petrose na jakýkoli typ mise, kterou chcete. Dostupnost mise závisí na umístění velitelství, aktuálně přidělených úkolech a vlastnictví okolních oblastí.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_5">
         <Original>Move HQ</Original>
         <French>Déplacer le QG</French>
         <German>HQ verlegen</German>
         <Czech>Přesuňte velitelství</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_5">
         <Original>The Commander may select this option on the HQ Flag in order to move the HQ emplacement to another spot. This will allow you to move your HQ to a safer location or move closer to the front-lines. The closer your HQ is to the enemy, the greater the number of possibile side-missions you will have available. Remember! Keep Petros Safe or you will lose the game!</Original>
         <French>Le commandant peut sélectionner cette option sur le drapeau du QG afin de déplacer le QG à un autre endroit. Cela vous permettra de déplacer votre QG vers un endroit plus sûr ou de vous rapprocher des lignes de front. Plus votre QG est proche de l'ennemi, plus vous aurez de missions secondaires possibles. Attention! Gardez Petros en sécurité ou vous perdrez la partie!</French>
         <German>Der Kommandant kann über eine Option am Flaggenmast das HQ zu einem anderen Ort verlegen lassen. Dies gibt dir die Möglichkeit dein HQ zu einer sichereren Position oder näher an die Frontlinie zu verlegen. Umso näher dein HQ am feindlichen Gebiet ist, umso größer ist die Anzahl an möglichen Sekundärmissionen. Vorsicht! Beschütze Petros oder du verlierst das Spiel!</German>
         <Czech>Velitel může vybrat tuto možnost na velitelské vlajce, aby přesunul umístění velitelství na jiné místo. To vám umožní přesunout své velitelství na bezpečnější místo nebo se přiblížit ke frontě. Čím blíže je vaše velitelství k nepřátelům, tím větší je počet možných vedlejších misí, které budete mít k dispozici. Pamatujte si! Zachovejte Petrose v bezpečí, jinak hru prohrajete!</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_6">
         <Original>Rest - Camp-fire</Original>
         <French>Se reposer - Feu de camp</French>
         <German>Ausruhen - Lagerfeuer</German>
         <Czech>Odpočinek - táborový oheň</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_6">
         <Original>Use the action menu on your HQ Camp-fire to rest for 8 hours.</Original>
         <French>Utilisez le menu d'action de votre feu de camp au QG pour vous reposer pendant 8 heures.</French>
         <German>Mit dieser Aktion kannst du dich am Lagerfeuer des HQs für 8 Stunden ausruhen.</German>
         <Czech>Použijte možnost na vašem táborovém ohni, abyste si mohli odpočnou na 8 hodin</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_7">
         <Original>Bomb Run</Original>
         <French>Bombardement</French>
         <German>Bombardierung</German>
         <Czech>Bombardování</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_7">
         <Original>Use your Airstrike points to perform a bombing run of the specified type.</Original>
         <French>Utilisez vos points de frappe aérienne pour effectuer un bombardement du type spécifié.</French>
         <German>Benutze deine Luftschlagpunkte, um eine Bombardierung durchführen zu lassen.</German>
         <Czech>Použijte své body leteckého úderu k provedení bombardování.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_8">
         <Original>Artillery</Original>
         <French>Artillerie</French>
         <German>Artillerie</German>
         <Czech>Dělostřelectvo</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_8">
         <Original>Mounted mortar teams may be used as artillery support. Select a mortar team using the High Command bar, and press SHIFT + Y in-game to call in a mortar fire mission.</Original>
         <French>Les équipes de mortiers montés peuvent être utilisées comme support d'artillerie. Sélectionnez une équipe de mortiers à l'aide de la barre de haut commandement et appuyez sur SHIFT + Y dans le jeu pour demander un tir de mortier.</French>
         <German>Stationierte Mörserteams können als Artillerieunterstützung eingesetzt werden. Wähle ein Mörserteam über die Oberbefehlsleiste und drücke Shift + Z, um einen Artillerieschlag anzufordern.</German>
         <Czech>Umístěné minometné týmy mohou být použity jako dělostřelecká podpora. Vyberte minometný tým nad panelem příkazů a stisknutím shift + Z požádejte o dělostřelecký úder.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_9">
         <Original>Recruit Squad</Original>
         <French>Recruter une escouade</French>
         <German>Gruppen rekrutieren</German>
         <Czech>Nábor družstva</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_9">
         <Original>The Commander may recruit an AI manned squad at base camp flags. Use the High Command module (CTRL + SPACE) to give orders to your squads. Also you may temporally control and dismiss the squad leader in the same way you do with squad-mates.</Original>
         <French>Le commandant peut recruter une escouade IA au drapeau du QG. Utilisez le module HC (CTRL + ESPACE) pour donner des ordres à vos escouades. Vous pouvez également contrôler et renvoyer temporairement le chef d'escouade de la même manière que vous le faites avec vos coéquipiers.</French>
         <German>Als Kommandant kannst du KI Gruppen im HQ rekrutieren. Nutze das Oberbefehlsmodul (Strg + Leertaste), um deinen Gruppen Befehle zu erteilen. Außerdem kannst du temporär Gruppenführer, auf die gleiche Art wie deine Gruppenmitglieder, kontrollieren.</German>
         <Czech>Velitel může najmout posádku AI na vlajkách základního tábora. Pomocí modulu Štábu (CTRL + MEZERNÍK) zadávejte rozkazy svým jednotkám. Rovněž můžete dočasně ovládat a propouštět velitele družstva stejným způsobem, jako to děláte s AI členy týmu.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_10">
         <Original>Minefields</Original>
         <French>Champs de mines</French>
         <German>Minenfelder</German>
         <Czech>Minové pole</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_10">
         <Original>Take the engineers truck to the desired position to build a minefield. Cover them while they deploy mines. From then on, no one will be able to pass the area safely (even your own units - so use with caution). Mines (AT and AP) are taken from your Ammobox. The quantity of mines in the field will depend on the contents of your ammobox, up to a max. number depending on the type of minefield. Delete those minefields to recover the mines.</Original>
         <French>Amenez le camion des ingénieurs à la position souhaitée pour construire un champ de mines. Couvrez-les pendant qu'ils déploient des mines. À partir de là, personne ne pourra traverser la zone en toute sécurité (même vos propres unités - utilisez-les donc avec prudence). Les mines (AT et AP) sont extraites de votre Arsenal. La quantité de mines sur le terrain dépendra du contenu de votre Arsenal, jusqu'à un certain nombre en fonction du type de champ de mines. Supprimez ces champs de mines pour récupérer les mines.</French>
         <German>Bringe einen Ingenieurs-LKW zu der gewünschten Position, um ein Minenfeld zu errichten. Beschütze die Ingenieure, während sie die Minen legen. Von diesem Zeitpunkt an wird niemand mehr in der Lage sein, dieses Gebiet sicher zu durchqueren (auch nicht deine eigenen Einheiten). Minen (Panzerabwehr und Anti-Personen) werden aus deinem Munitionslager genommen. Die Anzahl an Minen im Bereich ist abhängig von der Menge in deinem Munitionslager. Räume Minenfelder, um die Minen wieder zu bergen.</German>
         <Czech>Postavte nákladní automobil inženýrů na požadovanou pozici a postavte minové pole. Chraňte je při nasazování min. Od tohoto okamžiku nebude nikdo schopen bezpečně projít oblastí (i vaše vlastní jednotky - používejte proto opatrně). Miny (Protitankové a Protipěchotní) jsou převzaty z vašeho Arzenálu. Množství min v poli bude záviset na obsahu arzenálu, až do maxima. V závislosti na typu minového pole. Odstraněním těchto minových polí obnovíte miny.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_11">
         <Original>Sell Vehicle</Original>
         <French>Vendre le véhicule</French>
         <German>Fahrzeuge verkaufen</German>
         <Czech>Prodat vozidlo</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_11">
         <Original>Use this option to sell captured vehicles and increase Faction funds.</Original>
         <French>Utilisez cette option pour vendre des véhicules capturés et augmenter les fonds de la faction.</French>
         <German>Nutze diese Möglichkeit, um erbeutete Fahrzeuge zu verkaufen und damit die Fraktionskasse aufzufüllen.</German>
         <Czech>Využijte této příležitosti k prodeji ukradených vozidel a zvýšení frakčních fondů.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_12">
         <Original>Observation Post</Original>
         <French>Poste d'observation</French>
         <German>Beobachtungsposten</German>
         <Czech>Předsunutá hlídka</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_12">
         <Original>Use the radio and select a spot on the map with good field of vision. A group of snipers will join you. Send them to the selected place and they will spot for you, attempting to remain hidden and not engaging enemies upon contact.</Original>
         <French>Utilisez la radio et sélectionnez un endroit sur la carte avec un bon champ de vision. Un groupe de tireurs d'élite se joindra à vous. Envoyez-les à l'endroit sélectionné et ils vous repéreront, essayant de rester cachés et n'engageant pas les ennemis au contact.</French> 
         <German>Benutze dein Funkgerät und wähle einen Ort auf der Karte mit einer guten Übersicht. Eine Gruppe Scharfschützen wird sich dir anschließen. Schicke diese zu dem gewählten Ort und sie werden dort einen Beobachtungsposten einrichten. Dabei versuchen sie verdeckt zu bleiben und Feinde bei Kontakt nicht anzugreifen.</German>
         <Czech>Použijte rádio a vyberte místo na mapě s dobrým zorným polem. Připojí se k vám skupina ostřelovačů. Pošlete je na vybrané místo a oni tam zřídí pozorovací stanoviště. Snaží se zůstat v utajení a neútočit na nepřátele v kontaktu.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_13">
         <Original>Roadblocks</Original>
         <French>Barrages routiers</French>
         <German>Straßensperren</German>
         <Czech>Zátarasy</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_13">
         <Original>Use the menu and select a spot on the map. Click where a road is. A group of AT soldiers will join you. Send them to the selected place and they will establish a roadblock there.</Original>
         <French>Utilisez le menu et sélectionnez un endroit sur la carte. Cliquez où se trouve une route. Un groupe de soldats AT se joindra à vous. Envoyez-les à l'endroit choisi et ils y établiront un barrage routier.</French>
         <German>Benutze das Menü und wähle einen Ort auf der Karte nahe einer Straße. Eine Gruppe Panzerabwehrsoldaten wird sich dir anschließen. Schicke diese zu dem gewählten Ort und sie werden dort eine Straßensperre errichten.</German>
         <Czech>Použijte nabídku a vyberte místo na mapě. Klikněte na místo, kde je silnice. Skupina protitankových vojáků se k vám připojí. Pošlete je na vybrané místo a oni tam vytvoří zátaras.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_14">
         <Original>Grab Faction Funds</Original>
         <French>Récupérer l'argent de la faction</French>
         <German>Geld der Fraktionskasse entnehmen</German>
         <Czech>Vzít si z fondu</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_14">
         <Original>Use this option to grab money from the Faction pool to your personal account. Please note this will have an impact on your score and future promotion chances. Corrupt Commanders may find themselves loosing their command.</Original>
         <French>Utilisez cette option pour récupérer de l'argent de la cagnotte de la Faction vers votre compte personnel. Veuillez noter que cela aura un impact sur votre score et vos chances de promotion futures. Les commandants corrompus peuvent perdre leur commandement.</French>
         <German>Benutze diese Option, um Gelder aus der Fraktionskasse zu entnehmen. Beachte dabei, dass dies Auswirkungen auf deine Reputation und zukünftige Beförderungschancen hat. Korrupte Kommandanten könnten plötzlich ihr Kommando verlieren.</German>
         <Czech>Tuto možnost použijte, chcete-li peníze z frakčního fondu vzít na svůj osobní účet. Upozorňujeme, že to bude mít vliv na vaše skóre a na budoucí šanci k povýšení. Zkorumpovaní velitelé se mohou ocitnout v té situaci, že ztratí velení.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_15">
         <Original>In-game Members</Original>
         <French>Membres en jeu</French>
         <German>Servermitglieder</German>
         <Czech>Členové ve hře</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_15">
         <Original>In the HQ Flag, if the Server Member feature is enabled, you may check which of the Server Members are in game and the total number of non members.</Original>
         <French>Avec le drapeau du QG, si la fonction de membre du serveur est activée, vous pouvez vérifier quels membres du serveur sont en jeu et le nombre total de non-membres.</French>
         <German>Am Flaggenmast im HQ kannst du, wenn das Servermitglieder Feature aktiviert ist, überprüfen, welche Servermitglieder und wie viele Nicht-Servermitglieder im Spiel sind.</German>
         <Czech>Na stožáru ve velitelství, když je povolena funkce členů serveru, můžete zkontrolovat, kteří členové serveru a kolik členů mimo server je ve hře.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_SpecialK_1">
         <Original>Battle Options</Original>
         <French>Options de combat</French>
         <German>Schlachtoptionen</German>
         <Czech>Možnosti bitvy</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_SpecialK_1">
         <Original>Press Y in-game to have access any time to several options. Most of them are explained in the Commander or Features sections.</Original>
         <French>Appuyez sur Y dans le jeu pour avoir accès à tout moment à plusieurs options. La plupart d'entre eux sont expliqués dans les sections Commandants ou Fonctionnalités.</French>
         <German>Drücke im Spiel Z, um jederzeit Zugriff auf verschiedene Optionen zu erhalten. Die meisten davon sind im Kommandanten oder Features Bereich erklärt.</German>
         <Czech>Stisknutím klávesy Z ve hře získáte přístup k několika možnostem. Většina z nich je vysvětlena v kapitolách Velitele nebo Funkce.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_SpecialK_2">
         <Original>High Command</Original>
         <French>Haut Commandement</French>
         <German>Oberbefehl</German>
         <Czech>Vrchní velení</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_SpecialK_2">
         <Original>When you are the Commander, hit CTRL + SPACE to give way-points and other orders to your AI squads using the HC mode. Non commanders may use it to check enemy contacts reported by the Faction communications network.</Original>
         <French>Lorsque vous êtes le commandant, appuyez sur CTRL + ESPACE pour donner des points de cheminement et d'autres ordres à vos escouades d'IA en utilisant le mode HC. Les non-commandants peuvent l'utiliser pour vérifier les contacts ennemis signalés par le réseau de communication de la faction.</French>
         <German>Wenn du der Kommandant bist, kannst du über Strg + Leertaste in den Oberbefehlsmodus wechseln und somit KI Gruppen Befehle geben. Nicht-Kommandanten können dies nutzen, um Berichte über feindliche Kontakte zu überprüfen.</German>
         <Czech>Pokud jste velitel, můžete přepnout do příkazového režimu pomocí kláves Ctrl + Mezera a tak dát příkazy skupinám AI. Nevelitelé mohou použít k ověření zpráv o nepřátelských kontaktech.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_SpecialK_3">
         <Original>Artillery</Original>
         <French>Artillerie</French>
         <German>Artillerie</German>
         <Czech>Dělostřelectvo</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_SpecialK_3">
         <Original>Press SHIFT + Y in-game while having an artillery squad selected on the HC bar.</Original>
         <French>Appuyez sur SHIFT + Y dans le jeu tout en ayant une escouade d'artillerie sélectionnée sur la barre HC.</French>
         <German>Drücke im Spiel Shift + Z während du eine Artilleriegruppe in der Oberbefehlsleiste ausgewählt hast.</German>
         <Czech>Stiskněte ve hře SHIFT + Z zatímco dělostřelecké družstvo je vybráno na panelu štábu.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_SpecialK_4">
         <Original>Group Manager</Original>
         <French>Gestion de groupe</French>
         <German>Gruppenverwaltung</German>
         <Czech>Správce skupiny</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_SpecialK_4">
         <Original>MP Only: Press U in-game to join another player's group</Original>
         <French>MP uniquement: appuyez sur U dans le jeu pour rejoindre le groupe d'un autre joueur.</French>
         <German>Nur im Mehrspieler: Drücke im Spiel U, um einer Gruppe eines anderen Spielers beizutreten.</German>
         <Czech>Pouze v Multiplaeru: Stisknutím klávesy U ve hře se připojíte ke skupině jiného hráče</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_SpecialK_5">
         <Original>Earplugs</Original>
         <French>Bouchons d'oreilles</French>
         <German>Ohrstöpsel</German>
         <Czech>Špunty do uší</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_SpecialK_5">
         <Original>Press END to enable / disable earplugs. Disabled with ACE.</Original>
         <French>Appuyez sur FIN pour activer / désactiver les bouchons d'oreille. Désactivé avec ACE.</French>
         <German>Drücke ENDE, um Öhrstöpsel einzusetzen oder zu entfernen. Wird mit ACE automatisch deaktiviert.</German>
         <Czech>Stiskněte END pro aktivaci / deaktivaci chráničů sluchu. Zakázáno s ACE.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_1">
         <Original>Faction Leader</Original>
         <French>Chef de faction</French>
         <German>Fraktionsanführer</German>
         <Czech>Vedoucí frakce</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_1">
         <Original>Just as with any resistance movement, leadership is not as stable as in organised states. Any player can take the role of Faction Force Commander if the current one is not very popular... Demonstrate your skill while accomplishing missions and killing enemies and maybe you will become the next leader.</Original>
         <French>Comme pour tout mouvement de résistance, le commandement n'est pas aussi stable que dans les États organisés. N'importe quel joueur peut jouer le rôle de commandant de la Faction si l'actuel n'est pas très populaire ... Démontrez vos compétences tout en accomplissant des missions et en tuant des ennemis et peut-être deviendrez-vous le prochain chef.</French>
         <German>Wie üblich in Widerstandsbewegungen, ist die Führung nicht so stabil wie in organisierten Streitkräften. Jeder Spieler kann die Rolle des Fraktionsanführers übernehmen, wenn die Reputation des aktuellen Anführers niedrig ist. Erhöhe deine eigene Reputation durch die Erfüllung von Sekundärmissionen und dem Ausschalten von feindlichen Einheiten und du kannst der nächste Anführer werden.</German>
         <Czech>Stejně jako u každého hnutí odboje, vedení není tak stabilní jako v organizovaných státech. Každý hráč může převzít roli velitele frakcí, pokud současný není příliš populární ... Prokázat své dovednosti při plnění misí a zabíjení nepřátel a možná se stanete dalším vůdcem.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_2">
         <Original>Garage</Original>
         <French>Garage</French>
         <German>Fuhrpark</German>
         <Czech>Garáž</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_2">
         <Original>Add any vehicle near your personal Virtual Garage (or factions garage if you are the commander) and keep it safe for future use. Vehicle add option is under the Y menu. Garage management is in HQ options (Flag). Garage recovery capacities may depend on where you are: Air Units can be recovered only near Airbases, boats, near the shore etc.</Original>
         <French>Ajoute n'importe quel véhicule près de votre garage virtuel personnel (ou garage de la factions si vous êtes le commandant) et gardez-le en lieu sûr pour une utilisation future. L'option d'ajout de véhicule se trouve dans le menu Y. La gestion du garage est dans les options HQ (Flag). Les capacités de récupération du garage peuvent dépendre de l'endroit où vous vous trouvez: les unités aériennes ne peuvent être récupérées que près des bases aériennes, des bateaux, près du rivage, etc.</French>
         <German>Du kannst jedes Fahrzeug in deinen persönlichen virtuellen Fuhrpark (oder dem der Fraktion, wenn du der Kommandant bist) hinzufügen, um es sicher zu verwahren. Diese Option findest du im Z-Menü. Die Verwaltung des Fuhrparks kann am Flaggenmast im HQ aufgerufen werden. Die Möglichkeit zur Bereitstellung eines Fahrzeugs aus dem Fuhrpark hängt dabei von deiner Umgebung ab: Luftfahrzeuge können nur in der Nähe von Flugplätzen bereitgestellt werden, Boote nur in der Nähe der Küste, usw. </German>
         <Czech>Můžete přidat jakékoli vozidlo do svého osobního virtuálního vozového parku (nebo frakce, pokud jste velitel), aby bylo v bezpečí. Tuto možnost naleznete v nabídce Z. Vedení flotily může být povoláno na stožár u velitelství. Schopnost zajistit vozidlo z flotily závisí na vašem okolí: letadla mohou být poskytnuta pouze v blízkosti letišť,lodí pouze v blízkosti pobřeží atd.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_3">
         <Original>Undercover</Original>
         <French>Sous-couverture</French>
         <German>Verdecktes Vorgehen</German>
         <Czech>V utajení</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_3">
         <Original>Click on this button to go undercover. If you meet the requirements, the enemy won't attack you on sight. On foot, to go undercover you must have no weapons or military equipment visible.&lt;br/&gt;You will lose undercover status when you change load-out, get spotted by enemy guard-dogs, plant mines, and can also be reported by some civilians to the enemy. If you are discovered you won't be able to go undercover on foot again for 30 minutes. You can also go undercover by getting into any civilian vehicle. You will lose undercover status by firing any weapon or being spotted far from a road. If you are discovered you won't be able to go undercover in that vehicle again. Getting close to enemy Airbases, outposts and roadblocks will also make you lose undercover status.</Original>
         <French>Cliquez sur ce bouton pour aller sous-couverture. Si vous remplissez les conditions, l'ennemi ne vous attaquera pas à vue. À pied, pour aller sous-couverture, vous ne devez avoir ni armes ni équipement militaire visible.&lt;br/&gt;Vous perdrez le statut d'infiltration lorsque vous changerez de chargement, serez repéré par des chiens de garde ennemis, planterez des mines et certains civils pourront également signaler à l'ennemi. Si vous êtes découvert, vous ne pourrez plus vous infiltrer à pied pendant 30 minutes. Vous pouvez également vous infiltrer en montant dans n'importe quel véhicule civil. Vous perdrez le statut d'infiltration en tirant avec n'importe quelle arme ou en étant repéré loin d'une route. Si vous êtes découvert, vous ne pourrez plus vous infiltrer dans ce véhicule. Se rapprocher des bases aériennes, des avant-postes et des barrages routiers ennemis vous fera également perdre le statut d'infiltration.</French>
         <German>Drücke diese Schaltfläche, um verdeckt zu agieren. Wenn du die Anforderungen hierfür erfüllst, werden Feinde dich nicht mehr bei Kontakt angreifen. Während du zu Fuß unterwegs bist, darfst du keine Waffen oder andere militärische Ausrüstung sichtbar tragen.&lt;br/&gt;Du wirst aufgedeckt, wenn du deine Ausrüstung änderst, von feindlichen Wachhunden enteckt wirst, Minen platzierst oder ein Zivilist dich möglicherweise dem Feind meldet. Einmal aufgedeckt, kannst du für 30 Minuten nicht mehr verdeckt agieren. Eine weitere Möglichkeit diesen Modus zu aktivieren ist die Nutzung eines Zivilfahrzeugs. Hierbei wirst du aufgedeckt, sobald du eine Waffe abfeuerst oder dabei gesehen wirst, wenn du zu weit von einer Straße entfernt bist. Wirst du mit einem Zivilfahrzeug aufgedeckt, ist es dir nicht mehr möglich, dieses Fahrzeug für verdecktes Vorgehen zu nutzen. Näherst du dich einem feindlichen Flugplatz, Außenposten oder einer feindlichen Straßensperre, wirst du ebenso aufgedeckt.</German>
         <Czech>Kliknutím na toto tlačítko přejdete do utajení. Pokud splníte požadavky, nepřítel na vás nezaútočí na první pohled. Abyste mohli jít pěšky v utajení, nesmíte mít žádné zbraně nebo vojenské vybavení viditelné.&lt;br/&gt;Ztratíte tajný status, když změníte vybavení, dostanete spatřen nepřátelskými hlídacími psy, pokládáním min, též můžete být nahlášen místníma civilistama. Pokud vás objeví, nebudete moci jít v utajení znovu  po dobu 30 minut. Můžete také jít v utajení tím, že se dostane do jakéhokoli civilního vozidla. Ztratíte tajný status tím, že vystřelíte jakoukoliv zbraň nebo budete spatřeni daleko od silnice. Pokud vás odhalí, nebudete moci znovu v tom vozidle. Když se přiblížíte k nepřátelským leteckým základnám, základnám a zátarasům, ztratíte také status v utajení.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_4">
         <Original>Arsenal</Original>
         <French>Arsenal</French>
         <German>Arsenal</German>
         <Czech>Arzenál</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_4">
         <Original>Scavenge for items, weapons and magazines and put them in your HQ Ammobox. Once you have a specific amount of an them, they will be unlocked and added to the Arsenal for personal use (and for your Faction squads).&lt;br/&gt;The amount required to unlock depends on how many assets the Faction has unlocked and the number of factories owned. Unlocked weapons, optics and night-vision Googles may also change AI load-out. Basic militiamen are especially affected by this: their load-out will start from small SMGs and progress to having an extra AA / AT launcher. Please note this will not affect their dress, which will depend on the current Faction Skill Level (helmets and uniform). Arsenal is the standard BIS Arsenal, check their documentation for interaction and use.&lt;br/&gt;&lt;br/&gt;To see the amounts required to unlock each group of items, open the HQ Ammobox and you will receive a detailed report on the right.</Original>
         <French>Récupérez des objets, des armes et des magazines et mettez-les dans votre Arsenal au QG. Une fois que vous en avez un nombre spécifique, ils seront déverrouillés et ajoutés à l'arsenal pour un usage personnel (et pour vos escouades de faction).&lt;br/&gt;Le montant requis pour déverrouiller dépend du nombre d'actifs débloqués par la faction et du nombre d'usines possédées. Les armes déverrouillées, les viseurs et les lunettes de vision nocturne peuvent également modifier les équipements de vos IA. Les miliciens de base sont particulièrement touchés par cela: leur équipement commencera par de petites SMG et passera à un lanceur AA / AT supplémentaire. Veuillez noter que cela n'affectera pas leur tenue, qui dépendra du niveau de compétence de faction actuel (casques et uniformes). Arsenal est l'arsenal BIS standard, consultez leur documentation pour l'interaction et l'utilisation.&lt;br/&gt;&lt;br/&gt;Pour voir les montants nécessaires pour déverrouiller chaque groupe d'articles, ouvrez l'Arsenal au QG et vous recevrez un rapport détaillé sur la droite.</French>
         <German>Sammle Gegenstände, Waffen und Magazine, um sie in das Munitionslager deines HQs abzulegen. Sobald du eine bestimmte Anzahl eines Gegenstands vorrätig hast, wird er im Arsenal für den persönlichen Gebrauch durch dich und den Gruppen deiner Fraktion freigeschaltet.&lt;br/&gt;Die benötigte Anzahl zur Freischaltung hängt davon ab, wie viele Gegenstände die Fraktion bereits freigeschaltet hat und wie viele Fabriken im Besitz der Fraktion sind. Freigeschaltete Waffen, Visiere und Nachtsichtgeräte können auch die Ausrüstung deiner KI Einheiten verändern. Einfache Milizen sind davon im speziellen betroffen: Ihre Ausrüstung ist zu Beginn ein einfaches SMG und erweitert sich auf zusätzliche Luft- und Panzerabwehrwaffen. Beachte, dass dies nicht ihre Kleidung (Uniform und Helm) beeinflusst, da dies von dem Fertigkeitslevel der Fraktion abhängt. Das Arsenal ist das standard BI Arsenal, also nutze die darüber verfügbare Dokumentation für Bedienungshinweise.&lt;br/&gt;&lt;br/&gt;Um die notwendige Anzahl zum Freischalten von Gegenständen einzusehen, öffne das Munitionslager im HQ und du erhälst eine Auflistung am rechten Bildschirmrand.</German>
         <Czech>Hledejte předměty, zbraně a zásobníky a vložte je do svého arzenálu. Jakmile budete mít určité množství z nich, budou odemčeny a přidány do Arzenálu pro osobní potřebu (a pro vaše frakce družstva).&lt;br/&gt;Částka potřebná k odemčení závisí na tom, kolik aktiv frakce odemkla a počet vlastněných továren. Odemčené zbraně, optika a noční vidění může také změnit vybavení AI. Základní milicionáři jsou tímto obzvláště postiženi: jejich vybavení začne od malých SMG až po odpalovací zařízení AA / AT. Vezměte prosím na vědomí, že to nebude mít vliv na jejich oblečení, které bude záviset na aktuální úrovni dovedností frakce (přilby a uniformy). Arzenal je standardní BIS Arsenal, zkontrolujte jejich dokumentaci pro interakci a použití.&lt;br/&gt;&lt;br/&gt; Chcete-li zobrazit částky potřebné k odemknutí každé skupiny položek, otevřete okno hq a obdržíte podrobnou zprávu vpravo.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_5">
         <Original>Politics</Original>
         <French>Politique</French>
         <German>Politik</German>
         <Czech>Politika</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_5">
         <Original>This is a civil war. People are not conquered if you cannot conquer their hearts. In game mechanics, this means you cannot conquer cities. The citizens of each town support the enemy or Faction to some amount.&lt;br/&gt;The dominant faction is the one who owns the city and benefits from their support in terms of money and human resources (HR). Your actions may lower enemy Support or raise yours, or both. Killing enemies, accomplishing missions, conquering resources, and power-stations, affect the amount of citizen support.</Original>
         <French>Ceci est une guerre civile. Les gens ne sont pas conquis si vous ne pouvez pas conquérir leur cœur. En mécanique de jeu, cela signifie que vous ne pouvez pas conquérir de villes. Les citoyens de chaque ville soutiennent l'ennemi ou la faction dans une certaine mesure.&lt;br/&gt;La faction dominante est celle qui possède la ville et bénéficie de leur soutien en termes d'argent et de ressources humaines (RH). Vos actions peuvent réduire le soutien ennemi ou augmenter le vôtre, ou les deux. Tuer des ennemis, accomplir des missions, conquérir des ressources et des centrales électriques affecte le niveau de soutien des citoyens.</French>
         <German>Dies ist ein Bürgerkrieg. Menschen können nicht erobert werden, wenn du nicht ihre Herzen erobern kannst. Bezogen auf die Spielmechanik bedeutet dies, dass du keine Städte erobern kannst. Die Bevölkerung jeder Stadt unterstützt die Fraktionen zu gewissen Graden.&lt;br/&gt;Die beliebteste Fraktion ist dann diejenige, welche die Stadt besitzt und von ihrer Unterstützung (Geld und Mannstärke) profitieren kann. Deine Unternehmungen können dazu führen, dass die Unterstützung für den Feind sinkt oder er für dich steigt. Das Ausschalten von feindlichen Einheiten, die Erledigung von Sekundärmissionen und das Erobern von Ressourcen und Kraftwerken beeinflusst die Unterstützung der Zivilbevölkerung.</German>
         <Czech>Toto je občanská válka. Lidé nejsou dobyti, pokud nemůžete dobýt jejich srdce. V herní mechanice to znamená, že nemůžete dobýt města. Občané každého města podporují nepřítele nebo frakce na určitou částku.&lt;br/&gt;Dominantní frakcí je ten, kdo vlastní město a těží z jejich podpory, pokud jde o peníze a lidské zdroje (HR). Vaše akce mohou snížit nepřátelské podporu nebo zvýšit vaše, nebo obojí. Zabíjení nepřátel, plnění misí, dobývání zdrojů a elektráren ovlivňuje množství podpory občanů.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_6">
         <Original>Radio Towers</Original>
         <French>Tours radio</French>
         <German>Funkmasten</German>
         <Czech>Rádiové věže</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_6">
         <Original>Destroy or capture Radio Towers in order to build trust with %1 citizens.</Original>
         <French>Détruisez ou capturez des tours radio afin de gagner la confiance des %1 citoyens.</French>
         <German>Zerstöre oder erobere Funkmaster, um das Vertrauen der Zivilbevölkerung von %1 zu erhöhen.</German>
         <Czech>Zničte nebo obsaďte rádiové věže, abyste si vybudovali důvěru u %1 občanů.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_7">
         <Original>Vehicles</Original>
         <French>Véhicules</French>
         <German>Fahrzeuge</German>
         <Czech>Vozidla</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_7">
         <Original>You may buy vehicles for your squad at Faction flags.</Original>
         <French>Vous pouvez acheter des véhicules pour votre équipe aux drapeaux de faction.</French>
         <German>Du kannst Fahrzeuge für deine Gruppe am Flaggenmast kaufen.</German>
         <Czech>Můžete si koupit vozidla pro svůj tým u frakčních vlajek.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_8">
         <Original>Static Weapons</Original>
         <French>Armes statiques</French>
         <German>Statische Geschütze</German>
         <Czech>Lafetované zbraně</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_8">
         <Original>You may steal static weapons found in enemy airports. You must use the 'Steal Static' action to do so. DO NOT disassemble them before using the 'Steal Static' action!</Original>
         <French>Vous pouvez voler des armes statiques trouvées dans les aéroports ennemis. Vous devez utiliser l'action 'Steal Static' pour le faire. NE PAS les démonter avant d'utiliser l'action 'Steal Static'!</French>
         <German>Du kannst statische Geschütze von feindlichen Flugplätzen stehlen. Hierzu nutze die "Stehle Geschütz" Aktion. BEACHTE die Geschütze NICHT zu demontieren, bevor du nicht die "Stehle Geschütz" Aktion genutzt hast.</German>
         <Czech>Můžete ukrást lafetované zbraně na nepřátelských letištích. K tomu musíte použít akci „Ukrást lafetovanou zbraň“. NEPOUŽÍVEJTE „rozložit" před použitím akce „Ukrást lafetovanou zbraň“</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_9">
         <Original>Conquer</Original>
         <French>Conquérir</French>
         <German>Erobern</German>
         <Czech>Dobýt</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_9">
         <Original>Some zones, like airports require you to use the ""Take the Flag"" action on their respective flags in order to conquer them. Some others, like roadblocks and some outposts, simply require you to defeat the garrison.</Original>
         <French>Certaines zones, comme les aéroports, vous obligent à utiliser l'action ""Prendre le drapeau"" sur leurs drapeaux respectifs afin de les conquérir. D'autres, comme les barrages routiers et certains avant-postes, vous demandent simplement de vaincre la garnison.</French>
         <German>Um eine Zone, wie z.B. einen Flugplatz, einzunehmen, musst du die "Nimm die Flagge" Aktion an dem entsprechenden Flaggenmast vor Ort nutzen.</German>
         <Czech>Některé zóny, jako jsou letiště, vyžadují, abyste na jejich příslušných vlajkách použili akci „Převzít vlajku“, abyste je mohli dobýt. Někteří jiní, jako jsou zátarasy a některé základny, prostě vyžadují, abyste porazili posádku.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_10">
         <Original>Ammobox Transfer</Original>
         <French>Tranfert vers l'Arsenal</French>
         <German>Munitionskiste transferieren</German>
         <Czech>Přenos ammuboxu</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_10">
         <Original>When you mount a truck, you may use the Transfer action in the action menu. It will search for nearby ammoboxes and load the contents of the nearest one into the truck's cargo space. You may then unload the truck in your ammobox at HQ for future use. Before transferring, make sure to unload backpack/vest contents into the Truck cargo space and then transfer. TIP: If your HQ Ammobox is full, use this functionality from a nearby truck to add more content to the ammobox as it will then accept everything :)</Original>
         <French>Lorsque vous êtes dans un camion, vous pouvez utiliser l'action Transférer dans le menu d'action. Il recherchera les boîtes de munitions à proximité et chargera le contenu de la plus proche dans l'espace de chargement du camion. Vous pouvez ensuite décharger le camion dans votre Arsenal au QG pour une utilisation future. Avant le transfert, assurez-vous de décharger le contenu du sac à dos / gilet dans l'espace de chargement du camion, puis transférez. CONSEIL: Si votre Arsenal au QG est plein, utilisez cette fonctionnalité à partir d'un camion à proximité pour ajouter plus de contenu à la boite car il acceptera alors tout :)</French>
         <German>Befindest du dich in einem LKW, kannst du die Transfer-Aktion im Aktionsmenü nutzen. Dadurch wird der Inhalt der nähsten Munitionskiste in das Inventar deines LKWs transferiert. Anschließend kannst du deinen LKW bei deinem Munitionslager im HQ entladen, um die erbeuteten Gegenstände sicher einzulagern. Bevor du das Inventar des LKWs in dein Munitionslager transferierst, solltest du alle Gegenstände aus dem Inventar von Rucksäcken und Westen in das Grundinventar deines LKWs verschieben. TIPP: Wenn dein Munitionslager im HQ voll ist, kannst du über diese Funktion dennoch Gegenstände aus einem LKW einlagern :)</German>
         <Czech>Při použití nákladního vozu můžete použít akci „Přenos" v nabídce akcí. Vyhledá v blízkém okolí krabici s municí a vloží ji do nákladního prostoru. Poté můžete nákladní vůz vyložit  na velitelství pro budoucí použití. Před přenosem se ujistěte, že jste obsahy baťohů/vest vyložili do nákladního prostoru nákladního vozu a poté jej přenesli. TIP: Pokud je váš inventář arzenálu plný, použijte tuto funkci z blízkého náklaďáku a přidejte do arzenálu další obsah, protože ten sežere všechno :)</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_11">
         <Original>Fast Travel</Original>
         <French>Téléportation</French>
         <German>Schnellreise</German>
         <Czech>Teleport</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_11">
         <Original>When there are no enemies nearby, fast travel to Faction controlled places. The Commander also has the ability to use this option on HC groups, selecting the group on HC bar and clicking on this button.</Original>
         <French>Lorsqu'il n'y a pas d'ennemis à proximité, voyagez rapidement vers des endroits contrôlés par la faction. Le Commandant a également la possibilité d'utiliser cette option sur les groupes HC, en sélectionnant le groupe sur la barre HC et en cliquant sur ce bouton.</French>
         <German>Sind keine Feinde in der Nähe, kannst du schnell zu von deiner Fraktion kontrollierten Orte reisen. Der Kommandant hat außerdem die Möglichkeit, diese Funktion für KI Gruppen zu nutzen, indem diese in der Oberbefehlsleiste ausgewählt und anschließend die Schaltfläche angeklickt wird.</German>
         <Czech>Pokud v okolí nejsou žádní nepřátelé, rychle cestujte na místa pod kontrolou frakce. Velitel má také možnost tuto možnost použít na štábní skupiny, výběrem skupiny na Štabní liště a kliknutím na toto tlačítko.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_12">
         <Original>Base Static Emplacement</Original>
         <French>Emplacement statique de base</French>
         <German>Geschützstellungen</German>
         <Czech>Umístění lafetovaných zbraní na základně</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_12">
         <Original>Purchased static weapons won't despawn if you leave them in a base or zone, AI garrison will man them. Reinforce places as you desire.</Original>
         <French>Les armes statiques achetées ne disparaîtront pas si vous les laissez dans une base ou une zone, la garnison AI les équipera. Renforcez les lieux à votre guise.</French>
         <German>Gekaufte statische Geschütze werden werden nicht entfernt, wenn du sie in der Nähe einer Basis oder Zone stehen lässt. Die KI Garnison wird sie dann bemannen. Verstärke somit Orte ganz nach deinem Geschmack.</German>
         <Czech>Zakoupené lafetované zbraně nebudou odebrána, pokud je necháte na základně nebo v zóně, posádka AI je bude ovládat. Posilujte místa, jak si přejete.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_13">
         <Original>Group Selection</Original>
         <French>Sélection de groupe</French>
         <German>Gruppenauswahl</German>
         <Czech>Výběr skupiny</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_13">
         <Original>You can build groups with up to 10 human players. Commander is excluded of this function.</Original>
         <French>Vous pouvez créer des groupes avec jusqu'à 10 joueurs humains. Le commandant est exclu de cette fonction.</French>
         <German>Eine Gruppe kann aus bis zu 10 Spielern bestehen. Der Kommandant ist hiervon ausgenommen.</German>
         <Czech>Skupina se může skládat až z 10 hráčů. Velitel je z této funkce vyloučen.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_14">
         <Original>Server Members</Original>
         <French>Membres du serveur</French>
         <German>Servermitglieder</German>
         <Czech>Členové serveru</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_14">
         <Original>If enabled, this feature will exclude all non-members from using the HQ Ammobox and become Commander. This feature is intended to avoid having your game ruined by the casual troll in open server environments. Commanders may add or remove players from the Server Members List if the feature is enabled.</Original>
         <French>Si elle est activée, cette fonction exclura tous les non-membres d'utiliser la boite du QG et de devenir commandant. Cette fonctionnalité est destinée à éviter que votre jeu ne soit ruiné par le troll occasionnel dans des environnements de serveurs ouverts. Les commandants peuvent ajouter ou supprimer des joueurs de la liste des membres du serveur si la fonction est activée.</French>
         <German>Wenn aktiviert, können ausschließlich festgelegte Servermitglieder das Munitionslager im HQ benutzen oder Kommandant werden. Dieses Feature ist dafür gedacht, dass die üblichen Trolle dein Spiel auf einem öffentlichen Server nicht ruinieren können. Kommandanten können Spieler zu der Liste der Servermitglieder hinzufügen oder davon entfernen, wenn das Feature aktiviert ist.</German>
         <Czech>Pokud je povolena, tato funkce vyloučí všechny nečleny z použití Arzenálu a funkce stát se velitelem. Tato funkce má zabránit tomu, aby vaše hra byla zničena náhodným trolem v prostředí otevřeného serveru.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_15">
         <Original>Player and Money</Original>
         <French>Joueur et argent</French>
         <German>Spieler und Geld</German>
         <Czech>Hráči a peníze</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_15">
         <Original>Use this option to donate money to other players or your faction funds.</Original>
         <French>Utilisez cette option pour donner de l'argent à d'autres joueurs ou aux fonds de votre faction.</French>
         <German>Mit dieser Funktion kannst du Geld an andere Spieler oder der Fraktionskasse spenden.</German>
         <Czech>Použijte tuto možnost k darování peněz jiným hráčům nebo vašim frakčním fondům. Velitelé mohou přidávat nebo odebírat hráče ze seznamu členů serveru, pokud je tato funkce povolena.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_16">
         <Original>Breach Vehicles</Original>
         <French>Forcer le véhicule</French>
         <German>Fahrzeuge aufbrechen</German>
         <Czech>Poškození vozidel</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_16">
         <Original>Tanks and APC can be breached by engineers with explosives to open them and get their crew out. Check 'Breaching charges' for the charges needed. Breaching vehicles applies damage, so take care when breaching heavily damaged vehicles. To breach a vehicle, get close to it and select the breaching option!</Original>
         <French>Les chars et les véhicules de Transports de troupes peuvent être percés par des ingénieurs avec des explosifs pour les ouvrir et faire sortir leur équipage. Cochez «Charges explosives» pour les frais nécessaires. La violation des véhicules inflige des dégâts, alors faites attention lorsque vous percez des véhicules fortement endommagés. Pour percer un véhicule, approchez-vous de celui-ci et sélectionnez l'option de perçage!</French>
         <German>Panzer und Truppentransporter können von Ingenieuren mit Sprengstoff aufgebrochen werden, um die Besatzung absitzen zu lassen. Unter "Aufspengladungen" findest du die benötigten Sprengstoffe. Ein Fahrzeug derart aufzubrechen verursacht Schaden. Sei also vorsichtig, wenn du dies an einem bereits schwer beschädigten Fahrzeug durchführst. Um ein Fahrzeug aufzubrechen, gehe nah an es heran und wähle die "Aufbrechen" Aktion.</German>
         <Czech>Tanky a APC mohou být požkozeny inženýry s výbušninami, aby je otevřeli a dostali jejich posádku ven. Zkontrolujte potřebné vybavení na „proražení vozidla“. Proražení vozidel způsobí poškození, takže při proražení silně poškozených vozidel buďte opatrní. Chcete-li vozidlo proražení, přibližte se k němu a vyberte možnost proražení!</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_17">
         <Original>Breaching charges</Original>
         <French>Charges explosives</French>
         <German>Aufsprengladungen</German>
         <Czech>Prorazujíci výbušniny</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_17">
         <Original>To breach an APC you need %1 %2To breach a tank you need %3</Original>
         <French>Pour percer un APC, vous avez besoin de %1 %2. Pour briser un tank, vous avez besoin de %3.</French>
         <German>Um einen Truppentransporter aufzusprengen benötigst du %1 %2.&lt;br/&gt;Für einen Panzer benötigst du %3.</German>
         <Czech>K proražení APC potřebujete %1 %2 K proražení Tanku potřebujete %3</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_1">
         <Original>Recruit</Original>
         <French>Recruter</French>
         <German>Rekrutieren</German>
         <Czech>Naverbovat</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_1">
         <Original>You may recruit up to 9 AI squad-mates at some Faction flags and the HQ flag.</Original>
         <French>Vous pouvez recruter jusqu'à 9 coéquipiers IA sur certains drapeaux de faction et au drapeau du QG.</French>
         <German>Am Flaggenmast im HQ kannst du bis zu 9 KI Einheiten für deine Gruppe rekrutieren.</German>
         <Czech>Na některých frakčních vlajkách a na velitelských vlajkách můžete najmout až 9 jednotek AI.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_2">
         <Original>AI Control</Original>
         <French>Contrôler l'IA</French>
         <German>KI Kontrolle übernehmen</German>
         <Czech>Převzít kontrolu nad AI</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_2">
         <Original>Select a squad-mate or HC Group to gain direct control over them for a limited time. Selecting this option for a HC squad will give you control over the squad's leader.</Original>
         <French>Sélectionnez un coéquipier ou un groupe HC pour prendre le contrôle direct sur eux pendant une durée limitée. La sélection de cette option pour une équipe HC vous donnera le contrôle sur le chef de l'équipe.</French>
         <German>Wähle ein Gruppenmitglied oder eine Oberbefehl-Gruppe, um für eine bestimmte Zeit direkte Kontrolle zu erhalten. Bei der Wahl einer Oberbefehl-Gruppe erhälst du Kontrolle über den Gruppenführer.</German>
         <Czech>Vyberte skupinu nebo skupinu štábu a získejte přímou kontrolu nad nimi po omezenou dobu. Výběrem této možnosti pro skupinu štábu získáte kontrolu nad vůdcem skupiny.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_3">
         <Original>AI Radio</Original>
         <French>Radio de l'IA</French>
         <German>KI Funkgeräte</German>
         <Czech>AI Rádio</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_3">
         <Original>This feature aims to simulate the lack of radio communications with AI fighters. Your AI squad-mates won't have a radio until you unlock it from the Arsenal. Without a radio, if an AI squad-mate gets too far away, they will get lost and return to the leader's position after completing the last order they received. To avoid this, you may scavenge some radios from enemy (AutoRearm feature will do) or let the AI use a military vehicle which has long range radios. If it takes too long to find their leader, they will automatically return to the HQ.</Original>
         <French>Cette fonctionnalité vise à simuler le manque de communications radio avec les combattants IA. Vos camarades IA n'auront pas de radio tant que vous ne la déverrouillerez pas dans l'Arsenal. Sans radio, si un coéquipier IA s'éloigne trop, il se perdra et reviendra vers la position du commandant après avoir terminé le dernier ordre qu'il a reçu. Pour éviter cela, vous pouvez récupérer certaines radios de l'ennemi (la fonction "Réarmement automatique \ Butin" fera l'affaire) ou laisser l'IA utiliser un véhicule militaire qui a des radios à longue portée. Si cela prend trop de temps pour trouver leur chef, ils retourneront automatiquement au QG.</French>
         <German>Dieses Feature ist dazu gedacht die fehlende Funkkommunikation mit KI Widerständskämpfern zu simulieren. Deine KI Gruppenmitglieder werden keine Funkgeräte haben, solange du sie nicht im Arsenal freischaltest. Ohne ein Funkgerät kann die Verbindung der KI Widerstandskämpfer abbrechen, wenn sie sich zu weit entfernen. Sie werden dann, nachdem sie ihren letzten Befehl erfüllt haben, zur letzten Position des Anführers zurückkehren. Um dies zu verhindern, erbeute einige Funkgeräte von feindlichen Einheiten oder lasse die KI militärische Fahrzeuge mit Langstreckenfunkgeräten nutzen. Sollte es zu lange dauern, bis die KI Widerstandskämpfer ihren Anführer finden, kehren sie automatisch zum HQ zurück.</German>
         <Czech>Tato funkce si klade za cíl simulovat nedostatek radiové komunikace se stíhači AI. Vaši kamarádi AI nebudou mít rádio, dokud jej odemknete z Arsenalu. Bez rádia, pokud se družstvo AI dostane příliš daleko, ztratí se a vrátí se na pozici vůdce po dokončení posledního přijatého příkazu. Abyste tomu zabránili, můžete vyklidit některá rádia od nepřítele (funkce „Automaticky přezbrojit" to udělá) nebo nechat AI používat vojenské vozidlo, které má rádia s dlouhým dosahem. Pokud najdou svého vůdce příliš dlouho, vrátí se automaticky na velitelství.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_4">
         <Original>Auto Heal</Original>
         <French>Guérison automatique</French>
         <German>Automatische Heilung</German>
         <Czech>Automatické léčení</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_4">
         <Original>AI Medic squad-mates will heal other AI’s automatically without the need to give any orders. If in combat, your AI will use smoke grenades for cover. If there is no medic in the group, the AI will use their own medikits.</Original>
