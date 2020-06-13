@@ -1302,11 +1302,11 @@
         <Chinesesimp>移动指挥部</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_5">
-        <Original>指挥官可在总部旗帜上选择此选项,以便将总部移动到另一地点.这将允许你移动你的总部到一个更安全的地点或更靠近前线.你的总部离敌人越近,你可以执行的边上任务就越多.记得！保护Petros的安全,否则你会输掉比赛的！</Original>
+        <Original>The Commander may select this option on the HQ Flag in order to move the HQ emplacement to another spot. This will allow you to move your HQ to a safer location or move closer to the front-lines. The closer your HQ is to the enemy, the greater the number of possibile side-missions you will have available. Remember! Keep Petros Safe or you will lose the game!</Original>
         <French>Le commandant peut sélectionner cette option sur le drapeau du QG afin de déplacer le QG à un autre endroit. Cela vous permettra de déplacer votre QG vers un endroit plus sûr ou de vous rapprocher des lignes de front. Plus votre QG est proche de l'ennemi, plus vous aurez de missions secondaires possibles. Attention! Gardez Petros en sécurité ou vous perdrez la partie!</French>
         <German>Der Kommandant kann über eine Option am Flaggenmast das HQ zu einem anderen Ort verlegen lassen. Dies gibt dir die Möglichkeit dein HQ zu einer sichereren Position oder näher an die Frontlinie zu verlegen. Umso näher dein HQ am feindlichen Gebiet ist, umso größer ist die Anzahl an möglichen Sekundärmissionen. Vorsicht! Beschütze Petros oder du verlierst das Spiel!</German>
         <Czech>Velitel může vybrat tuto možnost na velitelské vlajce, aby přesunul umístění velitelství na jiné místo. To vám umožní přesunout své velitelství na bezpečnější místo nebo se přiblížit ke frontě. Čím blíže je vaše velitelství k nepřátelům, tím větší je počet možných vedlejších misí, které budete mít k dispozici. Pamatujte si! Zachovejte Petrose v bezpečí, jinak hru prohrajete!</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>指挥官可在总部旗帜上选择此选项,以便将总部移动到另一地点.这将允许你移动你的总部到一个更安全的地点或更靠近前线.你的总部离敌人越近,你可以执行的边上任务就越多.记得！保护Petros的安全,否则你会输掉比赛的！</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_6">
         <Original>Rest - Camp-fire</Original>
