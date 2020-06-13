@@ -55,6 +55,7 @@
         <Russian>Построение Обороны</Russian>
         <German>Garnisonsverwaltung</German>
         <Czech>Spravovat posádku</Czech>
+        <Chinesesimp>管理</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_garrisons_tooltip">
         <Original>Add or remove units to garrisons</Original>
