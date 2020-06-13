@@ -1051,7 +1051,6 @@
         <Russian>Antistasi Кундуз</Russian>
         <German>Antistasi Kunduz</German>
         <Czech>Antistasi Kunduz</Czech>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_blurb_text">
         <Original>Sand and blood</Original>
@@ -1196,7 +1195,7 @@
         <French>Ressources</French>
         <German>Ressourcen</German>
         <Czech>Zdroje</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>资源</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_5">
         <Original>Having a good amount of resources for bigger operations is mandatory, especially weapons and ammo. In the initial stages, your main source of resources is accomplishing side-missions.</Original>
@@ -1390,238 +1389,238 @@
         <French>Utilisez cette option pour vendre des véhicules capturés et augmenter les fonds de la faction.</French>
         <German>Nutze diese Möglichkeit, um erbeutete Fahrzeuge zu verkaufen und damit die Fraktionskasse aufzufüllen.</German>
         <Czech>Využijte této příležitosti k prodeji ukradených vozidel a zvýšení frakčních fondů.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>使用此选项可以出售缴获的载具并增加派系资金.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_12">
         <Original>Observation Post</Original>
         <French>Poste d'observation</French>
         <German>Beobachtungsposten</German>
         <Czech>Předsunutá hlídka</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>观察哨</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_12">
         <Original>Use the radio and select a spot on the map with good field of vision. A group of snipers will join you. Send them to the selected place and they will spot for you, attempting to remain hidden and not engaging enemies upon contact.</Original>
         <French>Utilisez la radio et sélectionnez un endroit sur la carte avec un bon champ de vision. Un groupe de tireurs d'élite se joindra à vous. Envoyez-les à l'endroit sélectionné et ils vous repéreront, essayant de rester cachés et n'engageant pas les ennemis au contact.</French> 
         <German>Benutze dein Funkgerät und wähle einen Ort auf der Karte mit einer guten Übersicht. Eine Gruppe Scharfschützen wird sich dir anschließen. Schicke diese zu dem gewählten Ort und sie werden dort einen Beobachtungsposten einrichten. Dabei versuchen sie verdeckt zu bleiben und Feinde bei Kontakt nicht anzugreifen.</German>
         <Czech>Použijte rádio a vyberte místo na mapě s dobrým zorným polem. Připojí se k vám skupina ostřelovačů. Pošlete je na vybrané místo a oni tam zřídí pozorovací stanoviště. Snaží se zůstat v utajení a neútočit na nepřátele v kontaktu.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>使用无线电,在地图上选择一个视野良好的地点.一群狙击手将加入你的行列.把他们送到选定的地方,他们会为你侦查,试图保持隐蔽,不与敌人接触.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_13">
         <Original>Roadblocks</Original>
         <French>Barrages routiers</French>
         <German>Straßensperren</German>
         <Czech>Zátarasy</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>路障</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_13">
         <Original>Use the menu and select a spot on the map. Click where a road is. A group of AT soldiers will join you. Send them to the selected place and they will establish a roadblock there.</Original>
         <French>Utilisez le menu et sélectionnez un endroit sur la carte. Cliquez où se trouve une route. Un groupe de soldats AT se joindra à vous. Envoyez-les à l'endroit choisi et ils y établiront un barrage routier.</French>
         <German>Benutze das Menü und wähle einen Ort auf der Karte nahe einer Straße. Eine Gruppe Panzerabwehrsoldaten wird sich dir anschließen. Schicke diese zu dem gewählten Ort und sie werden dort eine Straßensperre errichten.</German>
         <Czech>Použijte nabídku a vyberte místo na mapě. Klikněte na místo, kde je silnice. Skupina protitankových vojáků se k vám připojí. Pošlete je na vybrané místo a oni tam vytvoří zátaras.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>使用菜单并选择地图上的一个点.单击道路所在的位置.一群AT士兵将加入你的行列.把他们送到指定的地方,他们就会在那里设置路障.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_14">
         <Original>Grab Faction Funds</Original>
         <French>Récupérer l'argent de la faction</French>
         <German>Geld der Fraktionskasse entnehmen</German>
         <Czech>Vzít si z fondu</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>提取阵营资金</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_14">
         <Original>Use this option to grab money from the Faction pool to your personal account. Please note this will have an impact on your score and future promotion chances. Corrupt Commanders may find themselves loosing their command.</Original>
         <French>Utilisez cette option pour récupérer de l'argent de la cagnotte de la Faction vers votre compte personnel. Veuillez noter que cela aura un impact sur votre score et vos chances de promotion futures. Les commandants corrompus peuvent perdre leur commandement.</French>
         <German>Benutze diese Option, um Gelder aus der Fraktionskasse zu entnehmen. Beachte dabei, dass dies Auswirkungen auf deine Reputation und zukünftige Beförderungschancen hat. Korrupte Kommandanten könnten plötzlich ihr Kommando verlieren.</German>
         <Czech>Tuto možnost použijte, chcete-li peníze z frakčního fondu vzít na svůj osobní účet. Upozorňujeme, že to bude mít vliv na vaše skóre a na budoucí šanci k povýšení. Zkorumpovaní velitelé se mohou ocitnout v té situaci, že ztratí velení.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>使用此选项可以从阵营资金池中获取金钱到您的个人帐户.请注意,这将影响你的分数和未来的晋升机会.腐败的指挥官可能会发现自己失去了指挥权.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_15">
         <Original>In-game Members</Original>
         <French>Membres en jeu</French>
         <German>Servermitglieder</German>
         <Czech>Členové ve hře</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>游戏内会员</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_15">
         <Original>In the HQ Flag, if the Server Member feature is enabled, you may check which of the Server Members are in game and the total number of non members.</Original>
         <French>Avec le drapeau du QG, si la fonction de membre du serveur est activée, vous pouvez vérifier quels membres du serveur sont en jeu et le nombre total de non-membres.</French>
         <German>Am Flaggenmast im HQ kannst du, wenn das Servermitglieder Feature aktiviert ist, überprüfen, welche Servermitglieder und wie viele Nicht-Servermitglieder im Spiel sind.</German>
         <Czech>Na stožáru ve velitelství, když je povolena funkce členů serveru, můžete zkontrolovat, kteří členové serveru a kolik členů mimo server je ve hře.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>在HQ标志中,如果服务器成员功能已启用,则可以检查哪些服务器成员正在游戏中以及非成员的总数.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_SpecialK_1">
         <Original>Battle Options</Original>
         <French>Options de combat</French>
         <German>Schlachtoptionen</German>
         <Czech>Možnosti bitvy</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>战斗选项</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_SpecialK_1">
         <Original>Press Y in-game to have access any time to several options. Most of them are explained in the Commander or Features sections.</Original>
         <French>Appuyez sur Y dans le jeu pour avoir accès à tout moment à plusieurs options. La plupart d'entre eux sont expliqués dans les sections Commandants ou Fonctionnalités.</French>
         <German>Drücke im Spiel Z, um jederzeit Zugriff auf verschiedene Optionen zu erhalten. Die meisten davon sind im Kommandanten oder Features Bereich erklärt.</German>
         <Czech>Stisknutím klávesy Z ve hře získáte přístup k několika možnostem. Většina z nich je vysvětlena v kapitolách Velitele nebo Funkce.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>在游戏中按Y可随时访问多个选项.其中大部分都在指挥官或特征部分进行了说明.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_SpecialK_2">
         <Original>High Command</Original>
         <French>Haut Commandement</French>
         <German>Oberbefehl</German>
         <Czech>Vrchní velení</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>高级指挥</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_SpecialK_2">
         <Original>When you are the Commander, hit CTRL + SPACE to give way-points and other orders to your AI squads using the HC mode. Non commanders may use it to check enemy contacts reported by the Faction communications network.</Original>
         <French>Lorsque vous êtes le commandant, appuyez sur CTRL + ESPACE pour donner des points de cheminement et d'autres ordres à vos escouades d'IA en utilisant le mode HC. Les non-commandants peuvent l'utiliser pour vérifier les contacts ennemis signalés par le réseau de communication de la faction.</French>
         <German>Wenn du der Kommandant bist, kannst du über Strg + Leertaste in den Oberbefehlsmodus wechseln und somit KI Gruppen Befehle geben. Nicht-Kommandanten können dies nutzen, um Berichte über feindliche Kontakte zu überprüfen.</German>
         <Czech>Pokud jste velitel, můžete přepnout do příkazového režimu pomocí kláves Ctrl + Mezera a tak dát příkazy skupinám AI. Nevelitelé mohou použít k ověření zpráv o nepřátelských kontaktech.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>当你是指挥官时,按CTRL+空格键,使用小队模式给你的AI小队让路点和其他命令.非指挥官可以使用它来检查派系通信网络报告的敌人联系.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_SpecialK_3">
         <Original>Artillery</Original>
         <French>Artillerie</French>
         <German>Artillerie</German>
         <Czech>Dělostřelectvo</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>炮兵部队</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_SpecialK_3">
         <Original>Press SHIFT + Y in-game while having an artillery squad selected on the HC bar.</Original>
         <French>Appuyez sur SHIFT + Y dans le jeu tout en ayant une escouade d'artillerie sélectionnée sur la barre HC.</French>
         <German>Drücke im Spiel Shift + Z während du eine Artilleriegruppe in der Oberbefehlsleiste ausgewählt hast.</German>
         <Czech>Stiskněte ve hře SHIFT + Z zatímco dělostřelecké družstvo je vybráno na panelu štábu.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>在游戏中按下SHIFT+Y,同时在小队栏上选择一个炮兵小队.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_SpecialK_4">
         <Original>Group Manager</Original>
         <French>Gestion de groupe</French>
         <German>Gruppenverwaltung</German>
         <Czech>Správce skupiny</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>队伍管理器</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_SpecialK_4">
         <Original>MP Only: Press U in-game to join another player's group</Original>
         <French>MP uniquement: appuyez sur U dans le jeu pour rejoindre le groupe d'un autre joueur.</French>
         <German>Nur im Mehrspieler: Drücke im Spiel U, um einer Gruppe eines anderen Spielers beizutreten.</German>
         <Czech>Pouze v Multiplaeru: Stisknutím klávesy U ve hře se připojíte ke skupině jiného hráče</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>仅限多人：在游戏中按U键加入其他玩家的队伍</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_SpecialK_5">
         <Original>Earplugs</Original>
         <French>Bouchons d'oreilles</French>
         <German>Ohrstöpsel</German>
         <Czech>Špunty do uší</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>耳塞</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_SpecialK_5">
         <Original>Press END to enable / disable earplugs. Disabled with ACE.</Original>
         <French>Appuyez sur FIN pour activer / désactiver les bouchons d'oreille. Désactivé avec ACE.</French>
         <German>Drücke ENDE, um Öhrstöpsel einzusetzen oder zu entfernen. Wird mit ACE automatisch deaktiviert.</German>
         <Czech>Stiskněte END pro aktivaci / deaktivaci chráničů sluchu. Zakázáno s ACE.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>按END启用 / 关闭 耳塞. 使用ACE时禁用.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_1">
         <Original>Faction Leader</Original>
         <French>Chef de faction</French>
         <German>Fraktionsanführer</German>
         <Czech>Vedoucí frakce</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>阵营首领</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_1">
         <Original>Just as with any resistance movement, leadership is not as stable as in organised states. Any player can take the role of Faction Force Commander if the current one is not very popular... Demonstrate your skill while accomplishing missions and killing enemies and maybe you will become the next leader.</Original>
         <French>Comme pour tout mouvement de résistance, le commandement n'est pas aussi stable que dans les États organisés. N'importe quel joueur peut jouer le rôle de commandant de la Faction si l'actuel n'est pas très populaire ... Démontrez vos compétences tout en accomplissant des missions et en tuant des ennemis et peut-être deviendrez-vous le prochain chef.</French>
         <German>Wie üblich in Widerstandsbewegungen, ist die Führung nicht so stabil wie in organisierten Streitkräften. Jeder Spieler kann die Rolle des Fraktionsanführers übernehmen, wenn die Reputation des aktuellen Anführers niedrig ist. Erhöhe deine eigene Reputation durch die Erfüllung von Sekundärmissionen und dem Ausschalten von feindlichen Einheiten und du kannst der nächste Anführer werden.</German>
         <Czech>Stejně jako u každého hnutí odboje, vedení není tak stabilní jako v organizovaných státech. Každý hráč může převzít roli velitele frakcí, pokud současný není příliš populární ... Prokázat své dovednosti při plnění misí a zabíjení nepřátel a možná se stanete dalším vůdcem.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>正如任何抵抗运动一样,领导层不像有组织的国家那样稳定.如果当前的玩家不太受欢迎的话,任何玩家都可以扮演势力指挥官的角色...在完成任务和杀敌的同时展示你的技能,也许你会成为下一任领导.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_2">
         <Original>Garage</Original>
         <French>Garage</French>
         <German>Fuhrpark</German>
         <Czech>Garáž</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>载具车库</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_2">
         <Original>Add any vehicle near your personal Virtual Garage (or factions garage if you are the commander) and keep it safe for future use. Vehicle add option is under the Y menu. Garage management is in HQ options (Flag). Garage recovery capacities may depend on where you are: Air Units can be recovered only near Airbases, boats, near the shore etc.</Original>
         <French>Ajoute n'importe quel véhicule près de votre garage virtuel personnel (ou garage de la factions si vous êtes le commandant) et gardez-le en lieu sûr pour une utilisation future. L'option d'ajout de véhicule se trouve dans le menu Y. La gestion du garage est dans les options HQ (Flag). Les capacités de récupération du garage peuvent dépendre de l'endroit où vous vous trouvez: les unités aériennes ne peuvent être récupérées que près des bases aériennes, des bateaux, près du rivage, etc.</French>
         <German>Du kannst jedes Fahrzeug in deinen persönlichen virtuellen Fuhrpark (oder dem der Fraktion, wenn du der Kommandant bist) hinzufügen, um es sicher zu verwahren. Diese Option findest du im Z-Menü. Die Verwaltung des Fuhrparks kann am Flaggenmast im HQ aufgerufen werden. Die Möglichkeit zur Bereitstellung eines Fahrzeugs aus dem Fuhrpark hängt dabei von deiner Umgebung ab: Luftfahrzeuge können nur in der Nähe von Flugplätzen bereitgestellt werden, Boote nur in der Nähe der Küste, usw. </German>
         <Czech>Můžete přidat jakékoli vozidlo do svého osobního virtuálního vozového parku (nebo frakce, pokud jste velitel), aby bylo v bezpečí. Tuto možnost naleznete v nabídce Z. Vedení flotily může být povoláno na stožár u velitelství. Schopnost zajistit vozidlo z flotily závisí na vašem okolí: letadla mohou být poskytnuta pouze v blízkosti letišť,lodí pouze v blízkosti pobřeží atd.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>在你的个人虚拟车库（或派系车库,如果你是指挥官）附近添加任何车辆,并保持其安全以备将来使用.车辆添加选项位于Y菜单下.车库管理在总部选项中（标志）.车库的恢复能力可能取决于你在哪里：空军只能在靠近空军基地、船只、海岸等的地方恢复.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_3">
         <Original>Undercover</Original>
         <French>Sous-couverture</French>
         <German>Verdecktes Vorgehen</German>
         <Czech>V utajení</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>卧底</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_3">
         <Original>Click on this button to go undercover. If you meet the requirements, the enemy won't attack you on sight. On foot, to go undercover you must have no weapons or military equipment visible.&lt;br/&gt;You will lose undercover status when you change load-out, get spotted by enemy guard-dogs, plant mines, and can also be reported by some civilians to the enemy. If you are discovered you won't be able to go undercover on foot again for 30 minutes. You can also go undercover by getting into any civilian vehicle. You will lose undercover status by firing any weapon or being spotted far from a road. If you are discovered you won't be able to go undercover in that vehicle again. Getting close to enemy Airbases, outposts and roadblocks will also make you lose undercover status.</Original>
         <French>Cliquez sur ce bouton pour aller sous-couverture. Si vous remplissez les conditions, l'ennemi ne vous attaquera pas à vue. À pied, pour aller sous-couverture, vous ne devez avoir ni armes ni équipement militaire visible.&lt;br/&gt;Vous perdrez le statut d'infiltration lorsque vous changerez de chargement, serez repéré par des chiens de garde ennemis, planterez des mines et certains civils pourront également signaler à l'ennemi. Si vous êtes découvert, vous ne pourrez plus vous infiltrer à pied pendant 30 minutes. Vous pouvez également vous infiltrer en montant dans n'importe quel véhicule civil. Vous perdrez le statut d'infiltration en tirant avec n'importe quelle arme ou en étant repéré loin d'une route. Si vous êtes découvert, vous ne pourrez plus vous infiltrer dans ce véhicule. Se rapprocher des bases aériennes, des avant-postes et des barrages routiers ennemis vous fera également perdre le statut d'infiltration.</French>
         <German>Drücke diese Schaltfläche, um verdeckt zu agieren. Wenn du die Anforderungen hierfür erfüllst, werden Feinde dich nicht mehr bei Kontakt angreifen. Während du zu Fuß unterwegs bist, darfst du keine Waffen oder andere militärische Ausrüstung sichtbar tragen.&lt;br/&gt;Du wirst aufgedeckt, wenn du deine Ausrüstung änderst, von feindlichen Wachhunden enteckt wirst, Minen platzierst oder ein Zivilist dich möglicherweise dem Feind meldet. Einmal aufgedeckt, kannst du für 30 Minuten nicht mehr verdeckt agieren. Eine weitere Möglichkeit diesen Modus zu aktivieren ist die Nutzung eines Zivilfahrzeugs. Hierbei wirst du aufgedeckt, sobald du eine Waffe abfeuerst oder dabei gesehen wirst, wenn du zu weit von einer Straße entfernt bist. Wirst du mit einem Zivilfahrzeug aufgedeckt, ist es dir nicht mehr möglich, dieses Fahrzeug für verdecktes Vorgehen zu nutzen. Näherst du dich einem feindlichen Flugplatz, Außenposten oder einer feindlichen Straßensperre, wirst du ebenso aufgedeckt.</German>
         <Czech>Kliknutím na toto tlačítko přejdete do utajení. Pokud splníte požadavky, nepřítel na vás nezaútočí na první pohled. Abyste mohli jít pěšky v utajení, nesmíte mít žádné zbraně nebo vojenské vybavení viditelné.&lt;br/&gt;Ztratíte tajný status, když změníte vybavení, dostanete spatřen nepřátelskými hlídacími psy, pokládáním min, též můžete být nahlášen místníma civilistama. Pokud vás objeví, nebudete moci jít v utajení znovu  po dobu 30 minut. Můžete také jít v utajení tím, že se dostane do jakéhokoli civilního vozidla. Ztratíte tajný status tím, že vystřelíte jakoukoliv zbraň nebo budete spatřeni daleko od silnice. Pokud vás odhalí, nebudete moci znovu v tom vozidle. Když se přiblížíte k nepřátelským leteckým základnám, základnám a zátarasům, ztratíte také status v utajení.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>如果你达到了要求,进入卧底状态敌人就不会攻击你.步行时您必须没有可见的武器或军事装备。当您换装时,您将失去卧底身份,被敌人的警犬发现,埋设地雷,还可以由一些平民向敌人报告.如果你被发现,30分钟内你就不能再徒步卧底了.你也可以进入任何民用车辆卧底.你将失去卧底身份,如果你被发现,你就不能再在那辆车上卧底了.接近敌人的空军基地、前哨基地和路障也会使你失去卧底身份.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_4">
         <Original>Arsenal</Original>
         <French>Arsenal</French>
         <German>Arsenal</German>
         <Czech>Arzenál</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>军火库</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_4">
         <Original>Scavenge for items, weapons and magazines and put them in your HQ Ammobox. Once you have a specific amount of an them, they will be unlocked and added to the Arsenal for personal use (and for your Faction squads).&lt;br/&gt;The amount required to unlock depends on how many assets the Faction has unlocked and the number of factories owned. Unlocked weapons, optics and night-vision Googles may also change AI load-out. Basic militiamen are especially affected by this: their load-out will start from small SMGs and progress to having an extra AA / AT launcher. Please note this will not affect their dress, which will depend on the current Faction Skill Level (helmets and uniform). Arsenal is the standard BIS Arsenal, check their documentation for interaction and use.&lt;br/&gt;&lt;br/&gt;To see the amounts required to unlock each group of items, open the HQ Ammobox and you will receive a detailed report on the right.</Original>
         <French>Récupérez des objets, des armes et des magazines et mettez-les dans votre Arsenal au QG. Une fois que vous en avez un nombre spécifique, ils seront déverrouillés et ajoutés à l'arsenal pour un usage personnel (et pour vos escouades de faction).&lt;br/&gt;Le montant requis pour déverrouiller dépend du nombre d'actifs débloqués par la faction et du nombre d'usines possédées. Les armes déverrouillées, les viseurs et les lunettes de vision nocturne peuvent également modifier les équipements de vos IA. Les miliciens de base sont particulièrement touchés par cela: leur équipement commencera par de petites SMG et passera à un lanceur AA / AT supplémentaire. Veuillez noter que cela n'affectera pas leur tenue, qui dépendra du niveau de compétence de faction actuel (casques et uniformes). Arsenal est l'arsenal BIS standard, consultez leur documentation pour l'interaction et l'utilisation.&lt;br/&gt;&lt;br/&gt;Pour voir les montants nécessaires pour déverrouiller chaque groupe d'articles, ouvrez l'Arsenal au QG et vous recevrez un rapport détaillé sur la droite.</French>
         <German>Sammle Gegenstände, Waffen und Magazine, um sie in das Munitionslager deines HQs abzulegen. Sobald du eine bestimmte Anzahl eines Gegenstands vorrätig hast, wird er im Arsenal für den persönlichen Gebrauch durch dich und den Gruppen deiner Fraktion freigeschaltet.&lt;br/&gt;Die benötigte Anzahl zur Freischaltung hängt davon ab, wie viele Gegenstände die Fraktion bereits freigeschaltet hat und wie viele Fabriken im Besitz der Fraktion sind. Freigeschaltete Waffen, Visiere und Nachtsichtgeräte können auch die Ausrüstung deiner KI Einheiten verändern. Einfache Milizen sind davon im speziellen betroffen: Ihre Ausrüstung ist zu Beginn ein einfaches SMG und erweitert sich auf zusätzliche Luft- und Panzerabwehrwaffen. Beachte, dass dies nicht ihre Kleidung (Uniform und Helm) beeinflusst, da dies von dem Fertigkeitslevel der Fraktion abhängt. Das Arsenal ist das standard BI Arsenal, also nutze die darüber verfügbare Dokumentation für Bedienungshinweise.&lt;br/&gt;&lt;br/&gt;Um die notwendige Anzahl zum Freischalten von Gegenständen einzusehen, öffne das Munitionslager im HQ und du erhälst eine Auflistung am rechten Bildschirmrand.</German>
         <Czech>Hledejte předměty, zbraně a zásobníky a vložte je do svého arzenálu. Jakmile budete mít určité množství z nich, budou odemčeny a přidány do Arzenálu pro osobní potřebu (a pro vaše frakce družstva).&lt;br/&gt;Částka potřebná k odemčení závisí na tom, kolik aktiv frakce odemkla a počet vlastněných továren. Odemčené zbraně, optika a noční vidění může také změnit vybavení AI. Základní milicionáři jsou tímto obzvláště postiženi: jejich vybavení začne od malých SMG až po odpalovací zařízení AA / AT. Vezměte prosím na vědomí, že to nebude mít vliv na jejich oblečení, které bude záviset na aktuální úrovni dovedností frakce (přilby a uniformy). Arzenal je standardní BIS Arsenal, zkontrolujte jejich dokumentaci pro interakci a použití.&lt;br/&gt;&lt;br/&gt; Chcete-li zobrazit částky potřebné k odemknutí každé skupiny položek, otevřete okno hq a obdržíte podrobnou zprávu vpravo.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>清除项目, 武器和弹匣放在你的总部弹药箱里.一旦你有一个特定的数量,他们将被解锁并添加到武器库供个人使用（并为你的派系小队使用）.&lt；br/&gt；解锁所需的数量取决于该派系解锁的资产数量和拥有的工厂数量.解锁的武器,光学和夜视谷歌也可能改变人工智能的负荷.基本民兵尤其受此影响：他们的装载将从小型小型小型导弹开始,并逐步增加一个额外的防空/反坦克发射器.请注意,这不会影响他们的着装,这将取决于当前的派系技能水平（头盔和制服）.阿森纳是标准的BIS阿森纳,查看他们的文档以进行交互和使用.&lt;br/&gt;若要查看解锁每组项目所需的金额,请打开HQ弹药箱,您将收到右侧的详细报告.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_5">
         <Original>Politics</Original>
         <French>Politique</French>
         <German>Politik</German>
         <Czech>Politika</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>政治</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_5">
         <Original>This is a civil war. People are not conquered if you cannot conquer their hearts. In game mechanics, this means you cannot conquer cities. The citizens of each town support the enemy or Faction to some amount.&lt;br/&gt;The dominant faction is the one who owns the city and benefits from their support in terms of money and human resources (HR). Your actions may lower enemy Support or raise yours, or both. Killing enemies, accomplishing missions, conquering resources, and power-stations, affect the amount of citizen support.</Original>
         <French>Ceci est une guerre civile. Les gens ne sont pas conquis si vous ne pouvez pas conquérir leur cœur. En mécanique de jeu, cela signifie que vous ne pouvez pas conquérir de villes. Les citoyens de chaque ville soutiennent l'ennemi ou la faction dans une certaine mesure.&lt;br/&gt;La faction dominante est celle qui possède la ville et bénéficie de leur soutien en termes d'argent et de ressources humaines (RH). Vos actions peuvent réduire le soutien ennemi ou augmenter le vôtre, ou les deux. Tuer des ennemis, accomplir des missions, conquérir des ressources et des centrales électriques affecte le niveau de soutien des citoyens.</French>
         <German>Dies ist ein Bürgerkrieg. Menschen können nicht erobert werden, wenn du nicht ihre Herzen erobern kannst. Bezogen auf die Spielmechanik bedeutet dies, dass du keine Städte erobern kannst. Die Bevölkerung jeder Stadt unterstützt die Fraktionen zu gewissen Graden.&lt;br/&gt;Die beliebteste Fraktion ist dann diejenige, welche die Stadt besitzt und von ihrer Unterstützung (Geld und Mannstärke) profitieren kann. Deine Unternehmungen können dazu führen, dass die Unterstützung für den Feind sinkt oder er für dich steigt. Das Ausschalten von feindlichen Einheiten, die Erledigung von Sekundärmissionen und das Erobern von Ressourcen und Kraftwerken beeinflusst die Unterstützung der Zivilbevölkerung.</German>
         <Czech>Toto je občanská válka. Lidé nejsou dobyti, pokud nemůžete dobýt jejich srdce. V herní mechanice to znamená, že nemůžete dobýt města. Občané každého města podporují nepřítele nebo frakce na určitou částku.&lt;br/&gt;Dominantní frakcí je ten, kdo vlastní město a těží z jejich podpory, pokud jde o peníze a lidské zdroje (HR). Vaše akce mohou snížit nepřátelské podporu nebo zvýšit vaše, nebo obojí. Zabíjení nepřátel, plnění misí, dobývání zdrojů a elektráren ovlivňuje množství podpory občanů.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>这是一场内战.如果你不能征服人们的心,他们就不会被征服.在游戏机制中,这意味着你不能征服城市.每个城镇的公民都在一定程度上支持敌人或派系.&lt；br/&gt；主导派系是指拥有城市并从其支持中获得金钱和人力资源（HR）利益的人.你的行动可能降低敌人的支持或提高你的支持,或两者兼而有之.杀敌、完成任务、征服资源和发电站,都会影响公民的支持.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_6">
         <Original>Radio Towers</Original>
         <French>Tours radio</French>
         <German>Funkmasten</German>
         <Czech>Rádiové věže</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>无线电发射塔</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_6">
         <Original>Destroy or capture Radio Towers in order to build trust with %1 citizens.</Original>
         <French>Détruisez ou capturez des tours radio afin de gagner la confiance des %1 citoyens.</French>
         <German>Zerstöre oder erobere Funkmaster, um das Vertrauen der Zivilbevölkerung von %1 zu erhöhen.</German>
         <Czech>Zničte nebo obsaďte rádiové věže, abyste si vybudovali důvěru u %1 občanů.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>摧毁或捕获无线电发射塔以建立与 %1 个公民的信任.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_7">
         <Original>Vehicles</Original>
         <French>Véhicules</French>
         <German>Fahrzeuge</German>
         <Czech>Vozidla</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>载具</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_7">
         <Original>You may buy vehicles for your squad at Faction flags.</Original>
         <French>Vous pouvez acheter des véhicules pour votre équipe aux drapeaux de faction.</French>
         <German>Du kannst Fahrzeuge für deine Gruppe am Flaggenmast kaufen.</German>
         <Czech>Můžete si koupit vozidla pro svůj tým u frakčních vlajek.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>你可以在阵营旗下为你的小队购买车载具.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_8">
         <Original>Static Weapons</Original>
         <French>Armes statiques</French>
         <German>Statische Geschütze</German>
         <Czech>Lafetované zbraně</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>固定式武器</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_8">
         <Original>You may steal static weapons found in enemy airports. You must use the 'Steal Static' action to do so. DO NOT disassemble them before using the 'Steal Static' action!</Original>
