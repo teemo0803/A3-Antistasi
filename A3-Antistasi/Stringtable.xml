@@ -1627,321 +1627,321 @@
         <French>Vous pouvez voler des armes statiques trouvées dans les aéroports ennemis. Vous devez utiliser l'action 'Steal Static' pour le faire. NE PAS les démonter avant d'utiliser l'action 'Steal Static'!</French>
         <German>Du kannst statische Geschütze von feindlichen Flugplätzen stehlen. Hierzu nutze die "Stehle Geschütz" Aktion. BEACHTE die Geschütze NICHT zu demontieren, bevor du nicht die "Stehle Geschütz" Aktion genutzt hast.</German>
         <Czech>Můžete ukrást lafetované zbraně na nepřátelských letištích. K tomu musíte použít akci „Ukrást lafetovanou zbraň“. NEPOUŽÍVEJTE „rozložit" před použitím akce „Ukrást lafetovanou zbraň“</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>你可以偷敌人机场发现的固定式武器.您必须使用“窃取静态”操作来执行此操作.在使用“窃取静态”操作之前,不要拆解它们!</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_9">
         <Original>Conquer</Original>
         <French>Conquérir</French>
         <German>Erobern</German>
         <Czech>Dobýt</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>占领</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_9">
         <Original>Some zones, like airports require you to use the ""Take the Flag"" action on their respective flags in order to conquer them. Some others, like roadblocks and some outposts, simply require you to defeat the garrison.</Original>
         <French>Certaines zones, comme les aéroports, vous obligent à utiliser l'action ""Prendre le drapeau"" sur leurs drapeaux respectifs afin de les conquérir. D'autres, comme les barrages routiers et certains avant-postes, vous demandent simplement de vaincre la garnison.</French>
         <German>Um eine Zone, wie z.B. einen Flugplatz, einzunehmen, musst du die "Nimm die Flagge" Aktion an dem entsprechenden Flaggenmast vor Ort nutzen.</German>
         <Czech>Některé zóny, jako jsou letiště, vyžadují, abyste na jejich příslušných vlajkách použili akci „Převzít vlajku“, abyste je mohli dobýt. Někteří jiní, jako jsou zátarasy a některé základny, prostě vyžadují, abyste porazili posádku.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>有些区域,如机场,要求您在各自的旗帜上使用“夺取旗子”操作来征服它们.还有一些,比如路障和前哨,只需要你打败驻军.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_10">
         <Original>Ammobox Transfer</Original>
         <French>Tranfert vers l'Arsenal</French>
         <German>Munitionskiste transferieren</German>
         <Czech>Přenos ammuboxu</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>弹药箱转移</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_10">
         <Original>When you mount a truck, you may use the Transfer action in the action menu. It will search for nearby ammoboxes and load the contents of the nearest one into the truck's cargo space. You may then unload the truck in your ammobox at HQ for future use. Before transferring, make sure to unload backpack/vest contents into the Truck cargo space and then transfer. TIP: If your HQ Ammobox is full, use this functionality from a nearby truck to add more content to the ammobox as it will then accept everything :)</Original>
         <French>Lorsque vous êtes dans un camion, vous pouvez utiliser l'action Transférer dans le menu d'action. Il recherchera les boîtes de munitions à proximité et chargera le contenu de la plus proche dans l'espace de chargement du camion. Vous pouvez ensuite décharger le camion dans votre Arsenal au QG pour une utilisation future. Avant le transfert, assurez-vous de décharger le contenu du sac à dos / gilet dans l'espace de chargement du camion, puis transférez. CONSEIL: Si votre Arsenal au QG est plein, utilisez cette fonctionnalité à partir d'un camion à proximité pour ajouter plus de contenu à la boite car il acceptera alors tout :)</French>
         <German>Befindest du dich in einem LKW, kannst du die Transfer-Aktion im Aktionsmenü nutzen. Dadurch wird der Inhalt der nähsten Munitionskiste in das Inventar deines LKWs transferiert. Anschließend kannst du deinen LKW bei deinem Munitionslager im HQ entladen, um die erbeuteten Gegenstände sicher einzulagern. Bevor du das Inventar des LKWs in dein Munitionslager transferierst, solltest du alle Gegenstände aus dem Inventar von Rucksäcken und Westen in das Grundinventar deines LKWs verschieben. TIPP: Wenn dein Munitionslager im HQ voll ist, kannst du über diese Funktion dennoch Gegenstände aus einem LKW einlagern :)</German>
         <Czech>Při použití nákladního vozu můžete použít akci „Přenos" v nabídce akcí. Vyhledá v blízkém okolí krabici s municí a vloží ji do nákladního prostoru. Poté můžete nákladní vůz vyložit  na velitelství pro budoucí použití. Před přenosem se ujistěte, že jste obsahy baťohů/vest vyložili do nákladního prostoru nákladního vozu a poté jej přenesli. TIP: Pokud je váš inventář arzenálu plný, použijte tuto funkci z blízkého náklaďáku a přidejte do arzenálu další obsah, protože ten sežere všechno :)</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>装载卡车时,可以使用“操作”菜单中的“转移”操作.它将搜索附近的弹药箱,并将最近的弹药箱的内容物装入卡车的货舱.你可以把卡车卸在总部的弹药箱里,以备将来使用.在转移之前,确保将背包/背心内的物品卸入卡车货舱,然后转移.小贴士：如果你的总部弹药箱已经满了,使用附近卡车上的这个功能向弹药箱添加更多的内容,因为它将接受所有东西 :)</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_11">
         <Original>Fast Travel</Original>
         <French>Téléportation</French>
         <German>Schnellreise</German>
         <Czech>Teleport</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>快速旅行</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_11">
         <Original>When there are no enemies nearby, fast travel to Faction controlled places. The Commander also has the ability to use this option on HC groups, selecting the group on HC bar and clicking on this button.</Original>
         <French>Lorsqu'il n'y a pas d'ennemis à proximité, voyagez rapidement vers des endroits contrôlés par la faction. Le Commandant a également la possibilité d'utiliser cette option sur les groupes HC, en sélectionnant le groupe sur la barre HC et en cliquant sur ce bouton.</French>
         <German>Sind keine Feinde in der Nähe, kannst du schnell zu von deiner Fraktion kontrollierten Orte reisen. Der Kommandant hat außerdem die Möglichkeit, diese Funktion für KI Gruppen zu nutzen, indem diese in der Oberbefehlsleiste ausgewählt und anschließend die Schaltfläche angeklickt wird.</German>
         <Czech>Pokud v okolí nejsou žádní nepřátelé, rychle cestujte na místa pod kontrolou frakce. Velitel má také možnost tuto možnost použít na štábní skupiny, výběrem skupiny na Štabní liště a kliknutím na toto tlačítko.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>当附近没有敌人时,快速前往派系控制的地方.指挥官还可以在HC组上使用此选项,在HC栏上选择组并单击此按钮.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_12">
         <Original>Base Static Emplacement</Original>
         <French>Emplacement statique de base</French>
         <German>Geschützstellungen</German>
         <Czech>Umístění lafetovaných zbraní na základně</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>基地固定式武器定位</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_12">
         <Original>Purchased static weapons won't despawn if you leave them in a base or zone, AI garrison will man them. Reinforce places as you desire.</Original>
         <French>Les armes statiques achetées ne disparaîtront pas si vous les laissez dans une base ou une zone, la garnison AI les équipera. Renforcez les lieux à votre guise.</French>
         <German>Gekaufte statische Geschütze werden werden nicht entfernt, wenn du sie in der Nähe einer Basis oder Zone stehen lässt. Die KI Garnison wird sie dann bemannen. Verstärke somit Orte ganz nach deinem Geschmack.</German>
         <Czech>Zakoupené lafetované zbraně nebudou odebrána, pokud je necháte na základně nebo v zóně, posádka AI je bude ovládat. Posilujte místa, jak si přejete.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>购买的固定式武器不会消失,如果你把他们留在基地或区域,艾守军将人.按你的要求加固地方.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_13">
         <Original>Group Selection</Original>
         <French>Sélection de groupe</French>
         <German>Gruppenauswahl</German>
         <Czech>Výběr skupiny</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>组队选项</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_13">
         <Original>You can build groups with up to 10 human players. Commander is excluded of this function.</Original>
         <French>Vous pouvez créer des groupes avec jusqu'à 10 joueurs humains. Le commandant est exclu de cette fonction.</French>
         <German>Eine Gruppe kann aus bis zu 10 Spielern bestehen. Der Kommandant ist hiervon ausgenommen.</German>
         <Czech>Skupina se může skládat až z 10 hráčů. Velitel je z této funkce vyloučen.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>你可以建立最多有10个人玩家的群组.指挥官被排除在这项职能之外.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_14">
         <Original>Server Members</Original>
         <French>Membres du serveur</French>
         <German>Servermitglieder</German>
         <Czech>Členové serveru</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>服务器会员</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_14">
         <Original>If enabled, this feature will exclude all non-members from using the HQ Ammobox and become Commander. This feature is intended to avoid having your game ruined by the casual troll in open server environments. Commanders may add or remove players from the Server Members List if the feature is enabled.</Original>
         <French>Si elle est activée, cette fonction exclura tous les non-membres d'utiliser la boite du QG et de devenir commandant. Cette fonctionnalité est destinée à éviter que votre jeu ne soit ruiné par le troll occasionnel dans des environnements de serveurs ouverts. Les commandants peuvent ajouter ou supprimer des joueurs de la liste des membres du serveur si la fonction est activée.</French>
         <German>Wenn aktiviert, können ausschließlich festgelegte Servermitglieder das Munitionslager im HQ benutzen oder Kommandant werden. Dieses Feature ist dafür gedacht, dass die üblichen Trolle dein Spiel auf einem öffentlichen Server nicht ruinieren können. Kommandanten können Spieler zu der Liste der Servermitglieder hinzufügen oder davon entfernen, wenn das Feature aktiviert ist.</German>
         <Czech>Pokud je povolena, tato funkce vyloučí všechny nečleny z použití Arzenálu a funkce stát se velitelem. Tato funkce má zabránit tomu, aby vaše hra byla zničena náhodným trolem v prostředí otevřeného serveru.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>如果启用,此功能将排除所有非成员使用总部弹药箱和成为指挥官.此功能旨在避免您的游戏在开放服务器环境中被随意的熊孩子破坏.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_15">
         <Original>Player and Money</Original>
         <French>Joueur et argent</French>
         <German>Spieler und Geld</German>
         <Czech>Hráči a peníze</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>玩家与资金</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_15">
         <Original>Use this option to donate money to other players or your faction funds.</Original>
         <French>Utilisez cette option pour donner de l'argent à d'autres joueurs ou aux fonds de votre faction.</French>
         <German>Mit dieser Funktion kannst du Geld an andere Spieler oder der Fraktionskasse spenden.</German>
         <Czech>Použijte tuto možnost k darování peněz jiným hráčům nebo vašim frakčním fondům. Velitelé mohou přidávat nebo odebírat hráče ze seznamu členů serveru, pokud je tato funkce povolena.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>使用此选项可向其他玩家或您的阵营基金捐款.如果启用了该功能,指挥官可以在服务器成员列表中添加或删除玩家.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_16">
         <Original>Breach Vehicles</Original>
         <French>Forcer le véhicule</French>
         <German>Fahrzeuge aufbrechen</German>
         <Czech>Poškození vozidel</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>违规车辆</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_16">
         <Original>Tanks and APC can be breached by engineers with explosives to open them and get their crew out. Check 'Breaching charges' for the charges needed. Breaching vehicles applies damage, so take care when breaching heavily damaged vehicles. To breach a vehicle, get close to it and select the breaching option!</Original>
         <French>Les chars et les véhicules de Transports de troupes peuvent être percés par des ingénieurs avec des explosifs pour les ouvrir et faire sortir leur équipage. Cochez «Charges explosives» pour les frais nécessaires. La violation des véhicules inflige des dégâts, alors faites attention lorsque vous percez des véhicules fortement endommagés. Pour percer un véhicule, approchez-vous de celui-ci et sélectionnez l'option de perçage!</French>
         <German>Panzer und Truppentransporter können von Ingenieuren mit Sprengstoff aufgebrochen werden, um die Besatzung absitzen zu lassen. Unter "Aufspengladungen" findest du die benötigten Sprengstoffe. Ein Fahrzeug derart aufzubrechen verursacht Schaden. Sei also vorsichtig, wenn du dies an einem bereits schwer beschädigten Fahrzeug durchführst. Um ein Fahrzeug aufzubrechen, gehe nah an es heran und wähle die "Aufbrechen" Aktion.</German>
         <Czech>Tanky a APC mohou být požkozeny inženýry s výbušninami, aby je otevřeli a dostali jejich posádku ven. Zkontrolujte potřebné vybavení na „proražení vozidla“. Proražení vozidel způsobí poškození, takže při proražení silně poškozených vozidel buďte opatrní. Chcete-li vozidlo proražení, přibližte se k němu a vyberte možnost proražení!</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>工程师可以用炸药破坏坦克和APC，以将其打开并将其人员撤离。 在“违规费用”中检查所需的费用。 违反规定的车辆会造成损坏，因此在破坏严重损坏的车辆时请多加注意。 要破坏车辆，请靠近它并选择破坏选项！</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Features_17">
         <Original>Breaching charges</Original>
         <French>Charges explosives</French>
         <German>Aufsprengladungen</German>
         <Czech>Prorazujíci výbušniny</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>炸药</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Features_17">
         <Original>To breach an APC you need %1 %2To breach a tank you need %3</Original>
         <French>Pour percer un APC, vous avez besoin de %1 %2. Pour briser un tank, vous avez besoin de %3.</French>
         <German>Um einen Truppentransporter aufzusprengen benötigst du %1 %2.&lt;br/&gt;Für einen Panzer benötigst du %3.</German>
         <Czech>K proražení APC potřebujete %1 %2 K proražení Tanku potřebujete %3</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>要攻破装甲运兵车,你需要 %1 %2 攻破你需要的坦克 %3</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_1">
         <Original>Recruit</Original>
         <French>Recruter</French>
         <German>Rekrutieren</German>
         <Czech>Naverbovat</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>招募</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_1">
         <Original>You may recruit up to 9 AI squad-mates at some Faction flags and the HQ flag.</Original>
         <French>Vous pouvez recruter jusqu'à 9 coéquipiers IA sur certains drapeaux de faction et au drapeau du QG.</French>
         <German>Am Flaggenmast im HQ kannst du bis zu 9 KI Einheiten für deine Gruppe rekrutieren.</German>
         <Czech>Na některých frakčních vlajkách a na velitelských vlajkách můžete najmout až 9 jednotek AI.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>你可以在一些派系旗和总部旗招募最多9名AI队友.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_2">
         <Original>AI Control</Original>
         <French>Contrôler l'IA</French>
         <German>KI Kontrolle übernehmen</German>
         <Czech>Převzít kontrolu nad AI</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>AI控制</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_2">
         <Original>Select a squad-mate or HC Group to gain direct control over them for a limited time. Selecting this option for a HC squad will give you control over the squad's leader.</Original>
         <French>Sélectionnez un coéquipier ou un groupe HC pour prendre le contrôle direct sur eux pendant une durée limitée. La sélection de cette option pour une équipe HC vous donnera le contrôle sur le chef de l'équipe.</French>
         <German>Wähle ein Gruppenmitglied oder eine Oberbefehl-Gruppe, um für eine bestimmte Zeit direkte Kontrolle zu erhalten. Bei der Wahl einer Oberbefehl-Gruppe erhälst du Kontrolle über den Gruppenführer.</German>
         <Czech>Vyberte skupinu nebo skupinu štábu a získejte přímou kontrolu nad nimi po omezenou dobu. Výběrem této možnosti pro skupinu štábu získáte kontrolu nad vůdcem skupiny.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>选择一个队友或HC小组,在有限的时间内直接控制他们.为HC小队选择这个选项可以让你控制小队的队长.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_3">
         <Original>AI Radio</Original>
         <French>Radio de l'IA</French>
         <German>KI Funkgeräte</German>
         <Czech>AI Rádio</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>AI无线电</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_3">
         <Original>This feature aims to simulate the lack of radio communications with AI fighters. Your AI squad-mates won't have a radio until you unlock it from the Arsenal. Without a radio, if an AI squad-mate gets too far away, they will get lost and return to the leader's position after completing the last order they received. To avoid this, you may scavenge some radios from enemy (AutoRearm feature will do) or let the AI use a military vehicle which has long range radios. If it takes too long to find their leader, they will automatically return to the HQ.</Original>
         <French>Cette fonctionnalité vise à simuler le manque de communications radio avec les combattants IA. Vos camarades IA n'auront pas de radio tant que vous ne la déverrouillerez pas dans l'Arsenal. Sans radio, si un coéquipier IA s'éloigne trop, il se perdra et reviendra vers la position du commandant après avoir terminé le dernier ordre qu'il a reçu. Pour éviter cela, vous pouvez récupérer certaines radios de l'ennemi (la fonction "Réarmement automatique \ Butin" fera l'affaire) ou laisser l'IA utiliser un véhicule militaire qui a des radios à longue portée. Si cela prend trop de temps pour trouver leur chef, ils retourneront automatiquement au QG.</French>
         <German>Dieses Feature ist dazu gedacht die fehlende Funkkommunikation mit KI Widerständskämpfern zu simulieren. Deine KI Gruppenmitglieder werden keine Funkgeräte haben, solange du sie nicht im Arsenal freischaltest. Ohne ein Funkgerät kann die Verbindung der KI Widerstandskämpfer abbrechen, wenn sie sich zu weit entfernen. Sie werden dann, nachdem sie ihren letzten Befehl erfüllt haben, zur letzten Position des Anführers zurückkehren. Um dies zu verhindern, erbeute einige Funkgeräte von feindlichen Einheiten oder lasse die KI militärische Fahrzeuge mit Langstreckenfunkgeräten nutzen. Sollte es zu lange dauern, bis die KI Widerstandskämpfer ihren Anführer finden, kehren sie automatisch zum HQ zurück.</German>
         <Czech>Tato funkce si klade za cíl simulovat nedostatek radiové komunikace se stíhači AI. Vaši kamarádi AI nebudou mít rádio, dokud jej odemknete z Arsenalu. Bez rádia, pokud se družstvo AI dostane příliš daleko, ztratí se a vrátí se na pozici vůdce po dokončení posledního přijatého příkazu. Abyste tomu zabránili, můžete vyklidit některá rádia od nepřítele (funkce „Automaticky přezbrojit" to udělá) nebo nechat AI používat vojenské vozidlo, které má rádia s dlouhým dosahem. Pokud najdou svého vůdce příliš dlouho, vrátí se automaticky na velitelství.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>这个功能旨在模拟与人工智能战斗机缺乏无线电通信的情况.你的人工智能队友不会有收音机,除非你从阿森纳打开它.如果没有无线电,如果一个人工智能队友走得太远,他们会迷失方向,在完成最后一个命令后回到领导的位置.为了避免这种情况,你可以从敌人身上清除一些无线电（自动搜索功能可以做到）,或者让人工智能使用一辆有远程无线电的军用车辆.如果需要很长时间才能找到他们的领导,他们会自动返回总部.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_4">
         <Original>Auto Heal</Original>
         <French>Guérison automatique</French>
         <German>Automatische Heilung</German>
         <Czech>Automatické léčení</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>自动医疗</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_4">
         <Original>AI Medic squad-mates will heal other AI’s automatically without the need to give any orders. If in combat, your AI will use smoke grenades for cover. If there is no medic in the group, the AI will use their own medikits.</Original>
         <French>Les médecins IA du groupes soigneront automatiquement les autres IA sans avoir à donner d'ordre. En combat, votre IA utilisera des grenades fumigènes pour se couvrir. S'il n'y a pas de médecin dans le groupe, l'IA utilisera ses propres medikits.</French>
         <German>KI Sanitäter heilen andere KI Einheiten in der gleichen Gruppe automatisch, ohne dass ein gesonderter Befehl gegeben werden muss. Im Feuergefecht nutzt die KI Rauchgranaten zur Deckung. Sollte kein Sanitäter in der Gruppe sein, wird die KI eigene Erste-Hilfe Ausrüstung nutzen.</German>
         <Czech>AI Zdravotník uzdraví ostatní AI automaticky, aniž byste museli vydávat příkazy. Pokud budete bojovat, vaše AI použije kouřové granáty pro zakrytí. Pokud ve skupině není žádný lékař, použije AI své vlastní léky.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>AI医疗小队的队友将自动治疗其他人工智能的不需要任何命令.如果在战斗中,你的人工智能将使用烟雾手榴弹作为掩护.如果小组里没有医疗人员,人工智能将使用他们自己的医疗设备.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_5">
         <Original>Auto Rearm \ Loot</Original>
         <French>Réarmement automatique \ Butin</French>
         <German>Automatisches Aufmunitionieren/Plündern</German>
         <Czech>Automatické přezbrojení \ Rabování</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>自动 武装 \ 掠夺</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_5">
         <Original>Your AI squad-mates will automatically look for and scavenge any ammunition from nearby corpses, vehicles and ammoboxes if needed. Also they will try to renew their weapons with more powerful ones. If AI is inside a vehicle, they will loot weapons and launchers, and drop them in their truck until there is nothing in the area. Use this instead of the vanilla Rearm radio option.</Original>
         <French>Vos compagnons IA rechercheront et récupèreront automatiquement toutes les munitions sur des cadavres, véhicules et munitions à proximité si nécessaire. Ils essaieront également de renouveler leurs armes avec des armes plus puissantes. Si l'IA est à l'intérieur d'un véhicule, ils pilleront des armes et des lanceurs et les déposeront dans leur camion jusqu'à ce qu'il n'y ait plus rien dans la zone. Utilisez-le à la place de l'option réarmer la radio de base.</French>
         <German>Deine KI Gruppenmitglieder werden automatisch versuchen Munition von ausgeschalteten Feinden, Fahrzeugen oder Munitionskisten zu erbeuten. Außerdem versuchen sie ihre Waffen gegen durchschlagskräftigere auszutauschen. Sind die KI Einheiten in einem Fahrzeug, werden sie Waffen und Werfer plünern und sie in ihrem Fahrzeug verstauen, bis der Bereich komplett geplündert ist. Dies sollte statt des Vanilla Funkbefehls genutzt werden.</German>
         <Czech>Členové skupiny AI budou automaticky hledat a vybírat jakoukoli munici z okolních mrtvol, vozidel a beden s municí, pokud to bude potřeba. Také se pokusí vyzbrojit silnějšími zbraněmi. Pokud je umělá inteligence uvnitř vozidla, vezme zbraně a nosné rakety a hodí je do nákladního automobilu, dokud nebude v oblasti nic. Použijte toto místo možnosti „Přezbrojit" ze základního rádia hry.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>如果需要的话,你的人工智能队友会自动从附近的尸体、车辆和弹药箱中寻找和清除任何弹药.同时,他们也会尝试用更强大的武器来更新他们的武器.如果人工智能在一辆车里,他们会抢劫武器和发射器,然后把它们扔到卡车里,直到该地区没有任何东西.用这个来代替普通无线电选项.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_6">
         <Original>Vehicle Squad</Original>
         <French>Véhicule du groupe</French>
         <German>Gruppenfahrzeuge</German>
         <Czech>Vozidlo pro jednotku</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>车队</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_6">
         <Original>Commander Only. Use this option to assign the vehicle you are looking at to any HC squad. Check vehicle status, order them to mount or disembark, and automate mounted static squads.</Original>
         <French>Commandant seulement. Utilisez cette option pour affecter le véhicule que vous regardez à n'importe quelle escouade HC. Vérifiez l'état du véhicule, ordonnez-leur de monter ou de débarquer et d'automatiser les escouades statiques montées.</French>
         <German>Nur Kommandant. Hiermit kannst du ein Fahrzeug, dass du gerade anschaust, einer Oberbefehl-Gruppe zuweisen. Außerdem kannst du den Status des Fahrzeugs prüfen, der Gruppe befehlen auf- oder abzusitzen oder statische Geschütze bemannen lassen.</German>
         <Czech>>Pouze velitel. Pomocí této možnosti můžete přiřadit vozidlo, na které se díváte, k jakékoli skupině štábu. Zkontrolujte stav vozidla, přikažte jim k nasednutí nebo vystoupení a automatizujte lafetované čety.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>只有指挥官.使用此选项将您正在查看的车辆分配给任何HC小组.检查车辆状态,命令他们上下飞机,并自动安装静态分队.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_AI_7">
         <Original>Dismiss Squad-mate</Original>
         <French>Renvoyer le compagnon d'escouade</French>
         <German>Gruppenmitglied entlassen</German>
         <Czech>Člen skupiny byl propuštěn</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>解雇小队员</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_AI_7">
         <Original>Select the unit and use the 'Dismiss Squad-mate' option to send them back to HQ. You will recover some of the money you spent on them.</Original>
         <French>Sélectionnez l'unité et utilisez l'option «Renvoyer le compagnon d'escouade» pour les renvoyer au QG. Vous récupérerez une partie de l'argent que vous y avez dépensé.</French>
         <German>Wähle die gewünschte Einheit und nutze die "Gruppenmitglied entlassen" Option, um sie zurück zum HQ zu schicken. Dabei wirst du einen Anteil des Geldes zurückerhalten, welches du vorher für es ausgegeben hast.</German>
         <Czech>Vyberte jednotku a pomocí možnosti „Propustit“ je odešlete zpět na velitelství. Získáte zpět část peněz, které jste na ně utratili.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>选择单位并使用“解散队友”选项将他们送回总部.你会收回你花在他们身上的钱.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Options_1">
         <Original>Map Info</Original>
         <French>Information de la carte</French>
         <German>Karteninformationen</German>
         <Czech>Informace o mapě</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>地图信息</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Options_1">
         <Original>Click on a city to learn the strength of their support for the enemy or Faction. Click on other zones to know relevant info about them.</Original>
         <French>Cliquez sur une ville pour connaître la force de son soutien à l'ennemi ou à la faction. Cliquez sur d'autres zones pour connaître les informations pertinentes à leur sujet.</French>
         <German>Klicke auf eine Stadt auf der Karte, um ihre Stärke und Unterstützung für die freindliche Fraktion einzusehen. Klicke auf andere Zonen, um ähnlich relevante Informationen zu erhalten.</German>
         <Czech>Kliknutím na město se dozvíte sílu jejich podpory nepříteli nebo frakci. Kliknutím na další zóny získáte o nich relevantní informace</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>点击一个城市,学习他们支持敌人或派别的力量.点击其他区域了解相关信息.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Options_2">
         <Original>AI Limiter</Original>
         <French>Limiteur d'IA</French>
         <German>KI Begrenzung</German>
         <Czech>Omezení AI</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>AI限制</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Options_2">
         <Original>Commander Only. Sets the the maximum amount of AI in map per server or HC. Up to 200 AI may behave decently.</Original>
         <French>Commandant seulement. Définit la quantité maximale d'IA dans la carte par serveur ou HC. Jusqu'à 200 IA peuvent se comporter décemment.</French>
         <German>Nur Kommandant. Legt die maximale Anzahl an KI Einheiten pro Server/HC auf der Karte fest. Bis zu 200 KI Einheiten sollten keine Probleme bereiten.</German>
         <Czech>Pouze velitel. Nastavuje maximální množství AI na mapě na serveru nebo štábu. Až 200 AI se může chovat výkonostně slušně.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>只有指挥官.设置每个服务器或HC在地图中的最大AI量.多达200个AI可能表现得很壮观.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Options_3">
         <Original>Persistent Save-game</Original>
         <French>Sauvegarde persistante</French>
         <German>Persistenter Spielstand</German>
         <Czech>Uložit hru</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>游戏保存</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Options_3">
         <Original>Commander Only. You may save the game at your HQ Map. This will allow you to continue playing upon mission update or server restart, preserving stats, player's equipment, conquered zones, enemy asset availability and many more things. WARNING: Normal save and load runs badly in this mission. This system is your only guarantee of saving the game properly</Original>
         <French>Commandant seulement. Vous pouvez enregistrer le jeu sur votre carte QG. Cela vous permettra de continuer à jouer après la mise à jour de la mission ou le redémarrage du serveur, en préservant les statistiques, l'équipement du joueur, les zones conquises, la disponibilité des ressources ennemies et bien d'autres choses. AVERTISSEMENT: la sauvegarde et le chargement normaux fonctionnent mal dans cette mission. Ce système est votre seule garantie de sauvegarder correctement le jeu</French>
         <Czech>Pouze velitel. Tuto hru můžete uložit u své štábní mapy. To vám umožní pokračovat ve hraní po aktualizaci mise nebo restartu serveru, při zachování statistik, vybavení hráče, dobytých zón, dostupnosti nepřátelského majetku a mnoha dalších věcí. VAROVÁNÍ: Normální ukládání a načítání probíhá v této misi špatně. Tento systém je vaší jedinou zárukou správného uložení hry</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>仅限指挥官. 你可以在总部地图上保存游戏. 这将允许您在任务更新或服务器重新启动时继续读取, 保存数据,玩家的装备,征服区域,敌人的资产可用性和更多的东西.警告：正常的存储和加载在这个任务中运行不好.这个系统是你正确保存游戏的唯一保证</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Options_4">
         <Original>Music ON/OFF</Original>
         <French>Musique ON/OFF</French>
         <German>Musik An/Aus</German>
         <Czech>Hudba ZAPNUTO/VYPNUTO</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>音乐开/关</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Options_4">
         <Original>Antistasi has a situational music script, depending on a player's stance and time of day. The default in Multiplayer is OFF, and ON in Singleplayer</Original>
         <French>Antistasi a un script de musique situationnelle, selon la position du joueur et l'heure de la journée. La valeur par défaut en mode multijoueur est désactivée et activée en mode solo.</French>
         <German>Antistasi nutzt situationsabhängige Musik, abhängig von der Tageszeit und des Spielerverhaltens. Es ist standardmäßig im Mehrspielermodus deaktiviert und im Einzelspielermodus aktiviert.</German>
         <Czech>Antistasi má situační hudební scénář, v závislosti na postoji hráče a denní době. Výchozí hodnota v Multiplayeru je OFF a ON v Singleplayeru</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>情景音乐脚本,取决于玩家的立场和时间.多人中的默认值是关闭,单机中的默认值是开启</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Options_5">
         <Original>Civ Spawn</Original>
         <French>Apparition des Civils</French>
         <German>Zivilbevölkerung</German>
         <Czech>Počet civilistů</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>平民生成</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Options_5">
         <Original>Increase or decrease the percentage of city civilian population that spawn. At 0% only one civilian will spawn in each city.</Original>
         <French>Augmentez ou diminuez le pourcentage de la population civile de la ville qui apparaît. À 0%, un seul civil apparaîtra dans chaque ville.</French>
         <German>Erhöhe oder verringere den Prozentsatz der zu spawnenden Stadtbevölkerung. Bei 0% wird nur ein einzelner Zivilist pro Stadt gespawnt.</German>
         <Czech>Zvýšit nebo snížit procento městského civilního obyvatelstva, které vznikají. V 0% se v každém městě vynoří pouze jeden civilista.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>增加或减少城市平民人口的百分比. 0% 时每个城市只会产生一个平民.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Options_6">
         <Original>Spawn Distance</Original>
         <French>Distance d'apparition</French>
         <German>Spawnentfernung</German>
         <Czech>Vzdálenost Vzniku</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>生成距离</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Options_6">
         <Original>Commander only. Increase or decrease general spawn and despawn distance. Use it carefully combined with other options.</Original>
         <French>Commandant seulement. Augmentez ou diminuez la distance d'apparition et de disparition générale. Utilisez-le soigneusement combiné avec d'autres options.</French>
         <German>Nur Kommandant. Erhöhe oder verringere die allgemeine Spawn/Despawn Entfernung. Beachte das Zusammenspiel mit den anderen Optionen.</German>
         <Czech>Pouze velitel. Zvětšení nebo zmenšení vzdálenosti vzniku a zániku. Používejte jej pečlivě v kombinaci s dalšími možnostmi.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>只有指挥官.增加或减少一般产卵和毁灭距离.与其他选项一起小心使用.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Options_7">
         <Original>Garbage Cleaner</Original>
         <French>Nettoyeur d'ordures</French>
         <German>Aufräumen</German>
         <Czech>Čistič odpadků</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>垃圾清理工具</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Options_7">
         <Original>Commander only. Will delete things like dropped weapons, magazines, clothing etc.&lt;br/&gt;&lt;br/&gt;Beware, it freezes the game for some time.</Original>
