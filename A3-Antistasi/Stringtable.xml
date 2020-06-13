@@ -1948,35 +1948,34 @@
         <French>Commandant seulement. Supprime des éléments comme les armes au sol, les magazines, les vêtements, etc.&lt;br/&gt;&lt;br/&gt;Attention, cela fige le jeu pendant un certain temps.</French>
         <German>Nur Kommandant. Dies löscht Dinge wie fallengelassene Waffen, Magazine, Kleidung, etc.&lt;br/&gt;&lt;br/&gt;Beachte, dass dies das Spiel für eine kurze Zeit einfrieren kann.</German>
         <Czech>Pouze velitel. Vymaže věci, jako jsou vyhozené zbraně, munice, oblečení atd.&lt;br/&gt;&lt;br/&gt;Pozor, hru to nějakou dobu zmrazí.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>仅指挥官。 将删除掉落的武器，杂志，服装等东西etc.&lt;br/&gt;&lt;br/&gt;当心，它将冻结游戏一段时间。</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Options_8">
         <Original>Reinit UI</Original>
         <French>Réinitialiser l'UI</French>
         <German>UI reinitializieren</German>
         <Czech>Znovu vložte uživatelské rozhraní</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>重新初始化UI</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Options_8">
         <Original>Select this option when the Y key or Statistics bar are not working.</Original>
         <French>Sélectionnez cette option lorsque la touche Y ou la barre de statistiques ne fonctionnent pas.</French>
         <German>Wähle diese Option, wenn das Z-Menü oder die Statusleise nicht funktionieren.</German>
         <Czech>Tuto možnost vyberte, pokud nefunguje klávesa Y nebo statistická lišta.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>当Y键或统计栏不起作用时，请选择此选项.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Diary_1">
         <Original>%1 and %2 Aggro</Original>
         <French>%1 et %2 Agressivité</French>
         <German>%1 und %2 Aggressivität</German>
         <Czech>%1 a %2 Agresivita</Czech>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Diary_1">
         <Original>There is an All vs All war in %4. %1 and %2 are constantly attacking each other, but that does not mean they don't shoot at %3 on first sight.&lt;br/&gt;&lt;br/&gt;%1 and %2 Aggro points represent how much threat they see in %3 faction.&lt;br/&gt;&lt;br/&gt;Generally speaking those points will low or raise depending on your actions against them and civilians.</Original>
         <French>Il y a une guerre tous contre tous dans %4. %1 et %2 s'attaquent constamment, mais cela ne signifie pas qu'ils ne tirent pas sur %3 à première vue.&lt;br/&gt;&lt;br/&gt; Les points %1 et %2 Aggro représentent la menace qu'ils voient dans la faction  %3.&lt;br/&gt;&lt;br/&gt;De manière générale, cette valeur augmentera et baissera en fonction de vos actions contre eux et les civils.</French>
         <German>Es ist ein Jeder gegen Jeden Krieg in %4. %1 und %2 greifen sind ununterbrochen gegenseitig an. Dies bedeutet aber nicht, dass sie nicht bei Kontakt direkt %3 angreifen.&lt;br/&gt;&lt;br/&gt;%1 und %2 Aggressivitätspunkte zeigen an, wie hoch diese die Bedrohung der %3 Fraktion einschätzen.&lt;br/&gt;&lt;br/&gt;Grundsätzlich erhöhen und verringern sich diese Werte gemäß deinen Unternehmungen gegen die jeweilige Fraktion oder die Zivilbevölkerung.</German>
         <Czech>V %4 je válka Všichni proti Všem. %1 a %2 neustále útočí na sebe, ale to neznamená, že na první pohled nestřílejí na %3.&lt;br/&gt;&lt;br/&gt;%1 a %2 Aggro body představují to, jak velkou hrozbu představují vidět ve frakci %3.&lt;br/&gt;&lt;br/&gt;Obecně řečeno, tyto body se budou snižovat nebo zvyšovat v závislosti na vašem jednání proti nim a civilistům.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>%4 中发生了一场全场大战.%1 和 %2一直在互相攻击，但这并不意味着它们不会对 %3 一见钟情.&lt;br/&gt;&lt;br/&gt;％1和％2 Aggro点代表他们在％3派系中看到的威胁程度.一般来说,&lt;br/&gt;&lt;br/&gt;根据您对他们和平民采取的行动，这些观点会降低或提高。</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Diary_2">
         <Original>HR</Original>
