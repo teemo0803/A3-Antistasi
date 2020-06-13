@@ -38,6 +38,7 @@
         <Russian>Взять 100$ из общака</Russian>
         <German>Entnehme 100€ aus der Kasse</German>
         <Czech>Vzít 100€ ze společného fondu</Czech>
+        <Chinesesimp>从资金池池拿100欧元</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_withdraw_tooltip">
         <Original>Take 100€ from faction pool and add it to your personal account. It will damage your position among the faction in the commander career</Original>
