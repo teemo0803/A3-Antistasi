@@ -64,6 +64,7 @@
         <Russian>Организация и построение Обороны</Russian>
         <German>Einheiten der Garnison hinzufügen oder entfernen.</German>
         <Czech>Přidejte nebo odeberte jednotky z posádky</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_move_headquarters_text">
         <Original>Move HQ to another Zone</Original>
@@ -72,6 +73,7 @@
         <Russian>Переместить Штаб</Russian>
         <German>HQ verlegen</German>
         <Czech>Přesuňte velitelství</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_move_headquarters_tooltip">
         <Original>Maru will join your group. Ammobox must be empty. To rebuild, select the Build action near Maru</Original>
@@ -80,6 +82,7 @@
         <Russian>Петрос присоединится к вашей группе. Чтобы построить Штаб, выберите на нём пункт "Построить Штаб". Арсенал должен быть пуст.</Russian>
         <German>Maru/Petros tritt deiner Gruppe bei. Munitionskiste muss leer sein. Zur Neuerrichtung die Bauaktion in der Nähe von Maru/Petros auswählen.</German>
         <Czech>Petros se připojí k vaší skupině. Chcete-li vytvořit velitelství, vyberte možnost u Petrose „Zřídit velitelství“. Arzenál musí být prázdný.</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_members_list_text">
         <Original>Ingame Member List</Original>
@@ -88,6 +91,7 @@
         <Russian>Список Игроков</Russian>
         <German>Mitgliederliste</German>
         <Czech>Seznam členů</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_members_list_tooltip">
         <Original>Displays which server members are currently playing</Original>
@@ -96,6 +100,7 @@
         <Russian>Показывает, кто из Игроков сейчас на сервере</Russian>
         <German>Zeigt, welche Servermitglieder momentan im Spiel sind.</German>
         <Czech>Zobrazuje, kteří členové serveru aktuálně hrají</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_rebuild_assets_text">
         <Original>Rebuild Assets</Original>
@@ -104,6 +109,7 @@
         <Russian>Восстановление Объектов</Russian>
         <German>Anlagen wiederherstellen</German>
         <Czech>Znovu vybudovat objekt</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_rebuild_assets_tooltip">
         <Original>Cost: €5000</Original>
@@ -112,6 +118,7 @@
         <Russian>Цена: 5000$</Russian>
         <German>Kosten: 5.000€</German>
         <Czech>Cena: 5000€</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_train_ai_text">
         <Original>Train FIA Troops</Original>
@@ -120,6 +127,7 @@
         <Russian>Тренировать Войска</Russian>
         <German>FIA Truppen ausbilden</German>
         <Czech>Vycvičit jednotky FIA</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_train_ai_tooltip">
         <Original>Upgrades the AI skill level</Original>
@@ -128,6 +136,7 @@
         <Russian>Увеличивает уровень готовности войск</Russian>
         <German>Erhöht den KI Fähigkeitslevel.</German>
         <Czech>Vylepší úroveň dovednosti AI</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_garage_text">
         <Original>Garage Access</Original>
@@ -136,6 +145,7 @@
         <Russian>Гараж Сопротивления</Russian>
         <German>Fuhrparkzugriff</German>
         <Czech>Přístup do garáže</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_garage_tooltip">
         <Original>Check Faction garage</Original>
@@ -144,6 +154,7 @@
         <Russian>Проверить Гараж Сопротивления</Russian>
         <German>Fuhrpark der Fraktion einsehen.</German>
         <Czech>Zkontrolujte frakční garáž</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
     </Container>
     <Container name="dialog_build_menu">
@@ -154,6 +165,7 @@
         <Russian>Построение Обороны</Russian>
         <German>Bauen - Garnisonsoptionen</German>
         <Czech>Budování- Možnosti posádky</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_build_button_no_text">
         <Original>Back</Original>
@@ -162,6 +174,7 @@
         <Russian>Назад</Russian>
         <German>Zurück</German>
         <Czech>Zpět</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_build_minefield_button_text">
         <Original>Minefield Options</Original>
@@ -170,6 +183,7 @@
         <Russian>Минные поля</Russian>
         <German>Minenfeldoptionen</German>
         <Czech>Možnosti minového pole</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_build_minefield_button_tooltip">
         <Original>AI will deploy or remove mines on desired objectives, using current arsenal mine stock</Original>
@@ -178,6 +192,7 @@
         <Russian>Инженеры установят или удалят мины на выбранной позиции, используя мины из арсенала</Russian>
         <German>Die KI wird Minen um die ausgewählten Ziele legen oder räumen. Sie nutzt dabei den aktuellen Minenvorrat.</German>
         <Czech>AI rozmístí nebo odstraní miny na požadovaných místech za použití současné zásoby arzenálu</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_build_outpost_button_text">
         <Original>Outpost or Roadblock</Original>
@@ -186,6 +201,7 @@
         <Russian>БП или НП</Russian>
         <German>Außenposten oder Straßensperre</German>
         <Czech>Předsunutá hlídka nebo Zátaras</Czech>
+        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_build_outpost_button_tooltip">
         <Original>Establish a new watchpost or roadblock depending on the type of terrain you select.</Original>
