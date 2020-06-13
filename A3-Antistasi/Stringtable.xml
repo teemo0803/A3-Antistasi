@@ -193,7 +193,7 @@
         <Russian>Инженеры установят или удалят мины на выбранной позиции, используя мины из арсенала</Russian>
         <German>Die KI wird Minen um die ausgewählten Ziele legen oder räumen. Sie nutzt dabei den aktuellen Minenvorrat.</German>
         <Czech>AI rozmístí nebo odstraní miny na požadovaných místech za použití současné zásoby arzenálu</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>AI将使用现有的军火库中地雷库存来按预期目标部署或拆除地雷</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_build_outpost_button_text">
         <Original>Outpost or Roadblock</Original>
@@ -202,7 +202,7 @@
         <Russian>БП или НП</Russian>
         <German>Außenposten oder Straßensperre</German>
         <Czech>Předsunutá hlídka nebo Zátaras</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>前哨或路障</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_dialogs_build_outpost_button_tooltip">
         <Original>Establish a new watchpost or roadblock depending on the type of terrain you select.</Original>
