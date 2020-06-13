@@ -948,7 +948,7 @@
         <Russian>Между катком и наковальней.</Russian>
         <German>Zwischen einem Amboss und einer Dampfwalze.</German>
         <Czech>Mezi kovadlinou a parním válcem.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>在砧和压路机之间。</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_chernawinter_blurb_text">
         <Original>Beware: Santa Claus is hunting you!</Original>
@@ -956,7 +956,7 @@
         <French>Attention: le Père Noël vous chasse!</French>
         <German>Vorsicht: Der Weihnachtsmann jagd dich!</German>
         <Czech>Pozor: Santa Claus tě loví!</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>当心：圣诞老人在追捕你！</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_malden_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -965,7 +965,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_malden_mapname_text">
         <Original>Antistasi - Liberation of Malden</Original>
@@ -974,7 +974,7 @@
         <Russian>Antistasi - Освобождение Мальдена</Russian>
         <German>Antistasi - Liberation of Malden</German>
         <Czech>Antistasi - Osvobození Maldenu</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - 解放Malden</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_malden_mapname_short_text">
         <Original>Antistasi Malden</Original>
@@ -983,7 +983,6 @@
         <Russian>Antistasi Мальдена</Russian>
         <German>Antistasi Malden</German>
         <Czech>Antistasi Malden</Czech>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_malden_blurb_text">
         <Original>The island is small but packed with enemies. Look out!</Original>
@@ -992,7 +991,7 @@
         <Russian>Остров небольшой, но полон врагов. Будь начеку!</Russian>
         <German>Diese Insel ist klein aber voller Feinde. Sei auf der Hut!</German>
         <Czech>Ostrov je malý, ale plný nepřátel. Pozor!</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>该岛很小，但到处都是敌人。 小心！</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -1001,7 +1000,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_mapname_text">
         <Original>Antistasi - The Baltic Revolution</Original>
@@ -1010,14 +1009,13 @@
         <Russian>Antistasi - Балтийская Революция</Russian>
         <German>Antistasi - The Baltic Revolution</German>
         <Czech>Antistasi - Baltská Revoluce</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - 波罗的海革命</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_mapname_short_text">
         <Original>Antistasi Livonia</Original>
         <English>Antistasi Livonia</English>
         <German>Antistasi Livonia</German>
         <Czech>Antistasi Livonia</Czech>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_blurb_text">
         <Original>Stuck between two fronts.</Original>
@@ -1026,7 +1024,7 @@
         <Russian>Между двух фронтов.</Russian>
         <German>Gefangen zwischen zwei Fronten.</German>
         <Czech>Uvízl mezi dvěma frontami.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>卡在两条战线之间.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -1035,7 +1033,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_mapname_text">
         <Original>Antistasi - Battle of Kunduz</Original>
@@ -1044,7 +1042,7 @@
         <Russian>Antistasi - Битва за Кундуз</Russian>
         <German>Antistasi - Battle of Kunduz</German>
         <Czech>Antistasi - Bitva o Kunduz</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - Kunduz之战</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_mapname_short_text">
         <Original>Antistasi Kunduz</Original>
@@ -1062,7 +1060,7 @@
         <Russian>Кровь и песок</Russian>
         <German>Sand und Blut</German>
         <Czech>Písek a krev</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>沙砾与鲜血</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tembelan_mapname_text">
         <Original>Antistasi - Liberation of Tembelan Island</Original>
@@ -1070,7 +1068,7 @@
         <French>Antistasi - Liberation de l'ile de Tembelan</French>
         <German>Antistasi - Liberation of Tembelan Island</German>
         <Czech>Antistasi - Osvobození Ostrova Tembelan</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - 解放Tembelan岛</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tembelan_mapname_short_text">
         <Original>Antistasi Tembelan</Original>
@@ -1078,7 +1076,6 @@
         <French>Antistasi Tembelan</French>
         <German>Antistasi Tembelan</German>
         <Czech>Antistasi Tembelan</Czech>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tembelan_blurb_text">
         <Original>Beauty and destruction</Original>
@@ -1086,7 +1083,7 @@
         <French>Beauté et destruction</French>
         <German>Schönheit und Zerstörung</German>
         <Czech>Krása a destrukce</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>美丽与破坏</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tembelan_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -1095,7 +1092,7 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_anizay_mapname_short_text">
         <Original>Antistasi Anizay</Original>
@@ -1103,7 +1100,6 @@
         <French>Antistasi Anizay</French>
         <German>Antistasi Anizay</German>
         <Czech>Antistasi Anizay</Czech>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_anizay_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -1112,21 +1108,21 @@
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
         <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
         <Czech>Buďte vůdcem odboje. Bojujte proti nadřazenému nepříteli v technologii, počtu, majetku a vozidlech. Použijte partyzánskou taktiku ve zcela dynamickém světě, přibližně s 18 vedlejšími misemi, všude kdykoli a cokoli.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>作为抵抗运动的领袖,与优势敌人使用游击战术灵活作战,有18个左右的支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_anizay_mapname_text">
         <Original>Antistasi - Liberation of Anizay</Original>
         <English>Antistasi - Liberation of Anizay</English>
         <German>Antistasi - Liberation of Anizay</German>
         <Czech>Antistasi - Osvobození Anizay</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>Antistasi - 解放Anizay</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_anizay_blurb_text">
         <Original>Fought on the camel's back</Original>
         <English>Fought on the camel's back</English>
         <German>Kampf auf dem Kamelrücken</German>
         <Czech>Bojovat na zádech velblouda</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>在骆驼背上战斗</Chinesesimp>
       </Key>
     </Container>
     <Container name="journal_entries">
@@ -1136,7 +1132,7 @@
         <French>Les débuts</French>
         <German>Der Anfang</German>
         <Czech>Začátek</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>早期开始</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_1">
         <Original>Don't expect to be able to conquer anything in the early stages. First you have to gather enough resources (HR and Money) in order to be able to conquer and hold your positions. This mission tries to simulate real life guerilla situations. If in doubt, ask yourself what would you do in real life. Don't expect to win every time. Hit and Run is the basic manoeuvre here. Earn every resource, weapon and ammunition to gather enough assets in order to be a real challenge for the enemy. In the meantime, disturb its operations and gain support from the population.</Original>
@@ -1144,7 +1140,7 @@
         <English>Don't expect to be able to conquer anything in the early stages. First you have to gather enough resources (HR and Money) in order to be able to conquer and hold your positions. This mission tries to simulate real life guerilla situations. If in doubt, ask yourself what would you do in real life. Don't expect to win every time. Hit and Run is the basic manoeuvre here. Earn every resource, weapon and ammunition to gather enough assets in order to be a real challenge for the enemy. In the meantime, disturb its operations and gain support from the population.</English>
         <German>Erwarte nicht, dass du in der Lage sein wirst alles bereits zu Beginn erobern zu können. Zuallererst musst du genügend Ressourcen (Mannstärke und Geld) auftreiben müssen, um in der Lage zu sein etwas zu erobern und auch halten zu können. Diese Mission versucht reale Guerilla Situationen und Vorgehen zu simulieren. Wenn du unschlüssig bist, dann frage dich selbst, was du im echten Leben tun würdest. Erwarte nicht, dass du jedes Mal gewinnst. "Hit and Run" ist hier das übliche Vorgehen. Erbeute Ressourcen, Waffen und Munition, um letztlich genug Ausrüstung zusammen zu haben, damit du zu einer echten Bedrohung für den Feind werden kannst. Währenddessen störe die Bestrebungen des Feindes und verdiene dir die Unterstützung der Zivilbevölkerung.</German>
         <Czech>Neočekávejte, že v časných stádiích dokážete něco dobýt. Nejprve musíte shromáždit dostatek zdrojů (HR a peníze), abyste mohli dobýt a udržet své pozice. Tato mise se pokouší simulovat partyzánské situace v reálném životě. Pokud máte pochybnosti, zeptejte se sami sebe, co byste udělali v reálném životě. Nečekejte, že vyhrajete pokaždé. Udeřit a Utéct je zde základní manévr. Získejte všechny zdroje, zbraně a střelivo, abyste shromáždili dostatek prostředků, aby pro nepřítele představovali skutečnou výzvu. Mezitím narušit její činnost a získat podporu od obyvatelstva.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>不要指望在早期就能征服一切.首先你必须收集足够的资源 (人力资源和金钱) 为了能够征服并保持你的位置. 这个任务试图模拟现实生活中游击队的情况.如果有疑问,问问自己,在现实生活中你会做什么.别指望每次都赢.打和跑是这里的基本动作.获取所有资源、武器和弹药,以收集足够的资产,从而成为对敌人的真正挑战.同时,扰乱它的运作,获得民众的支持.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_2">
         <Original>Aggro Effects</Original>
@@ -1152,7 +1148,7 @@
         <French>Agressivité IA</French>
         <German>Aggression</German>
         <Czech>Agresivita</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>声望效应</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_2">
         <Original>Keep an eye on those. If it's too high, you will have to face more attacks with better troops.</Original>
@@ -1160,7 +1156,7 @@
         <French>Gardez un œil dessus. S'il est trop haut, vous devrez faire face à plus d'attaques avec de meilleures troupes.</French>
         <German>Behalte dies im Auge. Wenn sie zu hoch wird, wirst du dich deutlich mehr Angriffen und besseren Einheiten entgegenstellen müssen.</German>
         <Czech>Dávejte pozor na to. Pokud je příliš vysoká, budete muset čelit více útokům s lepšími jednotkami.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>注意这些.如果它太高,你将不得不面对更多的攻击与更高级的部队.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_3">
         <Original>Strategy</Original>
@@ -1168,7 +1164,7 @@
         <French>Stratégie</French>
         <German>Strategie</German>
         <Czech>Strategie</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>战争策略</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_3">
         <Original>Once you have a nice amount of resources, focus on enemy communications. If you disturb them enough, you won't have to face big counter-attacks.</Original>
@@ -1176,7 +1172,7 @@
         <French>Une fois que vous avez une bonne quantité de ressources, concentrez-vous sur les communications ennemies. Si vous les perturbés suffisament, vous n'aurez pas à faire face à de grandes contre-attaques.</French>
         <German>Sobald du eine solide Menge and Ressourcen zusammen hast, konzentriere dich auf ihre Kommunikation. Störst du sie ausreichend, wirst du dich keinen größeren Gegenangriffen mehr stellen müssen.</German>
         <Czech>Jakmile budete mít pěkné množství zdrojů, zaměřte se na nepřátelskou komunikaci. Pokud je dostatečně vyrušíte, nebudete muset čelit velkým protiútokům.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>一旦你有足够的资源,集中精力在敌人的通讯上.如果你足够打扰他们,你就不必面对大的反击.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_4">
         <Original>Conquer and Hold</Original>
@@ -1184,7 +1180,7 @@
         <French>Conquérir et tenir</French>
         <German>Erobern und halten</German>
         <Czech>Dobyjte a udržte</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>占领控制</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_4">
         <Original>Don't expect a light counter-attack when you conquer strategic zones such as resources or airports. The enemy will send everything they can, if available. If you conquer a zone and expect a counter-attack, fleeing is a nice option.</Original>
@@ -1192,7 +1188,7 @@
         <French>Ne vous attendez pas à une contre-attaque légère lorsque vous conquérez des zones stratégiques telles que des ressources ou des aéroports. L'ennemi enverra tout ce qu'il peut, s'il est disponible. Si vous conquérez une zone et vous attendez à une contre-attaque, la fuite est une bonne option.</French>
         <German>Erwarte keine einfachen Gegenangriffe, wenn du eine strategische Zone, wie Ressourcen oder Flugplätze, einnimmst. Der Feind wird dir alles was er zur Verfügung hat entgegenwerfen. Eroberst du eine Zone und erwartest einen Gegenangriff ist Rückzug immer eine gute Option.</German>
         <Czech>Neočekávejte lehký protiútok, když dobýváte strategické zóny, jako jsou zdroje nebo letiště. Nepřítel pošle vše, co může, pokud bude k dispozici. Pokud dobýváte zónu a očekáváte protiútok, prchání je dobrá volba.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>当你攻克资源或机场等战略区域时,不要指望会有轻微的反击.敌人会尽其所能,如果有的话.如果你征服了一个区域并期待反击,逃跑是个不错的选择.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_5">
         <Original>Resources</Original>
@@ -1208,7 +1204,7 @@
         <French>Avoir une bonne quantité de ressources pour des opérations plus importantes est obligatoire, en particulier pour les armes et les munitions. Dans les étapes initiales, votre principale source de ressources est l'accomplissement de missions secondaires.</French>
         <German>Ein solides Polster an Ressourcen ist unverzichtbar für größere Operationen. Vor allem Waffen und Munition. In der Anfangsphase ist deine Hauptquelle für Ressourcen das Abschließen von Sekundärmissionen.</German>
         <Czech>Je nutné mít dostatečné množství zdrojů pro větší operace, zejména zbraně a munici. V počátečních fázích je vaším hlavním zdrojem plnění vedlejších misí.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>拥有大量的资源用于更大规模的行动,尤其是武器和弹药.在最初阶段,你的主要资源来源是完成支线任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_6">
         <Original>Starting Position</Original>
@@ -1216,7 +1212,7 @@
         <French>Position de départ</French>
         <German>Startposition</German>
         <Czech>Začínající pozice</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>起始位置</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_6">
         <Original>Find a good spot to begin the mission. Your experience is very different from one start spot to another. Study the surrounding markers and roads between them well. If you start near a road between enemy zones, a patrol may appear and kill Petros.</Original>
@@ -1224,7 +1220,7 @@
         <French>Trouvez un bon endroit pour commencer la mission. Votre expérience est très différente d'un point de départ à un autre. Étudiez bien les balises et les routes environnantes. Si vous commencez près d'une route entre des zones ennemies, une patrouille peut apparaître et tuer Petros.</French>
         <German>Wähle einen vielversprechenden Ort, um deine Mission zu beginnen. Die Spielerfahrung ist je nach Startpunkt sehr unterschiedlich. Betrachte genau die umgebenen Zonen und die dazwischenliegenden Straßenverbindungen. Startest du an einer Straße zwischen zwei feindlichen Zonen, könnte eine Patrouille auf das Lager stoßen und Maru/Petros töten.</German>
         <Czech>Najděte dobré místo pro zahájení mise. Vaše zkušenost je velmi odlišná od jednoho startovního bodu k druhému. Dobře si prostudujte okolní značky a silnice. Pokud začnete poblíž silnice mezi nepřátelskými zónami, může se objevit hlídka a zabijou Petrose.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>找个好地方开始任务.你的经历从一个起点到另一个起点大不相同.仔细研究周围的标记和它们之间的道路.如果你在敌区之间的道路附近开始巡逻,巡逻队可能会出现并杀死指挥官.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_tutorial_7">
         <Original>Undercover</Original>
@@ -1232,7 +1228,7 @@
         <French>Sous-couverture</French>
         <German>Verdecktes Vorgehen</German>
         <Czech>V Utajení</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>开启卧底</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_tutorial_7">
         <Original>In the early stages, especially when accomplishing certain missions, being undercover can be extremely helpful. Just as for real resistance fighters, your ability to disappear is something the enemy cannot counter. See Features section for a deep explanation of Undercover Mode.</Original>
@@ -1240,56 +1236,56 @@
         <French>Dans les premiers stades, en particulier lors de l'accomplissement de certaines missions, être sous-couverture peut être extrêmement utile. Tout comme pour les vrais combattants de la résistance, votre capacité à disparaître est quelque chose que l'ennemi ne peut pas contrer. Voir la section Fonctionnalités pour une explication approfondie du mode Sous-couverture.</French>
         <German>In der Anfangsphase, vor allem bei der Erfülling bestimmter Missionen, kann ein verdecktes Vorgehen sehr hilfreich sein. Genau wie für reale Widerstandskämpfer ist deine Fähigkeit zu verschwinden etwas, dem der Feind nahezu nichts entgegenbringen kann. Weitere Informationen zum verdeckten Vorgehen findest du in dem Features Bereich.</German>
         <Czech>V počáteční fázi, zejména při plnění některých misí, může být skrytý přístup velmi užitečný. Stejně jako skuteční bojovníci odporu, vaše schopnost zmizet je něco, s čím nepřítel nemůže dělat téměř nic. Další informace o skrytém postupu naleznete v části Funkce.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>在早期阶段,特别是在完成某些任务时,卧底是非常有帮助的.就像真正的抵抗战士一样,你消失的能力是敌人无法抵抗的.有关卧底模式的详细说明,请参见功能部分.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_1">
         <Original>General</Original>
         <French>Général</French>
         <German>Allgemein</German>
         <Czech>Generál</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>一般</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_1">
         <Original>Having a commander is necessary because he is the commander of the Faction attacking ground forces. Many options are available only to the commander and, depending on your settings, if you play MP, the most experienced player will usually occupy this position.</Original>
         <French>Avoir un commandant est nécessaire car il est le commandant de la faction qui attaque les forces terrestres. De nombreuses options ne sont disponibles que pour le commandant et, selon vos paramètres, si vous jouez en MP, le joueur le plus expérimenté occupera généralement cette position.</French>
         <German>Einen Kommandanten zu haben ist unumgänglich, da er die Bodentruppen der Fraktion befehligt. Viele Optionen und Möglichkeiten stehen nur dem Kommandanten zur Verfügung. Je nach deinen gewählten Einstellungen, wenn du im Multiplayer spielst, wird der Spieler mit der meisten Erfahrung den Platz des Kommandanten einnehmen.</German>
         <Czech>Mít velitele je nezbytné, protože je velitelem frakce útočící na pozemní síly. Mnoho možností je k dispozici pouze pro velitele a v závislosti na vašich nastaveních, pokud hrajete MP, obvykle tuto pozici zaujme nejzkušenější hráč.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>有一个指挥官是必要的,因为他是攻击地面部队的派别的指挥官.许多选项只对指挥官可用,根据你的设置,如果你玩MP,经验最丰富的玩家通常会占据这个位置.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_2">
         <Original>Garrisons</Original>
         <French>Garnisons</French>
         <German>Garnisonen</German>
         <Czech>Umístit posádku</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>驻军</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_2">
         <Original>The Commander is responsible for assigning units as garrisons in conquered areas. Use the Garrison Management option in the HQ flag in order to add or remove garrison troops at each zone. Check Map Info screen for a quick overview of how many soldiers are assigned to each zone.</Original>
         <French>Le commandant est responsable de l'affectation d'unités comme garnisons dans les zones conquises. Utilisez l'option de gestion de garnison au drapeau du QG afin d'ajouter ou de supprimer des troupes de garnison dans chaque zone. Consultez l'écran Info carte pour un aperçu rapide du nombre de soldats affectés à chaque zone.</French>
         <German>Der Kommandant ist verantwortlich den Garnisonen der eroberten Bereiche Einheiten zuzuweisen. Mit der Garnisonsverwaltung am Flaggenmast im HQ kannst du Einheiten einer Garnison hinzufügen oder entfernen. Über den Kartenbildschirm kannst du dir einen schnellen Überblick über die Größe der jeweiligen Garnisonen verschaffen.</German>
         <Czech>Velitel je zodpovědný za přidělování jednotek jako posádky v dobývaných oblastech. Chcete-li přidat nebo odebrat posádkové jednotky v každé zóně, použijte možnost Správa posádky v vlajce HQ. Na obrazovce Informace o mapě získáte rychlý přehled o tom, kolik vojáků je přiřazeno každé zóně.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>司令官负责在被征服的地区派遣部队作为驻军.使用总部旗中的驻军管理选项,在每个区域添加或移除驻军.查看地图信息屏幕,快速查看每个区域分配了多少士兵.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_3">
         <Original>Faction Skill Upgrade</Original>
         <French>Amélioration des compétences de la faction</French>
         <German>Fähigkeiten der Fraktion erhöhen</German>
         <Czech>Vylepšení frakční dovednosti</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>阵营技能提升</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_3">
         <Original>For a price, you can upgrade Faction training so that future recruits will have better skills.</Original>
         <French>Pour un certain prix, vous pouvez améliorer la formation de la Faction afin que les futures recrues aient de meilleures compétences.</French>
         <German>Du kannst, für einen gewissen Preis, die Trainingsmethoden deiner Fraktion verbessern. Dadurch werden neue Rekruten bessere Fähigkeiten haben.</German>
         <Czech>Za cenu můžete vylepšit frakční školení tak, aby budoucí rekruti měli lepší dovednosti.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>您可以支付一定的费用来升级阵营的培训，以便将来的新兵拥有更好的技能。</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_4">
         <Original>Side Missions - Petros</Original>
         <French>Missions secondaires - Petros</French>
         <German>Sekundärmissionen - Maru/Petros</German>
         <Czech>Vedlejší mise - Petros</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>支线任务 - Petros</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_4">
         <Original>Ask Petros for any type of mission you want. Mission availability is subject to HQ positioning, current allocated tasks and ownership of the surrounding areas.</Original>
