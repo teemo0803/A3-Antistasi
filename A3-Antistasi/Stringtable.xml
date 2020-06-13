@@ -1292,17 +1292,17 @@
         <French>Demandez à Petros tout type de mission que vous souhaitez. La disponibilité de la mission dépend du positionnement du QG, des tâches actuellement attribuées et de la propriété des zones environnantes.</French>
         <German>Befrage Maru/Petros nach einer gewünschten Mission. Die Verfügbarkeit der Missionen ist abhängig von der Position des HQs, der momentan zugewiesenen Aufgaben und der Zugehörigkeit der umgebenen Bereiche.</German>
         <Czech>Zeptejte se Petrose na jakýkoli typ mise, kterou chcete. Dostupnost mise závisí na umístění velitelství, aktuálně přidělených úkolech a vlastnictví okolních oblastí.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>向指挥官申请任何你想要的任务当前分配的任务和周边地区的任务取决于总部的位置</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_5">
         <Original>Move HQ</Original>
         <French>Déplacer le QG</French>
         <German>HQ verlegen</German>
         <Czech>Přesuňte velitelství</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>移动指挥部</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_5">
-        <Original>The Commander may select this option on the HQ Flag in order to move the HQ emplacement to another spot. This will allow you to move your HQ to a safer location or move closer to the front-lines. The closer your HQ is to the enemy, the greater the number of possibile side-missions you will have available. Remember! Keep Petros Safe or you will lose the game!</Original>
+        <Original>指挥官可在总部旗帜上选择此选项,以便将总部移动到另一地点.这将允许你移动你的总部到一个更安全的地点或更靠近前线.你的总部离敌人越近,你可以执行的边上任务就越多.记得！保护Petros的安全,否则你会输掉比赛的！</Original>
         <French>Le commandant peut sélectionner cette option sur le drapeau du QG afin de déplacer le QG à un autre endroit. Cela vous permettra de déplacer votre QG vers un endroit plus sûr ou de vous rapprocher des lignes de front. Plus votre QG est proche de l'ennemi, plus vous aurez de missions secondaires possibles. Attention! Gardez Petros en sécurité ou vous perdrez la partie!</French>
         <German>Der Kommandant kann über eine Option am Flaggenmast das HQ zu einem anderen Ort verlegen lassen. Dies gibt dir die Möglichkeit dein HQ zu einer sichereren Position oder näher an die Frontlinie zu verlegen. Umso näher dein HQ am feindlichen Gebiet ist, umso größer ist die Anzahl an möglichen Sekundärmissionen. Vorsicht! Beschütze Petros oder du verlierst das Spiel!</German>
         <Czech>Velitel může vybrat tuto možnost na velitelské vlajce, aby přesunul umístění velitelství na jiné místo. To vám umožní přesunout své velitelství na bezpečnější místo nebo se přiblížit ke frontě. Čím blíže je vaše velitelství k nepřátelům, tím větší je počet možných vedlejších misí, které budete mít k dispozici. Pamatujte si! Zachovejte Petrose v bezpečí, jinak hru prohrajete!</Czech>
@@ -1313,77 +1313,77 @@
         <French>Se reposer - Feu de camp</French>
         <German>Ausruhen - Lagerfeuer</German>
         <Czech>Odpočinek - táborový oheň</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>休息 - 营火</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_6">
         <Original>Use the action menu on your HQ Camp-fire to rest for 8 hours.</Original>
         <French>Utilisez le menu d'action de votre feu de camp au QG pour vous reposer pendant 8 heures.</French>
         <German>Mit dieser Aktion kannst du dich am Lagerfeuer des HQs für 8 Stunden ausruhen.</German>
         <Czech>Použijte možnost na vašem táborovém ohni, abyste si mohli odpočnou na 8 hodin</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>使用总部营火上的行动菜单休息8小时.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_7">
         <Original>Bomb Run</Original>
         <French>Bombardement</French>
         <German>Bombardierung</German>
         <Czech>Bombardování</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>空中打击</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_7">
         <Original>Use your Airstrike points to perform a bombing run of the specified type.</Original>
         <French>Utilisez vos points de frappe aérienne pour effectuer un bombardement du type spécifié.</French>
         <German>Benutze deine Luftschlagpunkte, um eine Bombardierung durchführen zu lassen.</German>
         <Czech>Použijte své body leteckého úderu k provedení bombardování.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>使用空袭点执行指定类型的轰炸</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_8">
         <Original>Artillery</Original>
         <French>Artillerie</French>
         <German>Artillerie</German>
         <Czech>Dělostřelectvo</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>炮击支援</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_8">
         <Original>Mounted mortar teams may be used as artillery support. Select a mortar team using the High Command bar, and press SHIFT + Y in-game to call in a mortar fire mission.</Original>
         <French>Les équipes de mortiers montés peuvent être utilisées comme support d'artillerie. Sélectionnez une équipe de mortiers à l'aide de la barre de haut commandement et appuyez sur SHIFT + Y dans le jeu pour demander un tir de mortier.</French>
         <German>Stationierte Mörserteams können als Artillerieunterstützung eingesetzt werden. Wähle ein Mörserteam über die Oberbefehlsleiste und drücke Shift + Z, um einen Artillerieschlag anzufordern.</German>
         <Czech>Umístěné minometné týmy mohou být použity jako dělostřelecká podpora. Vyberte minometný tým nad panelem příkazů a stisknutím shift + Z požádejte o dělostřelecký úder.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>迫击炮部队可以作为炮兵支援.使用高级命令栏选择迫击炮小组,并在游戏中按SHIFT+Y调用迫击炮火力任务.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_9">
         <Original>Recruit Squad</Original>
         <French>Recruter une escouade</French>
         <German>Gruppen rekrutieren</German>
         <Czech>Nábor družstva</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>招募小队</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_9">
         <Original>The Commander may recruit an AI manned squad at base camp flags. Use the High Command module (CTRL + SPACE) to give orders to your squads. Also you may temporally control and dismiss the squad leader in the same way you do with squad-mates.</Original>
         <French>Le commandant peut recruter une escouade IA au drapeau du QG. Utilisez le module HC (CTRL + ESPACE) pour donner des ordres à vos escouades. Vous pouvez également contrôler et renvoyer temporairement le chef d'escouade de la même manière que vous le faites avec vos coéquipiers.</French>
         <German>Als Kommandant kannst du KI Gruppen im HQ rekrutieren. Nutze das Oberbefehlsmodul (Strg + Leertaste), um deinen Gruppen Befehle zu erteilen. Außerdem kannst du temporär Gruppenführer, auf die gleiche Art wie deine Gruppenmitglieder, kontrollieren.</German>
         <Czech>Velitel může najmout posádku AI na vlajkách základního tábora. Pomocí modulu Štábu (CTRL + MEZERNÍK) zadávejte rozkazy svým jednotkám. Rovněž můžete dočasně ovládat a propouštět velitele družstva stejným způsobem, jako to děláte s AI členy týmu.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>指挥官可以在大本营旗帜上招募一支AI小队.使用高命令模块（CTRL+空格）向你的小队下达命令.你也可以像对待队友一样暂时控制和解雇小队</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_10">
         <Original>Minefields</Original>
         <French>Champs de mines</French>
         <German>Minenfelder</German>
         <Czech>Minové pole</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>雷区</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_10">
         <Original>Take the engineers truck to the desired position to build a minefield. Cover them while they deploy mines. From then on, no one will be able to pass the area safely (even your own units - so use with caution). Mines (AT and AP) are taken from your Ammobox. The quantity of mines in the field will depend on the contents of your ammobox, up to a max. number depending on the type of minefield. Delete those minefields to recover the mines.</Original>
         <French>Amenez le camion des ingénieurs à la position souhaitée pour construire un champ de mines. Couvrez-les pendant qu'ils déploient des mines. À partir de là, personne ne pourra traverser la zone en toute sécurité (même vos propres unités - utilisez-les donc avec prudence). Les mines (AT et AP) sont extraites de votre Arsenal. La quantité de mines sur le terrain dépendra du contenu de votre Arsenal, jusqu'à un certain nombre en fonction du type de champ de mines. Supprimez ces champs de mines pour récupérer les mines.</French>
         <German>Bringe einen Ingenieurs-LKW zu der gewünschten Position, um ein Minenfeld zu errichten. Beschütze die Ingenieure, während sie die Minen legen. Von diesem Zeitpunkt an wird niemand mehr in der Lage sein, dieses Gebiet sicher zu durchqueren (auch nicht deine eigenen Einheiten). Minen (Panzerabwehr und Anti-Personen) werden aus deinem Munitionslager genommen. Die Anzahl an Minen im Bereich ist abhängig von der Menge in deinem Munitionslager. Räume Minenfelder, um die Minen wieder zu bergen.</German>
         <Czech>Postavte nákladní automobil inženýrů na požadovanou pozici a postavte minové pole. Chraňte je při nasazování min. Od tohoto okamžiku nebude nikdo schopen bezpečně projít oblastí (i vaše vlastní jednotky - používejte proto opatrně). Miny (Protitankové a Protipěchotní) jsou převzaty z vašeho Arzenálu. Množství min v poli bude záviset na obsahu arzenálu, až do maxima. V závislosti na typu minového pole. Odstraněním těchto minových polí obnovíte miny.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>把工程师们的卡车开到所需的位置去建一个雷场.在他们部署地雷时掩护他们.从那时起,没有人能够安全地通过这个区域（即使是你自己的单位-所以要小心使用）.地雷（AT和AP）是从你的弹药箱中取出的.地雷的数量将取决于你的弹药箱的内容,最大数量取决于雷场的类型.删除那些雷区以回收地雷.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_commander_11">
         <Original>Sell Vehicle</Original>
         <French>Vendre le véhicule</French>
         <German>Fahrzeuge verkaufen</German>
         <Czech>Prodat vozidlo</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>出售载具</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_commander_11">
         <Original>Use this option to sell captured vehicles and increase Faction funds.</Original>
@@ -1984,185 +1984,183 @@
         <French>RH</French>
         <German>Mannstärke</German>
         <Czech>Pracovní síla</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>人力资源</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Diary_2">
         <Original>HR or Manpower comes from citizen support on each city. Manpower is needed to recruit more units (1 HR Point = 1 Soldier)</Original>
         <French>Les ressources humaines ou la main-d'œuvre proviennent du soutien des citoyens dans chaque ville. La main-d'œuvre est nécessaire pour recruter plus d'unités (1 point RH = 1 soldat)</French>
         <German>Mannstärke wird durch die zivile Unterstützung aus jeder Stadt generiert. Sie ist notwendig, um mehr Einheiten zu rekrutieren. 1 Punkt entspricht dabei einem Soldaten.</German>
         <Czech>Pracovní síla nebo Lidská sila pochází z občanské podpory v každém městě. Pro nábor více jednotek je zapotřebí pracovní síly (1 HR bod = 1 voják)</Czech>
+        <Chinesesimp>人力资源或人力资源来自每个城市的公民支持.需要人力来招募更多的部队 (1 人力资源  = 1 士兵)</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Diary_3">
         <Original>Money - MP</Original>
         <French>Argent - MP</French>
         <German>Geld - Mehrspieler</German>
         <Czech>Peníze - Multiplayer</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>资金 - 多人模式</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Diary_3">
         <Original>In MP games there are two money pools. Faction Money -which is for Commander use only- and personal money. Personal money can be used by any player to recruit AI or buy vehicles. Faction earns money by taxes and accomplishing missions. Personal money comes from killing enemies and accomplishing missions. Options to transfer or donate money are found in the Y menu. Commander can grab money from the Faction Pool to his own account.</Original>
         <French>Dans les jeux MP, il y a deux porte monnaie. L'Argent de faction - qui est destiné à un usage exclusif par le Commandant - et argent personnel. L'argent personnel peut être utilisé par n'importe quel joueur pour recruter des IA ou acheter des véhicules. La faction gagne de l'argent grâce aux taxes et aux missions accomplies. L'argent personnel se gagne en tuant des ennemis et en accomplissant des missions. Les options pour transférer ou donner de l'argent se trouvent dans le menu Y. Le commandant peut récupérer de l'argent du porte monnaie de la faction sur son propre compte.</French>
         <German>In Mehrspielerspielen gibt es zwei Kassen. Die Fraktionskasse, welche nur vom Kommandanten genutzt werden kann, und das persönliche Geld. Das persönliche Geld kann von jedem Spieler selbst genutzt werden, um KI Einheiten oder Fahrzeuge zu kaufen. Die Fraktion erhält Gelder durch Abgaben und der Erfüllung von Sekundärmissionen. Persönliche Gelder erhält ein Spieler durch das Ausschalten von feindlichen Einheiten und der Erfüllung von Sekundärmissionen. Möglichkeiten Gelder zu transferieren sind im Z-Menü zu finden. Der Kommandant kann Geld aus der Fraktionskasse für seinen persönlichen Gebrauch entnehmen.</German>
         <Czech>V Multiplayerových hrách existují dva peněžní systémy. Frakční peníze - které jsou používány pouze velitelem - a osobní peníze. Osobní peníze může použít kterýkoli hráč k náboru AI nebo k nákupu vozidel. Frakce vydělává peníze z daní a ze splněných úkolů. Osobní peníze pocházejí ze zabíjení nepřátel a plnění úkolů. Možnosti převodu nebo darování peněz naleznete v nabídce Y. Velitel může vzít peníze z frakčního fondu na svůj vlastní účet.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>在多人游戏中有两个资金.派系金钱仅供指挥官使用，还有个人的钱. 个人资金可以被任何玩家用来招募AI或购买载具. 派系靠缴税和完成任务赚钱. 个人钱财来源于杀敌和完成任务. 可以在Y菜单中找到转账或捐款的选项. 指挥官可以从派系资金里把钱存入自己的账户.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Diary_4">
         <Original>Money</Original>
         <French>Argent</French>
         <German>Geld</German>
         <Czech>Peníze</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>派系资金</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Diary_4">
         <Original>Money comes from a combination of citizens support on each city, resources conquered, factories conquered (which boost the economy) and power provided to all of them with a nearby friendly power plant (you may also conquer them to cut off Money supply to the enemy). Money is used to purchase vehicles, units and squads.</Original>
         <French>L'argent provient d'une combinaison du soutien des citoyens dans chaque ville, des ressources conquises, des usines conquises (qui stimulent l'économie) et de l'énergie fournie à tous avec une centrale électrique amie à proximité (vous pouvez également les conquérir pour couper l'approvisionnement en argent à l'ennemi ). L'argent est utilisé pour acheter des véhicules, des unités et des escouades.</French>
         <German>Geld wird verdient durch die Unterstützung der Zivilbevölkerung in jeder Stadt, den eroberten Ressourcen und Fabriken (welche die Wirtschaft ankurbeln) und gelieferten Strom zu allen diesen Zonen von einem nahen eroberten Kraftwerk. Es ist auch möglich durch die Eroberung von Kraftwerken den Geldfluss des Feindes zu beeinflussen. Geld wird für den Kauf von Fahrzeugen, Einheiten und Gruppen genutzt.</German>
         <Czech>Peníze pocházejí z kombinace podpory občanů pro každé město, dobytých zdrojů, dobytých továren (které podporují ekonomiku) a elektřiny poskytované všem  s blízkou přátelskou elektrárnou (můžete je také dobýt, abyste přerušili dodávky peněz nepříteli). Peníze se používají na nákup vozidel, jednotek a skupin.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>资金来源于每个城市的市民支持, 资源, 工厂 (促进经济发展) 附近有一个发电厂为他们提供电力 (你也可以征服他们,切断敌人的货币供应). 资金被用来购买车辆、部队和小队.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Diary_5">
         <Original>Resources</Original>
         <French>Ressources</French>
         <German>Ressourcen</German>
         <Czech>Zdroje</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>战略资源</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Diary_5">
         <Original>Every 10 minutes each faction receives Money and Manpower according to the zones they own, and the state they are in. Having a good amount of resource zones and some factories is the way of getting enough resources to win this war.</Original>
         <French>Toutes les 10 minutes, chaque faction reçoit de l'argent et de la main-d'œuvre en fonction des zones qu'elle possède et de l'état dans lequel elle se trouve. Avoir une bonne quantité de zones de ressources et d'usines est le moyen d'obtenir suffisamment de ressources pour gagner cette guerre.</French>
         <German>Alle 10 Minuten erhält jede Fraktion Geld und Mannstärke abhängig von den gehaltenen Zonen und deren Status. Eine große Anzahl and Ressourcen-Zonen und Fabriken zu besitzen ist der beste Weg, um genug Ressourcen für den Sieg in diesem Krieg zu erhalten.</German>
         <Czech>Každých 10 minut každá frakce obdrží peníze a pracovní sílu podle zón, které vlastní, a stavu, ve kterém se nacházejí. Mít dostatečné množství zón zdrojů a některé továrny je způsob, jak získat dostatek prostředků k vítězství v této válce.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>每10分钟,每个阵营根据他们所属的地区和所处的州接受金钱和人力. 拥有大量的资源区和一些工厂是赢得这场战争的方法.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Diary_6">
         <Original>HQ - Basics</Original>
         <French>QG - Les bases</French>
         <German>HQ - Grundlagen</German>
         <Czech>Velitelství - základy</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>指挥部 - 基础</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Diary_6">
         <Original>Flag: Vehicle and Squad Unit Recruitment. Commander Options.&lt;br/&gt;Maru: Side-missions (Commander Only).&lt;br/&gt;Map: Game Options.&lt;br/&gt;Camp-fire: Rest for 8 hours and Clear Forest (Commander Only).</Original>
         <French>Drapeau: Achat de véhicule et d'escouade. Options Commandant.&lt;br/&gt;Petros/Maru: Missions secondaires (Commandant uniquement).&lt;br/&gt;Carte: Options de la partie.&lt;br/&gt;Feu de camp: Se reposer pendant 8 heures et nettoyer la forêt (Commandant uniquement).</French>
         <German>Flaggenmast: Fahrzeug und Gruppen kaufen/rekrutieren, Kommandantenoptionen.&lt;br/&gt;Maru/Petros: Sekundärmissionen (nur Kommandant).&lt;br/&gt;Karte: Spieloptionen.&lt;br/&gt;Lagerfeuer: 8 Stunden ausruhen und Wald abholzen (nur Kommandant).</German>
         <Czech>Vlajka: Nábor vozidel a jednotek. Možnosti velitele.&lt;br/&gt;Maru: Postranní mise (pouze velitel).&lt;br/&gt;Mapa: Možnosti hry.&lt;br/&gt;Táborový oheň: Odpočinek po dobu 8 hodin a Vyklidit les (Pouze velitel).</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>旗子: 载具和小队招募.指挥官选项.&lt;br/&gt;指挥官: 支线-任务 (仅限指挥官).&lt;br/&gt;地图: 游戏选项.&lt;br/&gt;营地: 休息8小时,清理森林 (仅限指挥官).</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_gamemode">
         <Original>AI Rules of Engagement</Original>
         <French>Règles d'engagement des IA</French>
         <German>KI Spielregeln</German>
         <Czech>Nastavení boje</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>AI交战规则</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_gamemode_1">
         <Original>%2 vs %1 war.</Original>
         <French>Guerre %2 vs %1</French> 
         <German>Krieg %2 gegen %1</German>
         <Czech>Válka %2 vs %1.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>%2 vs %1 战争</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_gamemode_2">
         <Original>%2 vs %1 war.</Original>
         <French>Guerre %2 vs %1</French>
         <German>Krieg %2 gegen %1</German>
         <Czech>Válka %2 vs %1.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>%2 vs %1 战争</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_gamemode_3">
         <Original>%3 vs All war.&lt;br/&gt;&lt;br/&gt;%1 and %2 will attack only %3 and act independently. Both can conquer.</Original>
         <French>Guerre %3 vs tous..&lt;br/&gt;&lt;br/&gt;%1 et %2 n'attaqueront que %3 et agiront indépendamment. Les deux peuvent conquérir des zones.</French>
         <German>Krieg %3 gegen alle.&lt;br/&gt;&lt;br/&gt;%1 und %2 werden selbständig nur %3 angreifen. Beide können erobern.</German>
         <Czech>Válka %3 vs Všem .&lt;br/&gt;&lt;br/&gt;%1 a %2 zaútočí pouze na %3 a bude jednat nezávisle. Oba mohou dobýt.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>%3 vs All 战争&lt;br/&gt;&lt;br/&gt;%1 和 %2 只会攻击 %3 独立行动. 两者都能征服</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_gamemode_4">
         <Original>All vs All war.&lt;br/&gt;&lt;br/&gt;%1 and %2 will attack each other and both to %3.</Original>
         <French>Guerre tous contre tous.&lt;br/&gt;&lt;br/&gt; %1 et %2 s’attaqueront tous les deux et aussi à %3.</French>
         <German>Krieger jeder gegen jeden.&lt;br/&gt;%1 und %2 werden einander und %3 bekämpfen.</German>
         <Czech>Všichni vs Všem válka.&lt;br/&gt;&lt;br/&gt;%1 a %2 zaútočí na sebe a oba na %3.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>All vs All 战争&lt;br/&gt;&lt;br/&gt;%1 和 %2 会互相攻击 %3</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Default_1">
         <Original>Welcome</Original>
         <French>Bienvenue</French>
         <German>Willkommen</German>
         <Czech>Vítejte</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>欢迎</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Default_1">
         <Original>Welcome to Arma 3 - %1. This mission aims to simulate guerilla combat, tactics and strategic situations. It is not a quick and easy mod, it is long term, step-by-step mission with LOTS of features and enhanced AI.</Original>
         <French>Bienvenue sur Arma 3 - %1. Cette mission vise à simuler des combats de guérilla, des tactiques et des situations stratégiques. Ce n'est pas un mod rapide et facile, c'est une mission à long terme, étape par étape, avec BEAUCOUP de fonctionnalités et une IA améliorée.</French>
         <German>Willkommen zu Arma 3 - %1. Diese Mission zielt darauf ab Guerillakrieg, -taktiken und -strategien zu simulieren. Es ist kein schneller und einfacher Spielmodus. Es ist eine Mission ausgelegt auf eine lange Spielzeit mit einer MENGE an Features und erweiterter KI.</German>
         <Czech>Vítejte v Arma 3 - %1. Cílem této mise je simulovat partyzánský boj, taktiku a strategické situace. Není to rychlý a snadný mód, je to dlouhodobá, postupná mise s mnoha funkcemi a vylepšeným AI.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>欢迎使用Arma 3 - %1. 该任务旨在模拟游击战斗，战术和战略局势。 它不是一个快速简便的mod，而是具有很多功能和增强的AI的长期，逐步的任务。</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Default_2">
         <Original>Win</Original>
         <French>Victoire</French>
         <German>Sieg</German>
         <Czech>Vítězství</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>获胜</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Default_2">
         <Original>You will win the game when most of the population supports Faction and you have conquered all the Airbases.</Original>
         <French>Vous gagnerez la partie lorsque la plupart de la population soutiendra la faction et que vous aurez conquis toutes les bases aériennes.</French>
         <German>Du erringst den Sieg, wenn der Großteil der Zivilbevölkerung deine Fraktion unterstützt und sich alle Flugplätze in deiner Hand befinden.</German>
         <Czech>Vyhrajete hru, když většina populace podporuje frakci a dobyli jste všechny letecké základny.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>当大多数人支持派系并且你征服了所有的空军基地时,你将赢得这场游戏.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Default_3">
         <Original>Lose</Original>
         <French>Défaite</French>
         <German>Niederlage</German>
         <Czech>Prohra</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>败北</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Default_3">
         <Original>You will loose the game if %1 has murdered 1/3 of the total population.</Original>
         <French>Vous perdrez la partie si %1 a tué 1/3 de la population totale.</French>
         <German>Du verlierst das Spiel, wenn %1 1/3 der gesamten Bevölkerung ermordet hat.</German>
         <Czech>Ztratíte hru, pokud %1 zavraždí 1/3 celkové populace.</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>如果 %1 杀死了总人口的1/3,你将失去比赛.</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Credits_1">
         <Original>Script Credits</Original>
         <French>Crédit pour les scripts</French>
         <German>Genutzte Scripts</German>
         <Czech>Použité skripty</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>脚本积分</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Credits_1">
         <Original>UPSMon by Monsada, Kronzy and Cool=Azroul13.&lt;br/&gt;Persistent Save by zooloo75.&lt;br/&gt;Tags by Marker and Melbo.&lt;br/&gt;JAS by Jeroen (sorry for including you that late)&lt;br/&gt;Advanced Towing by Seth Duda.</Original>
         <German>UPSMon von Monsada, Kronzy und Cool=Azroul13.&lt;br/&gt;Persistent Save von zooloo75.&lt;br/&gt;Tags von Marker und Melbo.&lt;br/&gt;JAS von Jeroen (Entschuldige, dass es so lange gedauert hat dich hinzuzufügen)&lt;br/&gt;Advanced Towing von Seth Duda.</German>
         <Czech>UPSMon od Monsada, Kronzy and Cool = Azroul13 &lt;br/&gt;Trvalé Uložit podle zooloo75.&lt;br/&gt;Štítky Marker a Melbo.&lt;br/&gt;JAS od Jeroen (omlouvám se za to, že jste byli pozdě)&lt;br/&gt;Štítky od Markera a Melba.&lt;br/&gt;Rozšířené tažení od Setha Dudy.</Czech>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Credits_2">
         <Original>Mods</Original>
         <French>Mods</French>
         <German>Mods</German>
         <Czech>Módy</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>模组</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Credits_2">
         <Original>Integrated (optional) Mods:&lt;br/&gt;TFAR: Radio integrated in Arsenal. Sound disabled when player is unconscious.&lt;br/&gt;ACE Medical: Will disable Antistasi revive system.&lt;br/&gt;&lt;br/&gt;CAUTION: The use of Persistent Save system with TFAR and any weapon mod activated will make them mandatory in future.&lt;br/&gt;&lt;br/&gt;Any client sided Mod, such as JSRS, Blastcore, UI Mod should work.&lt;br/&gt;&lt;br/&gt;Units and vehicles mods won't work. AI Mods may cause malfunctions (in any case Antistasi has heavy AI tweaking).</Original>
         <German>Integrierte (optionale) Mods:&lt;br/&gt;TFAR: Funkgerät in Arsenal integriert. Sound deaktiviert, wenn der Spieler bewusstlos ist.&lt;br/&gt;ACE Medical: Deaktiviert das Antistasi Revive System.&lt;br/&gt;VORSICHT: Die Speicherung des Spielstands mit TFAR oder jedglicher Mod für Waffen führt dazu, dass diese Mods bis zum Ende notwendig sind.&lt;br/&gt;&lt;br/&gt;Jeder clientseitige Mod, wie z.B. JSRS, Blastcore oder UI Mod sollte funktionieren.&lt;br/&gt;Einheiten und Fahrzeuge aus Mods funktionieren nicht. KI Mods können zu Fehlern führen. (Antistasi hat in jedem Fall viel am KI Verhalten geändert)</German>
         <Czech>Integrované (volitelné) Módy:&lt;br/&gt;TFAR: Rádio integrované v Arsenalu. Zvuk je deaktivován, když je hráč v bezvědomí.&lt;br/&gt;ACE Lékař: Vypne Antistasi revive system.&lt;br/&gt;&lt;br/&gt;UPOZORNĚNÍ: Používání systému Uložení hry s TFAR a jakýmkoli aktivovaným módem zbraně je v budoucnosti povinné.&lt;br/&gt;&lt;br/&gt; Mód by měl fungovat. Módy pro jednotky a vozidla nebudou fungovat.&lt;br/&gt;&lt;br/&gt; Režimy AI mohou způsobit poruchy (v každém případě má Antistasi těžké vylepšení AI).</Czech>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_Credits_3">
         <Original>Thanks</Original>
         <French>Remerciements</French>
         <German>Danksagung</German>
         <Czech>Poděkování</Czech>
-        <Chinesesimp></Chinesesimp>
+        <Chinesesimp>感谢</Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Credits_3">
         <Original>LanCommi for his artwork.&lt;br/&gt;Goon and jw custom: Part of the code for the NAPALM script.&lt;br/&gt;rebel12340: Radio Jam script&lt;br/&gt;Manko: Earplug snippet&lt;br/&gt;bobchaos: Managing the community despite all difficulties.&lt;br/&gt;And all those players who spend their time on making comments, suggestions and reports on Steam, Github and BIS forums.</Original>
         <French>LanCommi pour son artwork.&lt;br/&gt;Goon et jw custom: pour une partie du code du script NAPALM.&lt;br/&gt;rebel12340: pour le script de brouillage radio.&lt;br/&gt;Manko: pour le morceau de code pour les bouchons d'oreilles.&lt;br/&gt;bobchaos: pour avoir gérer la communauté malgré toutes les difficultés.&lt;br/&gt;Et à tous les joueurs qui passent leur temps à faire des commentaires, des suggestions et des rapports sur les forums Steam, Github et BIS.</French>
         <Czech>LanCommi za jeho umělecké dílo.&lt;br/&gt;Goon a jw vlastní: Část kódu pro skript NAPALM.&lt;br/&gt;rebel12340: Radio Jam script&lt;br/&gt;Manko: Sniper snippet&lt;br/&gt;bobchaos: Správa komunity i přes všechny obtíže.&lt;br/&gt;A všichni hráči, kteří tráví čas přípravou komentářů, návrhů a zpráv na fórech Steam, Github a BIS</Czech>
-        <Chinesesimp></Chinesesimp>
       </Key>
     </Container>
   </Package>
