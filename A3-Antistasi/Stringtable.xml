@@ -830,17 +830,14 @@
       <Key ID="STR_antistasi_mission_info_altis_mapname_short_text">
         <Original>Antistasi Altis</Original>
         <English>Antistasi Altis</English>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_virolahti_mapname_short_text">
         <Original>Antistasi Virolahti</Original>
         <English>Antistasi Virolahti</English>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_stratis_mapname_short_text">
         <Original>Antistasi Stratis</Original>
         <English>Antistasi Stratis</English>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_altisB_mapname_text">
         <Original>Antistasi - Liberation of Altis (BLUFOR)</Original>
@@ -896,7 +893,6 @@
       <Key ID="STR_antistasi_mission_info_tanoa_mapname_short_text">
         <Original>Antistasi Tanoa</Original>
         <English>Antistasi Tanoa</English>
-        <Chinesesimp></Chinesesimp>
       </Key>
       <Key ID="STR_antistasi_mission_info_tanoa_blurb_text">
         <Original>Business and War...</Original>
