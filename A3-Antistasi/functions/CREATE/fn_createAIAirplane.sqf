@@ -242,13 +242,10 @@ if (spawner getVariable _markerX != 2) then
 } forEach _posAT;
 
 _ret = [_markerX,_size,_sideX,_frontierX] call A3A_fnc_milBuildings;
-
-{[_x, _sideX] call A3A_fnc_AIVEHinit} forEach (_ret select 1);
-{[_x,_markerX] call A3A_fnc_NATOinit} forEach (_ret select 2);
-
 _groups pushBack (_ret select 0);
 _vehiclesX append (_ret select 1);
 _soldiers append (_ret select 2);
+{[_x, _sideX] call A3A_fnc_AIVEHinit} forEach (_ret select 1);
 
 if(random 100 < (50 + tierWar * 3)) then
 {
@@ -321,19 +318,25 @@ _flagX allowDamage false;
 [_flagX,"take"] remoteExec ["A3A_fnc_flagaction",[teamPlayer,civilian],_flagX];
 _vehiclesX pushBack _flagX;
 
-private _ammoBoxType = if (_sideX == Occupants) then {NATOAmmoBox} else {CSATAmmoBox};
-private _ammoBox = _ammoBoxType createVehicle _positionX;
-[_ammoBox] spawn A3A_fnc_fillLootCrate;
-_ammoBox call jn_fnc_logistics_addAction;
-_vehiclesX pushBack _ammoBox;
+// Only create ammoBox if it's been recharged (see reinforcementsAI)
+private _ammoBox = if (garrison getVariable [_markerX + "_lootCD", 0] == 0) then
+{
+	private _ammoBoxType = if (_sideX == Occupants) then {NATOAmmoBox} else {CSATAmmoBox};
+	private _ammoBox = _ammoBoxType createVehicle _positionX;
+	// Otherwise when destroyed, ammoboxes sink 100m underground and are never cleared up
+	_ammoBox addEventHandler ["Killed", { [_this#0] spawn { sleep 10; deleteVehicle (_this#0) } }];
+	[_ammoBox] spawn A3A_fnc_fillLootCrate;
+	_ammoBox call jn_fnc_logistics_addAction;
 
-[_ammoBox] spawn {
-  sleep 1;
-  _ammoBox = _this select 0;
-  {
-    _ammoBox addItemCargoGlobal [_x, round random [5,15,15]];
-  }forEach flyGear;
+	[_ammoBox] spawn {
+		sleep 1;    //make sure fillLootCrate finished clearing the crate
+		{
+			_this#0 addItemCargoGlobal [_x, round random [5,15,15]];
+		} forEach flyGear;
+	};
+	_ammoBox;
 };
+
 
 if (!_busy) then
 {
@@ -410,3 +413,11 @@ deleteMarker _mrk;
 		else { if !(_x isKindOf "StaticWeapon") then { [_x] spawn A3A_fnc_VEHdespawner } };
 	};
 } forEach _vehiclesX;
+
+// If loot crate was stolen, set the cooldown
+if (!isNil "_ammoBox") then {
+	if ((alive _ammoBox) and (_ammoBox distance2d _positionX < 100)) exitWith { deleteVehicle _ammoBox };
+	if (alive _ammoBox) then { [_ammoBox] spawn A3A_fnc_VEHdespawner };
+	private _lootCD = 120*16 / ([_markerX] call A3A_fnc_garrisonSize);
+	garrison setVariable [_markerX + "_lootCD", _lootCD, true];
+};

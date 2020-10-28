@@ -539,7 +539,7 @@ switch _mode do {
 					case 1: {vestContainer player;};
 					case 2: {backpackContainer player;};
 				};
-				clearMagazineCargo _container;
+				clearMagazineCargoGlobal _container;
 				{
 					_item = _x select 0;
 					_amount = _x select 1;
@@ -590,7 +590,7 @@ switch _mode do {
 		{
 			_container = _x;
 			{
-				_container addItemCargo [_x,1];
+				_container addItemCargoGlobal [_x,1];
 			} forEach ((missionNamespace getVariable "jna_containerCargo_init") select _foreachindex);
 		} forEach [uniformContainer player,vestContainer player,backpackContainer player];
 	};
@@ -1581,6 +1581,15 @@ switch _mode do {
 		private _ctrlListSecondaryWeapon = _display displayctrl (IDC_RSCDISPLAYARSENAL_LIST + IDC_RSCDISPLAYARSENAL_TAB_SECONDARYWEAPON);
 		private _ctrlListHandgun = _display displayctrl (IDC_RSCDISPLAYARSENAL_LIST + IDC_RSCDISPLAYARSENAL_TAB_HANDGUN);
 
+		// Prevent equipping item when there aren't any left
+		if (_amount == 0 and _item != "") exitWith{
+			if(missionnamespace getvariable ["jna_reselect_item",true])then{//prefent loop when unavalable item was worn and a other unavalable item was selected
+				missionnamespace setvariable ["jna_reselect_item",false];
+				["ListSelectCurrent",[_display,_index]] call jn_fnc_arsenal;
+				missionnamespace setvariable ["jna_reselect_item",true];
+			};
+		};
+
 		//check if weapon is unlocked
 		private _min = jna_minItemMember select _index;
 		if ((_amount <= _min) AND (_amount != -1) AND (_item !="") AND !([player] call A3A_fnc_isMember) AND !_type) exitWith{
@@ -1792,7 +1801,7 @@ switch _mode do {
 					//remove magazines
 					_oldMagazines = magazinesAmmoFull player;//["30Rnd_65x39_caseless_mag",30,false,-1,"Uniform"]
 					_loadout = getUnitLoadout player;
-					{player removeMagazine _x} forEach magazines player;
+					{player removeMagazineGlobal _x} forEach magazines player;
 
 
 					//remove weapon
@@ -1844,7 +1853,7 @@ switch _mode do {
 						}else{
 							if([_oldCompatableMagazines, _magazine] call _arrayContains)then{
 								if!([_newCompatableMagazines, _magazine] call _arrayContains)then{
-									player removemagazine _magazine;
+									player removeMagazineGlobal _magazine;
 								};
 							};
 						};
@@ -2158,7 +2167,8 @@ switch _mode do {
 
 					//save mags in list and remove them
 					_mags = magazinesAmmoCargo _container;
-					clearMagazineCargo _container;
+					if (_mags findIf {(_x select 0) isEqualTo _item} == -1) exitWith {};
+					clearMagazineCargoGlobal _container;
 
 					//add back magazines exept the one that needs to be removed
 					_removed = false;
@@ -2561,11 +2571,11 @@ switch _mode do {
 
 			//--- Save
 			case (_key == DIK_S): {
-				if (_ctrl) then {['buttonSave',[_display]] call jn_fnc_arsenal;};
+				if (_ctrl && (vehicle player isEqualTo player)) then {['buttonSave',[_display]] call jn_fnc_arsenal;};
 			};
 			//--- Open
 			case (_key == DIK_O): {
-				if (_ctrl) then {['buttonLoad',[_display]] call jn_fnc_arsenal;};
+				if (_ctrl && (vehicle player isEqualTo player)) then {['buttonLoad',[_display]] call jn_fnc_arsenal;};
 			};
 
 			//--- Vision mode

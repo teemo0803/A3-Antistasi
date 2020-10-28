@@ -9,7 +9,7 @@ Scope:
 	<LOCAL> Execute on player you wish to check for FF.
 
 Environment:
-	<ANY>
+	<UNSCHEDULED>
 
 Parameters:
 	<OBJECT> Player that created grenade or explosive.
@@ -34,7 +34,6 @@ Examples ACE:
 	["ace_explosives_place", _EH_ace_explosives_place] call CBA_fnc_addEventHandler;
 
 Author: Caleb Serafin
-Date Updated: 28 May 2020
 License: MIT License, Copyright (c) 2019 Barbolani & The Official AntiStasi Community
 */
 params ["_unit","_weapon","_projectile"];
@@ -42,11 +41,8 @@ private _fileName = "fn_punishment_FF_checkNearHQ.sqf";
 
 if !(_weapon in ["Put","Throw"]) exitWith {false};
 private _distancePetros = _unit distance petros;
-if !(_distancePetros <= 100) exitWith {false};
+if !(_distancePetros <= 75) exitWith {false};
 
 deleteVehicle _projectile;
-if (_distancePetros < 10) then {
-	[_unit, 20, 0.4, objNull] call A3A_fnc_punishment_FF; // Call to override hint later.
-};
-["FF Warning", "You cannot throw grenades or place explosives within 100m of base."] call A3A_fnc_customHint;
+[_unit, 60, 0.4, objNull, "You cannot throw grenades or place explosives within 75m of base."] call A3A_fnc_punishment_FF;
 true;

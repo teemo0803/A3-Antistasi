@@ -64,9 +64,10 @@ garrison setVariable [format ["%1_requested", _markerX], [], true];
 if (_winner == teamPlayer) then
 {
 	_super = if (_markerX in airportsX) then {true} else {false};
-	[[_markerX,_looser,"",_super],"A3A_fnc_patrolCA"] call A3A_fnc_scheduler;
+	[_markerX,_looser,"",_super] spawn A3A_fnc_patrolCA;
 	//sleep 15;
-	[[_markerX],"A3A_fnc_autoGarrison"] call A3A_fnc_scheduler;
+	// Removed for the moment, old broken stuff
+//	[[_markerX],"A3A_fnc_autoGarrison"] call A3A_fnc_scheduler;
 }
 else
 {
@@ -95,6 +96,18 @@ else
 [_markerX, [_looser, _winner]] call A3A_fnc_updateReinfState;
 [3, format ["Garrison set for %1", _markerX], _fileName] call A3A_fnc_log;
 
+if !(_markerX in airportsX) then
+{
+	// clear killzones from nearest friendly airfield to enable reinforcements
+	private _friendlyAirports = airportsX select { _winner == sidesX getVariable [_x, sideUnknown] };
+	if (count _friendlyAirports > 0) then
+	{
+		private _nearAirport = [_friendlyAirports, _markerX] call BIS_fnc_nearestPosition;
+		private _kzlist = killZones getVariable [_nearAirport, []];
+		_kzlist = _kzlist - [_markerX];
+		killZones setVariable [_nearAirport, _kzlist, true];
+	};
+};
 
 _nul = [_markerX] call A3A_fnc_mrkUpdate;
 _sides = _sides - [_winner,_looser];

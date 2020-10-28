@@ -1,9 +1,7 @@
-//Blufor Altis Template Call
-if (side petros == west) exitWith {call compile preProcessFileLineNumbers "Templates\Vanilla_Reb_FIA_B_Altis.sqf"};
 ////////////////////////////////////
 //       NAMES AND FLAGS         ///
 ////////////////////////////////////
-nameTeamPlayer = if (worldName == "Tanoa") then {"SDK"} else {"FIA"};
+nameTeamPlayer = "FIA";
 SDKFlag = "Flag_FIA_F";
 SDKFlagTexture = "\A3\Data_F\Flags\Flag_Altis_CO.paa";
 typePetros = "I_G_officer_F";
@@ -51,7 +49,7 @@ vehSDKAT = "I_G_Offroad_01_AT_F";
 vehSDKLightUnarmed = "I_G_Offroad_01_F";
 vehSDKTruck = "I_G_Van_01_transport_F";
 //vehSDKHeli = "I_C_Heli_Light_01_civil_F";
-vehSDKPlane = "I_C_Plane_civil_01_F";
+vehSDKPlane = "I_C_Plane_Civil_01_F";
 vehSDKBoat = "I_G_Boat_Transport_01_F";
 vehSDKRepair = "I_G_Offroad_01_repair_F";
 
@@ -65,22 +63,22 @@ civBoat = "C_Boat_Transport_02_F";
 //        STATIC WEAPONS         ///
 ////////////////////////////////////
 //Assembled Static Weapons
-SDKMGStatic = "I_HMG_01_high_F";
-staticATteamPlayer = "I_Static_AT_F";
-staticAAteamPlayer = "I_Static_AA_F";
+SDKMGStatic = "I_G_HMG_02_high_F";
+staticATteamPlayer = "I_static_AT_F";
+staticAAteamPlayer = "I_static_AA_F";
 SDKMortar = "I_G_Mortar_01_F";
 SDKMortarHEMag = "8Rnd_82mm_Mo_shells";
 SDKMortarSmokeMag = "8Rnd_82mm_Mo_Smoke_white";
 
 //Static Weapon Bags
-MGStaticSDKB = "I_HMG_01_high_weapon_F";
+MGStaticSDKB = "I_G_HMG_02_high_weapon_F";
 ATStaticSDKB = "I_AT_01_weapon_F";
 AAStaticSDKB = "I_AA_01_weapon_F";
 MortStaticSDKB = "I_Mortar_01_weapon_F";
 //Short Support
-supportStaticSDKB = "I_HMG_01_support_F";
+supportStaticSDKB = "I_G_HMG_02_support_F";
 //Tall Support
-supportStaticsSDKB2 = "I_HMG_01_support_high_F";
+supportStaticsSDKB2 = "I_G_HMG_02_support_high_F";
 //Mortar Support
 supportStaticsSDKB3 = "I_Mortar_01_support_F";
 
@@ -100,10 +98,12 @@ breachingExplosivesTank = [["SatchelCharge_Remote_Mag", 1], ["DemoCharge_Remote_
 //Starting Unlocks
 initialRebelEquipment append ["hgun_Pistol_heavy_02_F","hgun_Pistol_heavy_01_green_F","sgun_HunterShotgun_01_F","SMG_02_F"];
 initialRebelEquipment append ["SMG_02_F"];
-initialRebelEquipment append ["6Rnd_45ACP_Cylinder","9Rnd_45ACP_Mag","2Rnd_12Guage_Pellets","2Rnd_12Guage_Slug","30Rnd_9x21_Mag_SMG_02","MiniGrenade","SmokeShell"];
+initialRebelEquipment append ["6Rnd_45ACP_Cylinder","11Rnd_45ACP_Mag","2Rnd_12Gauge_Pellets","2Rnd_12Gauge_Slug","30Rnd_9x21_Mag_SMG_02","MiniGrenade","SmokeShell"];
 initialRebelEquipment append ["B_FieldPack_blk","B_FieldPack_oucamo","B_FieldPack_cbr","B_FieldPack_oli","B_FieldPack_green_F","B_FieldPack_taiga_F"];
 initialRebelEquipment append ["V_Chestrig_blk","V_Chestrig_rgr","V_Chestrig_khk","V_Chestrig_oli","V_BandollierB_blk","V_SmershVest_01_F","V_BandollierB_rgr","V_SmershVest_01_radio_F","V_BandollierB_oli","V_Rangemaster_belt"];
 initialRebelEquipment append ["Binocular","acc_flashlight"];
+//Greenfor uniforms
+allRebelUniforms append ["U_IG_Guerilla1_1","U_IG_Guerilla2_1","U_IG_Guerilla2_2","U_IG_Guerilla2_3","U_IG_Guerilla3_1","U_IG_leader","U_IG_Guerrilla_6_1"];
 //TFAR Unlocks
 if (hasTFAR) then {initialRebelEquipment append ["tf_microdagr","tf_anprc154"]};
 if (hasTFAR && startWithLongRangeRadio) then {initialRebelEquipment pushBack "tf_anprc155"};

@@ -58,6 +58,9 @@ _finpos = [_pos2, 2500, _ang] call BIS_fnc_relPos;
 
 _planefn = [_origpos, _ang, vehSDKPlane, teamPlayer] call bis_fnc_spawnvehicle;
 _plane = _planefn select 0;
+_planeCrew = _planefn select 1;
+_groupPlane = _planefn select 2;
+
 _plane setPosATL [getPosATL _plane select 0, getPosATL _plane select 1, 1000];
 _plane disableAI "TARGET";
 _plane disableAI "AUTOTARGET";
@@ -71,11 +74,8 @@ _wp1 setWaypointType "MOVE";
 _wp1 setWaypointSpeed "LIMITED";
 _wp1 setWaypointBehaviour "CARELESS";
 
-if (_typeX == "NAPALM" && napalmEnabled) then {_wp1 setWaypointStatements ["true", "[this,""NAPALM""] spawn A3A_fnc_airbomb"]} else {_typeX = "HE"};
-if (_typeX == "CLUSTER") then {_wp1 setWaypointStatements ["true", "[this,""CLUSTER""] spawn A3A_fnc_airbomb"]};
-if (_typeX == "HE") then {_wp1 setWaypointStatements ["true", "[this,""HE""] spawn A3A_fnc_airbomb"]};
-
-
+if ((_typeX == "NAPALM") and (!napalmEnabled)) then {_typeX = "HE"};
+_wp1 setWaypointStatements ["true", format ["if !(local this) exitWith {}; [this, '%1'] spawn A3A_fnc_airbomb", _typeX]];
 
 _wp2 = group _plane addWaypoint [_pos2, 1];
 _wp2 setWaypointSpeed "LIMITED";
@@ -84,15 +84,14 @@ _wp2 setWaypointType "MOVE";
 _wp3 = group _plane addWaypoint [_finpos, 2];
 _wp3 setWaypointType "MOVE";
 _wp3 setWaypointSpeed "FULL";
-_wp3 setWaypointStatements ["true", "{deleteVehicle _x} forEach crew this; deleteVehicle this; deleteGroup (group this)"];
 
-waitUntil {sleep 1; (currentWaypoint group _plane == 4) or (!canMove _plane)};
+private _timeOut = time + 600;
+waitUntil { sleep 2; (currentWaypoint group _plane == 4) or (time > _timeOut) or !(canMove _plane) };
 
 deleteMarkerLocal _mrkOrig;
 deleteMarkerLocal _mrkDest;
-if ((!canMove _plane) and (!isNull _plane)) then
-	{
-	sleep cleantime;
-	{deleteVehicle _x} forEach crew _plane; deleteVehicle _plane;
-	deleteGroup group _plane;
-	};
+
+if !(canMove _plane) then { sleep cleantime };		// let wreckage hang around for a bit
+deleteVehicle _plane;
+{deleteVehicle _x} forEach _planeCrew;
+deleteGroup _groupPlane;

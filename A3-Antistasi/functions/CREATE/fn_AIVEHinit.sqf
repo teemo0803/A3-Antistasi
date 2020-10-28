@@ -35,7 +35,7 @@ if (_side == teamPlayer) then
 };
 
 private _typeX = typeOf _veh;
-if ((_typeX in vehNormal) or (_typeX in vehAttack) or (_typeX in vehBoats)) then
+if ((_typeX in vehNormal) or (_typeX in vehAttack) or (_typeX in vehBoats) or (_typeX in vehAA)) then
 {
 	_veh call A3A_fnc_addActionBreachVehicle;
 
@@ -67,7 +67,7 @@ if ((_typeX in vehNormal) or (_typeX in vehAttack) or (_typeX in vehBoats)) then
 			{
 				_veh addEventHandler ["HandleDamage",{private ["_veh"]; _veh = _this select 0; if (!canFire _veh) then {[_veh] call A3A_fnc_smokeCoverAuto;  _veh removeEventHandler ["HandleDamage",_thisEventHandler]}}];
 			}
-			else
+			else		// never called? vehAttack is APCs+tank
 			{
 				_veh addEventHandler ["HandleDamage",{if (((_this select 1) find "wheel" != -1) and ((_this select 4=="") or (side (_this select 3) != teamPlayer)) and (!isPlayer driver (_this select 0))) then {0} else {(_this select 2)}}];
 			};
@@ -227,6 +227,8 @@ _veh addEventHandler ["Dammaged", {
 	};
 }];
 
+//add JNL loading to quadbikes
+if(!hasIFA && typeOf _veh in [vehSDKBike,vehNATOBike,vehCSATBike]) then {_veh call jn_fnc_logistics_addAction;};
 
 // deletes vehicle if it exploded on spawn...
 [_veh] spawn A3A_fnc_cleanserVeh;

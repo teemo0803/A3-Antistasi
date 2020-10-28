@@ -5,16 +5,16 @@
 nameOccupants = "AAF";
 
 //Police Faction
-factionGEN = "IND_C_F";
+factionGEN = "";
 //SF Faction
 factionMaleOccupants = "";
 //Miltia Faction
-if (gameMode != 4) then {factionFIA = "IND_C_F"};
+if (gameMode != 4) then {factionFIA = ""};
 
 //Flag Images
-NATOFlag = "Flag_AltisColonial_F";
-NATOFlagTexture = "\A3\Data_F\Flags\Flag_AltisColonial_CO.paa";
-flagNATOmrk = "flag_AltisColonial";
+NATOFlag = "Flag_AAF_F";
+NATOFlagTexture = "a3\data_f\flags\flag_aaf_co.paa";
+flagNATOmrk = "flag_AAF";
 if (isServer) then {"NATO_carrier" setMarkerText "AAF Carrier"};
 
 //Loot Crate
@@ -46,21 +46,21 @@ vehNATOPVP = ["I_MRAP_03_F","I_MRAP_03_hmg_F"];
 //             UNITS             ///
 ////////////////////////////////////
 //Military Units
-NATOGrunt = "I_Soldier_F";
-NATOOfficer = "I_Officer_F";
+NATOGrunt = "I_soldier_F";
+NATOOfficer = "I_officer_F";
 NATOOfficer2 = "I_G_officer_F";
 NATOBodyG = "I_Soldier_SL_F";
-NATOCrew = "I_Crew_F";
+NATOCrew = "I_crew_F";
 NATOUnarmed = "I_G_Survivor_F";
 NATOMarksman = "I_Soldier_M_F";
-staticCrewOccupants = "I_support_MG_F";
-NATOPilot = "I_Helipilot_F";
+staticCrewOccupants = "I_soldier_F";
+NATOPilot = "I_helipilot_F";
 
 //Militia Units
 if (gameMode != 4) then
 	{
-	FIARifleman = "I_C_Soldier_Para_7_F";
-	FIAMarksman = "I_C_Soldier_Para_2_F";
+	FIARifleman = "I_soldier_F";
+	FIAMarksman = "I_Soldier_M_F";
 	};
 
 //Police Units
@@ -73,23 +73,23 @@ policeGrunt = FIARifleman;
 //Military Groups
 //Teams
 groupsNATOSentry = ["I_Soldier_GL_F","I_soldier_F"];
-groupsNATOSniper = ["I_sniper_F","I_spotter_F"];
+groupsNATOSniper = ["I_Sniper_F","I_Spotter_F"];
 groupsNATOsmall = [groupsNATOSentry,groupsNATOSniper];
 //Fireteams
 groupsNATOAA = ["I_Soldier_TL_F","I_Soldier_AA_F","I_Soldier_AA_F","I_Soldier_AAA_F"];
-groupsNATOAT = ["I_soldier_TL_F","I_soldier_AT_F","I_soldier_AT_F","I_soldier_AAT_F"];
+groupsNATOAT = ["I_Soldier_TL_F","I_Soldier_AT_F","I_Soldier_AT_F","I_Soldier_AAT_F"];
 groupsNATOmid = [["I_Soldier_TL_F","I_Soldier_GL_F","I_Soldier_AR_F","I_Soldier_LAT_F"],groupsNATOAA,groupsNATOAT];
 //Squads
-NATOSquad = ["I_soldier_SL_F",NATOGrunt,"I_soldier_LAT_F","I_Soldier_GL_F","I_Soldier_M_F","I_Soldier_AR_F","I_soldier_A_F","I_medic_F"];
-NATOSpecOp = ["I_soldier_SL_F",NATOGrunt,"I_soldier_LAT_F","I_Soldier_GL_F","I_soldier_TL_F","I_soldier_AR_F","I_soldier_A_F","I_medic_F"];
+NATOSquad = ["I_Soldier_SL_F",NATOGrunt,"I_Soldier_LAT_F","I_Soldier_GL_F","I_Soldier_M_F","I_Soldier_AR_F","I_Soldier_A_F","I_medic_F"];
+NATOSpecOp = ["I_Soldier_SL_F",NATOGrunt,"I_Soldier_LAT_F","I_Soldier_GL_F","I_Soldier_TL_F","I_Soldier_AR_F","I_Soldier_A_F","I_medic_F"];
 groupsNATOSquad =
 	[
 	NATOSquad,
-	["I_soldier_SL_F",NATOGrunt,"I_soldier_TL_F","I_soldier_AR_F","I_soldier_A_F","I_support_Mort_F","I_support_AMort_F","I_medic_F"],
-	["I_soldier_SL_F",NATOGrunt,"I_soldier_TL_F","I_soldier_AR_F","I_soldier_A_F","I_support_MG_F","I_support_AMG_F","I_medic_F"],
-	["I_soldier_SL_F",NATOGrunt,"I_soldier_TL_F","I_soldier_AR_F","I_soldier_A_F","I_soldier_AA_F","I_soldier_AAA_F","I_medic_F"],
-	["I_soldier_SL_F",NATOGrunt,"I_soldier_TL_F","I_soldier_AR_F","I_soldier_A_F","I_soldier_AT_F","I_soldier_AAT_F","I_medic_F"],
-	["I_soldier_SL_F",NATOGrunt,"I_soldier_TL_F","I_soldier_AR_F","I_soldier_A_F","I_engineer_F","I_engineer_F","I_medic_F"]
+	["I_Soldier_SL_F",NATOGrunt,"I_Soldier_TL_F","I_Soldier_AR_F","I_Soldier_A_F","I_Soldier_LAT2_F","I_Soldier_LAT2_F","I_medic_F"],
+	["I_Soldier_SL_F",NATOGrunt,"I_Soldier_TL_F","I_Soldier_AR_F","I_Soldier_A_F","I_Soldier_LAT_F","I_Soldier_LAT_F","I_medic_F"],
+	["I_Soldier_SL_F",NATOGrunt,"I_Soldier_TL_F","I_Soldier_AR_F","I_Soldier_A_F","I_Soldier_AA_F","I_Soldier_AAA_F","I_medic_F"],
+	["I_Soldier_SL_F",NATOGrunt,"I_Soldier_TL_F","I_Soldier_AR_F","I_Soldier_A_F","I_Soldier_AT_F","I_Soldier_AAT_F","I_medic_F"],
+	["I_Soldier_SL_F",NATOGrunt,"I_Soldier_TL_F","I_Soldier_AR_F","I_Soldier_A_F","I_engineer_F","I_engineer_F","I_medic_F"]
 	];
 
 //Militia Groups
@@ -98,18 +98,18 @@ if (gameMode != 4) then
 	//Teams
 	groupsFIASmall =
 		[
-		["I_C_Soldier_Para_6_F",FIARifleman],
+		["I_Soldier_GL_F",FIARifleman],
 		[FIAMarksman,FIARifleman],
 		[FIAMarksman,FIAMarksman]
 		];
 	//Fireteams
 	groupsFIAMid =
 		[
-		["I_C_Soldier_Para_2_F","I_C_Soldier_Para_6_F","I_C_Soldier_Para_7_F","I_C_Soldier_Para_4_F"],
-		["I_C_Soldier_Para_2_F","I_C_Soldier_Para_6_F","I_C_Soldier_Para_7_F","I_C_Soldier_Para_5_F"]
+		["I_Soldier_SL_F","I_Soldier_GL_F","I_soldier_F","I_Soldier_AR_F"],
+		["I_Soldier_SL_F","I_Soldier_GL_F","I_soldier_F","I_Soldier_LAT2_F"]
 		];
 	//Squads
-	FIASquad = ["I_C_Soldier_Para_2_F","I_C_Soldier_Para_6_F","I_C_Soldier_Para_7_F","I_C_Soldier_Para_4_F","I_C_Soldier_Para_1_F","I_C_Soldier_Para_7_F","I_C_Soldier_Para_8_F","I_C_Soldier_Para_3_F"];
+	FIASquad = ["I_Soldier_SL_F","I_Soldier_GL_F","I_soldier_F","I_Soldier_AR_F","I_Soldier_LAT2_F","I_soldier_F","I_Soldier_exp_F","I_medic_F"];
 	groupsFIASquad = [FIASquad];
 	};
 
@@ -154,15 +154,15 @@ vehNATOUAVSmall = "I_UAV_01_F";
 vehNATOMRLS = "I_Truck_02_MRL_F";
 vehNATOMRLSMags = "12Rnd_230mm_rockets";
 //Combined Arrays
-vehNATONormal = vehNATOLight + vehNATOTrucks + [vehNATOAmmoTruck, "I_Truck_02_fuel_F", "I_Truck_02_medical_F", vehNATORepairTruck,"I_APC_tracked_03_cannon_F"];
+vehNATONormal = vehNATOLight + vehNATOTrucks + [vehNATOAmmoTruck, "I_Truck_02_fuel_F", "I_Truck_02_medical_F", vehNATORepairTruck];
 vehNATOAir = vehNATOTransportHelis + vehNATOAttackHelis + [vehNATOPlane,vehNATOPlaneAA] + vehNATOTransportPlanes;
 
 //Militia Vehicles
 if (gameMode != 4) then
 	{
-	vehFIAArmedCar = "I_C_Offroad_02_LMG_F";
-	vehFIATruck = "I_C_Van_01_transport_F";
-	vehFIACar = "I_C_Offroad_01_F";
+	vehFIAArmedCar = "I_MRAP_03_hmg_F";
+	vehFIATruck = "I_Truck_02_transport_F";
+	vehFIACar = "I_MRAP_03_F";
 	};
 
 //Police Vehicles
@@ -172,19 +172,19 @@ vehPoliceCar = vehFIACar;
 //        STATIC WEAPONS         ///
 ////////////////////////////////////
 //Assembled
-NATOMG = "I_HMG_01_high_F";
+NATOMG = "I_G_HMG_02_high_F";
 staticATOccupants = "I_static_AT_F";
 staticAAOccupants = "I_static_AA_F";
 NATOMortar = "I_Mortar_01_F";
 
 //Static Weapon Bags
-MGStaticNATOB = "I_HMG_01_high_weapon_F";
+MGStaticNATOB = "I_G_HMG_02_high_weapon_F";
 ATStaticNATOB = "I_AT_01_weapon_F";
 AAStaticNATOB = "I_AA_01_weapon_F";
 MortStaticNATOB = "I_Mortar_01_weapon_F";
 //Short Support
-supportStaticNATOB = "I_HMG_01_support_F";
+supportStaticNATOB = "I_G_HMG_02_support_F";
 //Tall Support
-supportStaticNATOB2 = "I_HMG_01_support_high_F";
+supportStaticNATOB2 = "I_G_HMG_02_support_high_F";
 //Mortar Support
 supportStaticNATOB3 = "I_Mortar_01_support_F";
